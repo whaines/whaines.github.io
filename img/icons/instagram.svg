@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="51px" viewBox="0 0 52 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="50" height="50" rx="6"></rect>
+        <path d="M14.7538717,21 L1.48813846,21 L1,21 L1,20 L1.48813846,20 L15.2589016,20 C17.2845361,16.4131918 21.0705995,14 25.4069229,14 C29.7432464,14 33.5293098,16.4131918 35.5549443,20 L48.5118615,20 L49,20 L49,21 L48.5118615,21 L36.0599742,21 C36.7419991,22.5221135 37.122246,24.215572 37.122246,26 C37.122246,32.627417 31.8771172,38 25.4069229,38 C18.9367287,38 13.6915999,32.627417 13.6915999,26 C13.6915999,24.215572 14.0718468,22.5221135 14.7538717,21 Z" id="path-2"></path>
+        <rect id="path-3" x="36" y="5" width="9" height="9"></rect>
+    </defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="instagram" sketch:type="MSLayerGroup" transform="translate(0.941176, 0.500000)" stroke="#545B61">
+            <g id="Rectangle-45-Copy">
+                <use stroke-width="2" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <use stroke-width="1" xlink:href="#path-1"></use>
+            </g>
+            <g id="Line" stroke-linecap="square">
+                <use stroke-width="2" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                <use stroke-width="1" xlink:href="#path-2"></use>
+            </g>
+            <g id="Rectangle-48">
+                <use stroke-width="2" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                <use stroke-width="1" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

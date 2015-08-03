@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="104px" height="129px" viewBox="0 0 104 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>motion_design_g</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="motion_design_g" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
+            <ellipse id="Oval-43-Copy-12" stroke="#6F8FC1" stroke-width="3" sketch:type="MSShapeGroup" cx="50" cy="50" rx="50" ry="50"></ellipse>
+            <g id="Group" transform="translate(22.000000, 26.000000)" sketch:type="MSShapeGroup">
+                <path d="M56.0879121,53.9357143 L1.4021978,53.9357143 C0.701098901,53.9357143 0.127472527,53.7910714 0.127472527,53.6142857 C0.127472527,53.4375 0.701098901,53.2928571 1.4021978,53.2928571 L56.0879121,53.2928571 C56.789011,53.2928571 57.3626374,53.4375 57.3626374,53.6142857 C57.3626374,53.7910714 56.789011,53.9357143 56.0879121,53.9357143 L56.0879121,53.9357143 Z" id="Shape" fill="#6F8FC1"></path>
+                <path d="M0.283203125,40.3311244 C0.283203125,40.3311244 25.7440977,48.9287109 34.9951923,48.9287109 C44.2471395,48.9287109 57.5070398,43.004255 57.5070398,43.004255" id="Line" stroke="#6F8FC1" stroke-linecap="square"></path>
+                <path d="M0.283203125,27.7768903 C0.283203125,27.7768903 25.9687929,41.1836635 35.2198875,41.1836635 C44.4718347,41.1836635 57.5070398,30.4500209 57.5070398,30.4500209" id="Line-Copy-4" stroke="#6F8FC1" stroke-linecap="square"></path>
+                <path d="M0.283203125,13.418042 C0.283203125,13.418042 26.6596841,33.3080362 35.9107787,33.3080362 C45.1627259,33.3080362 57.5070398,16.0911726 57.5070398,16.0911726" id="Line-Copy-5" stroke="#6F8FC1" stroke-linecap="square"></path>
+                <path d="M0.283203125,0.258759172 C0.283203125,0.258759172 27.2503649,26.1342766 36.5014595,26.1342766 C45.7534067,26.1342766 57.5070398,2.93188975 57.5070398,2.93188975" id="Line-Copy-6" stroke="#6F8FC1" stroke-linecap="square"></path>
+                <ellipse id="Oval-71" stroke="#6F8FC1" stroke-width="3" cx="37.3757692" cy="10.8408313" rx="6.14499998" ry="6.19797412"></ellipse>
+            </g>
+            <text id="Motion-Design" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="260" fill="#6F8FC1">
+                <tspan x="6" y="124">Motion Design</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
