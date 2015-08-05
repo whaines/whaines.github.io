@@ -207,44 +207,44 @@ button.slider-switch:hover {
 }
 
 .js .slide h2#awh img{
-	height: 125px;
+	width: 25%;
 	margin-bottom: 15px;
 }
 
 .js .slide h2#google img{
-	height: 125px;
+	width: 35%;
 	margin-bottom: 15px;
 }
 
 .js .slide h2#ps img{
-	height: 150px;
+	width: 14%;
 }
 
 .js .slide h2#innerc img{
-	height: 150px;
+	width: 15%;
 }
 
 .js .slide h2#toyota img{
-	height: 135px;
+	width: 20%;
 }
 
 .js .slide h2#driver img{
-	height: 65px;
+	width: 40%;
 	margin-top:35px;
 	margin-bottom: 35px;
 }
 
 .js .slide h2#samsung img{
-	height: 125px;
+	width: 35%;
 	margin-bottom: 25px;
 }
 
 .js .slide h2#nvidia img{
-	height: 150px;
+	width: 20%;
 }
 
 .js .slide h2#hotspot img{
-	height: 115px;
+	width: 40%;
 	margin-top: 25px;
 }
 
