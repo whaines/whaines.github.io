@@ -977,9 +977,58 @@ div#hotspot_skills ul li img{
 @media screen and (max-width: 650px) {
 	button.slider-switch {
 		display: none;
+
 	}
 
 	header div{
 		display: none;
 	}
 }
+
+/*@media screen and (max-width: 650px) {
+	div#google_text {
+		display: none;
+
+}
+
+@media screen and (max-width: 650px) {
+	div#sony_text {
+		display: none;
+
+}
+
+@media screen and (max-width: 650px) {
+	div#toyota_text {
+		display: none;
+
+}
+
+@media screen and (max-width: 650px) {
+	div#nvidia_text {
+		display: none;
+
+}
+
+@media screen and (max-width: 650px) {
+	div#samsung_text {
+		display: none;
+
+}
+
+@media screen and (max-width: 650px) {
+	div#innerc_text {
+		display: none;
+
+}
+
+@media screen and (max-width: 650px) {
+	div#driver_text {
+		display: none;
+
+}
+
+@media screen and (max-width: 650px) {
+	div#hotspot_text {
+		display: none;
+
+}*/
