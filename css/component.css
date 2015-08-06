@@ -692,7 +692,7 @@ div#sony_skills ul li img{
 div#sony_text{
 	width: 100%;
 	height: auto;
-	background-color: #fff;
+	background-color: #003791;
 	color: #0099CA;
 	margin-top: 5%;
 }
@@ -716,7 +716,7 @@ div#sony_text img#content{
 
 div#sony_text iframe{
 	width: 75%;
-	border:15px #0099CAEa solid;
+	border:15px #0099CA solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 3%;
 }
