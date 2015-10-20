@@ -500,7 +500,7 @@ div#user_research ul li{
 }
 
 div#info_arch{
-	height: 900px;
+	height: 800px;
 	width: 100%;
 	background-image: linear-gradient(180deg, #83D0E1 0%, #80D79F 100%);
 }
@@ -606,6 +606,10 @@ div#contact{
 	height: 230px;
 	width: 100%;
 	padding-top: 2%;
+}
+
+div#contact ul{
+	list-style-type: none;
 }
 
 div#contact ul a{
