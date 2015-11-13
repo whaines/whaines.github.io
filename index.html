@@ -21,13 +21,41 @@
          completed projects to re-define product and brand through strategy,
          visuals and code.</p>
 
-      <a href="./content.html"><button class="button button--nina button--border-thin button--round-s" data-text="SEE WORK">
+      <button onclick="buttonDidPress()" class="button button--nina button--border-thin button--round-s" data-text="SEE WORK">
 						<span>S</span><span>E</span><span>E</span> <span></span><span>W</span><span>O</span><span>R</span><span>K</span>
-			</button></a>
+			</button>
     </div>
 
     <canvas id="canvas"></canvas>
   </body>
-  
+  <!-- <script type="text/javascript">
+    var s ="";
+
+    while (s!= "awh"){
+      s=prompt("please enter the password");
+      if (s=="awh"){
+      window.location.href="./content.html"; //page to redirect if password entered is correct
+      }
+    else{
+      alert("Incorrect password-Try again");
+      }
+    }
+  </script> -->
+  <script language="JavaScript">
+
+    function buttonDidPress() {
+      var password;
+      var pass1="awh";
+        password=prompt('Please enter password.','');
+
+        if (password!=pass1)
+          alert('Incorrect password. Try again.');
+        else
+          {
+          window.location="./content.html";
+          }
+    }
+
+  </script>
   <script src="js/index.js"></script>
 </html>

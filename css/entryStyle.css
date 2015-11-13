@@ -24,6 +24,10 @@ p{
   padding-bottom: 3%;
 }
 
+button span{
+  font-family: Source Code Pro, Open Sans, Lato, sans-serif;
+}
+
 /* BUTTON */
 
 .button {

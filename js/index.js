@@ -25,7 +25,7 @@ canvas.height = H;
 // Some variables for later use
 var particleCount = 200,
     particles = [],
-    minDist = 65,
+    minDist = 70,
     dist;
 
 // Function to make canvas black
