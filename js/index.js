@@ -23,7 +23,7 @@ canvas.width = W;
 canvas.height = H;
 
 // Some variables for later use
-var particleCount = 200,
+var particleCount = 250,
     particles = [],
     minDist = 70,
     dist;
@@ -137,7 +137,7 @@ function distance(p1, p2) {
 
     // Draw the line
     ctx.beginPath();
-    ctx.strokeStyle = "rgba(225,225,225,"+ (1.2-dist/minDist) +")";
+    ctx.strokeStyle = "rgba(225,225,225,0.5)";
     ctx.moveTo(p1.x, p1.y);
     ctx.lineTo(p2.x, p2.y);
     ctx.stroke();
