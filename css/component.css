@@ -194,7 +194,7 @@ button.slider-switch:hover {
 @media screen and (min-aspect-ratio: 1280/850) {
     .img-dragger .img-wrap  img {
         width: calc(100% + 0.2px);
-        height: auto;
+        height: 100%;
     }
 }
 
@@ -211,7 +211,7 @@ button.slider-switch:hover {
 }
 
 .js .slide h2#google img{
-	width: 35%;
+	width: 25%;
 }
 
 .js .slide h2#ps img{
