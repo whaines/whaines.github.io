@@ -469,6 +469,12 @@ button.content-switch::before {
 	pointer-events: none;
 }
 
+div#clients img{
+	width: 60%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
 div#user_research{
 	height: 900px;
 	width: 100%;
