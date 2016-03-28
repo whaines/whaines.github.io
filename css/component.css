@@ -702,7 +702,7 @@ div#sony_skills ul li img{
 div#sony_text{
 	width: 100%;
 	height: auto;
-	background-color: #fff;
+	background-color: #002A38;
 	color: #0099CA;
 	margin-top: 5%;
 }
@@ -748,7 +748,7 @@ div#innerc_skills ul li img{
 div#innerc_text{
 	width: 100%;
 	height: auto;
-	background-color: #4A4A4A;
+	background-color: #795858;
 	color: #E7C59F;
 	margin-top: 5%;
 }
@@ -871,7 +871,7 @@ div#samsung_skills ul li img{
 div#samsung_text{
 	width: 100%;
 	height: auto;
-	background-color: #CBCBCB;
+	background-color: #032048;
 	color: #009CA6;
 	margin-top: 5%;
 }
@@ -910,7 +910,7 @@ div#nvidia_skills ul li img{
 div#nvidia_text{
 	width: 100%;
 	height: auto;
-	background-color: #4A4A4A;
+	background-color: #5C7160;
 	color: #72BA43;
 	margin-top: 5%;
 }
