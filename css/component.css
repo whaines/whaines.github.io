@@ -210,6 +210,10 @@ button.slider-switch:hover {
 	width: 25%;
 }
 
+.js .slide h2#identity img{
+	width: 18%;
+}
+
 .js .slide h2#google img{
 	width: 25%;
 }
@@ -536,7 +540,7 @@ div#info_arch ul li{
 }
 
 div#ixd{
-	height: 900px;
+	height: 800px;
 	width: 100%;
 	background-image: linear-gradient(0deg, #E3E584 0%, #80D79F 100%);
 }
@@ -566,7 +570,7 @@ div#ixd ul li{
 }
 
 div#learning{
-	height: 850px;
+	height: 800px;
 	width: 100%;
 	background-image: linear-gradient(180deg, #E3E584 0%, #D79080 100%);
 }
@@ -910,7 +914,7 @@ div#nvidia_skills ul li img{
 div#nvidia_text{
 	width: 100%;
 	height: auto;
-	background-color: #5C7160;
+	background-color: #334A37;
 	color: #72BA43;
 	margin-top: 5%;
 }
