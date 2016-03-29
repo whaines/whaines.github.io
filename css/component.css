@@ -663,8 +663,8 @@ div#google_skills ul li img{
 div#google_text{
 	width: 100%;
 	height: auto;
-	background-color: #92B7E3;
-	color: #0069AB;
+	background-color: #C7D4EF;
+	color: #6F8FC1;
 	margin-top: 5%;
 }
 
@@ -680,7 +680,7 @@ div#google_text p{
 div#google_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #0069AB solid;
+	border: 15px #6F8FC1 solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 2%;
 }
@@ -756,7 +756,7 @@ div#innerc_skills ul li img{
 div#innerc_text{
 	width: 100%;
 	height: auto;
-	background-color: #795858;
+	background-color: #283F73;
 	color: #E7C59F;
 	margin-top: 5%;
 }
