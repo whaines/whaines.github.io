@@ -210,6 +210,10 @@ button.slider-switch:hover {
 	width: 25%;
 }
 
+.js .slide h2#princess img{
+	width: 25%;
+}
+
 .js .slide h2#identity img{
 	width: 18%;
 }
@@ -659,8 +663,8 @@ div#google_skills ul li img{
 div#google_text{
 	width: 100%;
 	height: auto;
-	background-color: #C3DDE9;
-	color: #6F8FC1;
+	background-color: #92B7E3;
+	color: #0069AB;
 	margin-top: 5%;
 }
 
@@ -676,7 +680,7 @@ div#google_text p{
 div#google_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #6F8FC1 solid;
+	border: 15px #0069AB solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 2%;
 }
