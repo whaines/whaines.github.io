@@ -29,10 +29,17 @@ button span{
 }
 
 #contact {
+  margin-top: 6%;
   text-decoration: none;
   font-size: 1.25em;
   margin-left: 5%;
   color: rgba(0, 100, 220, 1)
+}
+
+#clients{
+  width: 40%;
+  position: fixed;
+  margin-top: 2%;
 }
 
 /* Underline From Left */
@@ -98,6 +105,7 @@ button span{
 
 /* Nina */
 .button--nina {
+  margin-top: 8%;
 	padding: 0 2em;
 	background: rgba(74, 144, 226, 1);
 	color: #fff;
