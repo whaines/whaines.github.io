@@ -208,46 +208,67 @@ button.slider-switch:hover {
 
 .js .slide h2#awh img{
 	width: 25%;
+	min-width: 150px;
 }
 
 .js .slide h2#princess img{
 	width: 25%;
+	min-width: 150px;
+
 }
 
 .js .slide h2#identity img{
 	width: 18%;
+	min-width: 150px;
+
 }
 
 .js .slide h2#google img{
 	width: 25%;
+	min-width: 150px;
+
 }
 
 .js .slide h2#ps img{
 	width: 14%;
+	min-width: 100px;
+
 }
 
 .js .slide h2#innerc img{
 	width: 15%;
+	min-width: 100px;
+
 }
 
 .js .slide h2#toyota img{
 	width: 20%;
+	min-width: 125px;
+
 }
 
 .js .slide h2#driver img{
 	width: 40%;
+	min-width: 150px;
+
 }
 
 .js .slide h2#samsung img{
 	width: 35%;
+	min-width: 150px;
+
 }
 
 .js .slide h2#nvidia img{
 	width: 20%;
+	min-width: 100px;
+
 }
 
 .js .slide h2#hotspot img{
 	width: 40%;
+	min-width: 150px;
+
 }
 
 
