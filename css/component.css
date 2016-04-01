@@ -707,8 +707,8 @@ div#google_text img#content{
 }
 
 div#google_text iframe{
-	width: 400px;
-	height: 700px;
+	/*width: 400px;
+	height: 700px;*/
 	border:15px #6F8FC1 solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-left: 20px;
@@ -758,6 +758,53 @@ div#sony_text iframe{
 	border:15px #0099CA solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 3%;
+}
+
+/* Princess */
+
+div#princess_skills ul li{
+	display: inline-block;
+	position: relative;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div#princess_skills ul li img{
+	height: 70%;
+	width: 70%;
+}
+
+div#princess_text{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	color: #51A6FA;
+	margin-top: 5%;
+}
+
+div#princess_text p{
+	width: 60%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	font-weight: inherit;
+	font-size: 1em;
+	text-align: left;
+}
+
+div#princess_text img#content{
+	width: 75%;
+	height: auto;
+	border: 15px #51A6FA solid;
+	border-radius: 10px 10px 10px 10px;
+	margin-bottom: 2%;
+}
+
+div#princess_text iframe{
+	/*width: 400px;
+	height: 700px;*/
+	border:15px #51A6FA solid;
+	border-radius: 10px 10px 10px 10px;
+	margin-left: 20px;
 }
 
 /* Inner Circle */
