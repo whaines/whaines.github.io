@@ -35,15 +35,6 @@ a:hover, a:focus {
 	color: #c5d3d6;
 }
 
-/*div#gradient_bg {
-    background: rgba(255, 0, 89, 0.2);
-    background: -webkit-linear-gradient(45deg, rgba(255, 0, 89, 0.2) 0%, rgba(0, 179, 255, 0.2) 33%, rgba(255, 0, 89, 0.2) 66%, rgba(0, 179, 255, 0.2) 100%);
-    background-size: 400% 400%;
-    -webkit-animation: gradientBg 5s linear infinite;
-    animation: gradientBg 5s linear infinite;
-    height: 100vh;
-}*/
-
 @-webkit-keyframes gradientBg {
     0% {
         background-position: 100% 0%

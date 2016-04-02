@@ -52,7 +52,7 @@ html.js,
 
 .dragslider h2 span {
 	display: block;
-	font-size: 25%;
+	font-size: 30%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	padding-top: 0.8em;
@@ -315,7 +315,7 @@ button.content-switch {
 	white-space: nowrap;
 	background: rgba(0, 0, 0, 0.3);
 	color: #fff;
-	font-family: 'Lato', sans-serif;
+	font-family: 'open sans', sans-serif;
 	position: absolute;
 	cursor: pointer;
 	top: 100%;
