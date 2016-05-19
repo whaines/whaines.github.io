@@ -943,12 +943,13 @@ button:focus {
   }
 
   .menu-toggle {
-    display: inline-block;
+    display: none;
   }
 
   .sidebar .close-button {
-    opacity: 1;
+    opacity: 0;
     pointer-events: auto;
+    display: none;
   }
 
   .title--full {
