@@ -832,6 +832,10 @@ button:focus {
     padding: 45px 45px 30px;
   }
 
+  .content__item p, h2{
+    font-size: 80%;
+  }
+
   /* Demo ad */
   body #cdawrap {
     right: auto;
