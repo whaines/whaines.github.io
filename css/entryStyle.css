@@ -38,6 +38,7 @@ button span{
 
 #clients{
   width: 60%;
+  max-width: 800px;
   position: fixed;
   margin-top: 2%;
 }
