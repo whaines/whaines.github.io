@@ -141,6 +141,7 @@ div#learning{
 	height: 800px;
 	width: 100%;
 	background-image: linear-gradient(180deg, #E3E584 0%, #D79080 100%);
+  margin-bottom: 10%;
 }
 
 div#learning h2{
@@ -259,9 +260,9 @@ div#google_text p{
 div#google_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #6F8FC1 solid;
+	border: 15px #6F8FC1 solid;*/
 	border-radius: 10px 10px 10px 10px;
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 }
 
 div#google_text iframe{
