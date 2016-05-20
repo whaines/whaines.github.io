@@ -59,8 +59,7 @@ div#user_research h2 p{
 }
 
 div#user_research ul{
-  margin-left: 14%;
-  margin-right: 14%;
+  text-align: center;
 }
 
 div#user_research ul li{
@@ -94,8 +93,7 @@ div#info_arch h2 p{
 }
 
 div#info_arch ul{
-  margin-left: 15%;
-  margin-right: 15%;
+  text-align: center;
 }
 
 div#info_arch ul li{
@@ -129,8 +127,7 @@ div#ixd h2 p{
 }
 
 div#ixd ul{
-  margin-left: 15%;
-  margin-right: 15%;
+  text-align: center;
 }
 
 div#ixd ul li{
@@ -164,8 +161,7 @@ div#learning h2 p{
 }
 
 div#learning ul{
-  margin-left: 15%;
-  margin-right: 15%;
+  text-align: center;
 }
 
 div#learning ul li{
