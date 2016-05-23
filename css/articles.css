@@ -242,7 +242,6 @@ div#google_skills ul li img{
 div#google_text{
 	width: 100%;
 	height: auto;
-	/*background-color: #C7D4EF;*/
 	color: #6F8FC1;
 	margin-top: 5%;
   text-align: center;
@@ -260,7 +259,7 @@ div#google_text p{
 div#google_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #6F8FC1 solid;*/
+	border: 15px #6F8FC1 solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 5%;
 }
@@ -292,7 +291,6 @@ div#sony_skills ul li img{
 div#sony_text{
 	width: 100%;
 	height: auto;
-	/*background-color: #002A38;*/
 	color: #0099CA;
 	margin-top: 5%;
   text-align: center;
@@ -389,7 +387,6 @@ div#nvidia_skills ul li img{
 div#nvidia_text{
 	width: 100%;
 	height: auto;
-	/*background-color: #334A37;*/
 	color: #72BA43;
 	margin-top: 5%;
   text-align: center;
@@ -479,7 +476,6 @@ div#innerc_skills ul li img{
 div#innerc_text{
 	width: 100%;
 	height: auto;
-	/*background-color: #283F73;*/
 	color: #E7C59F;
 	margin-top: 5%;
   text-align: center;
@@ -521,7 +517,6 @@ div#samsung_skills ul li img{
 div#samsung_text{
 	width: 100%;
 	height: auto;
-	/*background-color: #032048;*/
 	color: #009CA6;
 	margin-top: 5%;
   text-align: center;
@@ -563,7 +558,6 @@ div#driver_skills ul li img{
 div#driver_text{
 	width: 100%;
 	height: auto;
-	/*background-color: #001854;*/
 	color: #CEBCE1;
 	margin-top: 5%;
   text-align: center;
@@ -593,7 +587,6 @@ div#driver_text img#content{
 div#hotspot_text{
 	width: 100%;
 	height: auto;
-	/*background-color: #020F37;*/
 	color: #F89495;
 	margin-top: 5%;
   text-align: center;
