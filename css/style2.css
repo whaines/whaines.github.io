@@ -470,6 +470,8 @@ button:focus {
 .meta--preview .meta__avatar {
   -webkit-filter: grayscale(50%);
   filter: grayscale(50%);
+  max-width: 125px;
+  max-height: 80%;
 }
 
 .grid__item:hover .meta--preview .meta__avatar,
@@ -896,6 +898,8 @@ button:focus {
     opacity: 0;
   }
 }
+
+
 @media screen and (min-width: 1200px) {
   /* 3 columns */
   .grid__item {
@@ -903,19 +907,16 @@ button:focus {
   }
 }
 @media screen and (min-width: 1500px) {
-  /* 4 columns */
   .grid__item {
     width: 33.333%;
   }
 }
 @media screen and (min-width: 1800px) {
-  /* 5 columns */
   .grid__item {
     width: 40%;
   }
 }
 @media screen and (min-width: 2100px) {
-  /* 6 columns */
   .grid__item {
     width: 50%;
   }
@@ -1139,6 +1140,21 @@ body {
 }
 
 @media screen and (max-width: 499px) {
+  .content__item.content__item--show
+  div#driver_skills ul li img,
+  div#google_skills ul li img,
+  div#sony_skills ul li img,
+  div#toyota_skills ul li img,
+  div#princess_skills ul li img,
+  div#nvidia_skills ul li img,
+  div#innerc_skills ul li img,
+  div#samsung_skills ul li img,
+  div#hotspot_skills ul li img{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 499px) {
   .content__item.content__item--show div#footer{
     display: none;
   }
@@ -1164,6 +1180,11 @@ body {
   .article-nav button span {
     display: none;
   }
+
+  .content__item--show.content__item p{
+    width: 80%;
+  }
+
 }
 @media screen and (max-width: 599px) {
   .meta__misc,

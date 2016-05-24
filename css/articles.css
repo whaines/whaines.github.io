@@ -173,8 +173,8 @@ div#learning ul li{
 }
 
 div#footer{
-  margin-left: 20%;
-  margin-right: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 p#end{
@@ -259,7 +259,7 @@ div#google_text p{
 div#google_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #6F8FC1 solid;
+	border: 10px#6F8FC1 solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 5%;
 }
@@ -267,7 +267,7 @@ div#google_text img#content{
 div#google_text iframe{
 	/*width: 400px;
 	height: 700px;*/
-	border:15px #6F8FC1 solid;
+	border:10px #6F8FC1 solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-left: 20px;
 }
@@ -308,14 +308,14 @@ div#sony_text p{
 div#sony_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #0099CA solid;
+	border: 10px#0099CA solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 2%;
 }
 
 div#sony_text iframe{
 	width: 75%;
-	border:15px #0099CA solid;
+	border:10px #0099CA solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 3%;
 }
@@ -356,7 +356,7 @@ div#princess_text p{
 div#princess_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #51A6FA solid;
+	border: 10px#51A6FA solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 2%;
 }
@@ -364,7 +364,7 @@ div#princess_text img#content{
 div#princess_text iframe{
 	/*width: 400px;
 	height: 700px;*/
-	border:15px #51A6FA solid;
+	border:10px #51A6FA solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-left: 20px;
 }
@@ -404,7 +404,7 @@ div#nvidia_text p{
 div#nvidia_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #72BA43 solid;
+	border: 10px#72BA43 solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 2%;
 }
@@ -446,14 +446,14 @@ div#toyota_text p{
 div#toyota_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #E62129 solid;
+	border: 10px#E62129 solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 2%;
 }
 
 div#toyota_text iframe{
 	width: 75%;
-	border:15px #E62129 solid;
+	border:10px #E62129 solid;
 	border-radius: 10px 10px 10px 10px;
 }
 
@@ -493,7 +493,7 @@ div#innerc_text p{
 div#innerc_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #E7C59F solid;
+	border: 10px#E7C59F solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 2%;
 }
@@ -534,7 +534,7 @@ div#samsung_text p{
 div#samsung_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #009CA6 solid;
+	border: 10px#009CA6 solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 2%;
 }
@@ -575,7 +575,7 @@ div#driver_text p{
 div#driver_text img#content{
 	width: 75%;
 	height: auto;
-	border: 15px #CEBCE1 solid;
+	border: 10px#CEBCE1 solid;
 	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 2%;
 }

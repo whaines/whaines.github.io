@@ -328,3 +328,9 @@ button span{
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+
+@media screen and (max-width: 499px) {
+  p{
+    font-size: 2em;
+  }
+}
