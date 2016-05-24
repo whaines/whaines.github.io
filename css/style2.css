@@ -470,8 +470,8 @@ button:focus {
 .meta--preview .meta__avatar {
   -webkit-filter: grayscale(50%);
   filter: grayscale(50%);
+  width: 20%;
   max-width: 125px;
-  max-height: 80%;
 }
 
 .grid__item:hover .meta--preview .meta__avatar,
@@ -913,12 +913,12 @@ button:focus {
 }
 @media screen and (min-width: 1800px) {
   .grid__item {
-    width: 40%;
+    width: 33.333%;
   }
 }
 @media screen and (min-width: 2100px) {
   .grid__item {
-    width: 50%;
+    width: 33.333%;
   }
 }
 /* small screen changes for sidebar (it becomes an off-canvas menu) */
@@ -1155,7 +1155,7 @@ body {
 }
 
 @media screen and (max-width: 499px) {
-  .content__item.content__item--show div#footer{
+  .content__item.content__item--show div.footer{
     display: none;
   }
 }
