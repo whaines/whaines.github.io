@@ -326,6 +326,46 @@ div#sony_text iframe{
 }
 
 
+/* Identity */
+
+div#identity_skills ul li{
+	display: inline-block;
+	position: relative;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div#identity_skills ul li img{
+	height: 70%;
+	width: 70%;
+}
+
+div#identity_text{
+	width: 100%;
+	height: auto;
+	color: #2196F3;
+	margin-top: 5%;
+  text-align: center;
+}
+
+div#identity_text p{
+	width: 60%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	font-weight: inherit;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+div#identity_text img#content{
+	width: 75%;
+	height: auto;
+	border: 10px #2196F3 solid;
+	border-radius: 10px 10px 10px 10px;
+	margin-bottom: 5%;
+}
+
+
 /* Princess */
 
 div#princess_skills ul li{
