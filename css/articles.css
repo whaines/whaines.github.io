@@ -36,7 +36,7 @@ a#CV{
 }
 
 div#user_research{
-	height: 900px;
+	height: 700px;
 	width: 100%;
 	background-image: linear-gradient(0deg, #83D0E1 0%, #887CEB 100%);
 }
@@ -70,7 +70,7 @@ div#user_research ul li{
 }
 
 div#info_arch{
-	height: 800px;
+	height: 675px;
 	width: 100%;
 	background-image: linear-gradient(180deg, #83D0E1 0%, #80D79F 100%);
 }
@@ -104,7 +104,7 @@ div#info_arch ul li{
 }
 
 div#ixd{
-	height: 800px;
+	height: 675px;
 	width: 100%;
 	background-image: linear-gradient(0deg, #E3E584 0%, #80D79F 100%);
 }
@@ -138,7 +138,7 @@ div#ixd ul li{
 }
 
 div#learning{
-	height: 800px;
+	height: 700px;
 	width: 100%;
 	background-image: linear-gradient(180deg, #E3E584 0%, #D79080 100%);
   margin-bottom: 10%;
