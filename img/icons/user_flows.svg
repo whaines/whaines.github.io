@@ -40,7 +40,7 @@
                     <path d="M68.0691019,52.5 L59,52.5" id="Line-Copy-2" stroke-linecap="square"></path>
                     <circle id="Oval-43-Copy-6" stroke-width="2" cx="50" cy="50" r="50"></circle>
                 </g>
-                <text id="User-Flows" font-family="Lato-Light, Lato" font-size="14" font-weight="300" fill="#FFFFFF">
+                <text id="User-Flows" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#FFFFFF">
                     <tspan x="17" y="125">User Flows</tspan>
                 </text>
             </g>

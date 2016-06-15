@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="104px" height="130px" viewBox="0 0 104 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="106px" height="131px" viewBox="0 0 106 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
     <title>systems_analysis</title>
     <desc>Created with Sketch.</desc>
@@ -18,7 +18,7 @@
                     </g>
                 </g>
                 <circle id="Oval-43-Copy-29" stroke="#FFFFFF" stroke-width="3" cx="51" cy="50" r="50"></circle>
-                <text id="Systems-Analysis" font-family="Lato-Light, Lato" font-size="14" font-weight="300" fill="#FFFFFF">
+                <text id="Systems-Analysis" font-family="OpenSans-Light, Open Sans" font-size="14" font-weight="300" fill="#FFFFFF">
                     <tspan x="0" y="125">Systems Analysis</tspan>
                 </text>
             </g>
