@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="104px" height="128px" viewBox="0 0 104 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
     <title>wireframing_d</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="wireframing_d" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
-            <g id="Wireframe" sketch:type="MSShapeGroup">
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wireframing_d" transform="translate(2.000000, 2.000000)">
+            <g id="Wireframe">
                 <g id="Group" transform="translate(14.000000, 25.000000)" fill="#CEBCE1">
                     <path d="M71.1724138,8.19672131 L0.827586207,8.19672131 C0.370758621,8.19672131 0,7.8295082 0,7.37704918 L0,0.819672131 C0,0.367213115 0.370758621,0 0.827586207,0 L71.1724138,0 C71.630069,0 72,0.367213115 72,0.819672131 L72,7.37704918 C72,7.8295082 71.630069,8.19672131 71.1724138,8.19672131 L71.1724138,8.19672131 Z M1.65517241,6.55737705 L70.3448276,6.55737705 L70.3448276,1.63934426 L1.65517241,1.63934426 L1.65517241,6.55737705 L1.65517241,6.55737705 Z" id="Shape"></path>
                     <path d="M71.1724138,50 L0.827586207,50 C0.370758621,50 0,49.6336066 0,49.1803279 L0,7.37704918 C0,6.92459016 0.370758621,6.55737705 0.827586207,6.55737705 L71.1724138,6.55737705 C71.630069,6.55737705 72,6.92459016 72,7.37704918 L72,49.1803279 C72,49.6336066 71.630069,50 71.1724138,50 L71.1724138,50 Z M1.65517241,48.3606557 L70.3448276,48.3606557 L70.3448276,8.19672131 L1.65517241,8.19672131 L1.65517241,48.3606557 L1.65517241,48.3606557 Z" id="Shape"></path>
@@ -23,9 +23,6 @@
                 </g>
                 <circle id="Oval-43-Copy-7" stroke="#CEBCE1" stroke-width="3" cx="50" cy="50" r="50"></circle>
             </g>
-            <text id="Wireframes" sketch:type="MSTextLayer" font-family="Lato" font-size="14" font-weight="260" fill="#CEBCE1">
-                <tspan x="15" y="125">Wireframes</tspan>
-            </text>
         </g>
     </g>
 </svg>

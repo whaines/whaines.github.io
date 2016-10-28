@@ -1,20 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="108px" height="132px" viewBox="0 0 108 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
     <title>Group 3</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-3" transform="translate(0.000000, 2.000000)">
-            <g id="Group-2-Copy">
+        <g id="Group-3" transform="translate(2.000000, 2.000000)">
+            <g id="Group-2-Copy" stroke-width="3" stroke="#2196F3">
                 <g id="mental_models_i-copy">
-                    <circle id="Oval-43-Copy-8" stroke="#2196F3" stroke-width="3" cx="54" cy="50" r="50"></circle>
-                    <text id="Account-Recovery" font-family="Lato-Light, Lato" font-size="14" font-weight="300" fill="#2196F3">
-                        <tspan x="0" y="127">Account Recovery</tspan>
-                    </text>
+                    <circle id="Oval-43-Copy-8" cx="50" cy="50" r="50"></circle>
                 </g>
             </g>
-            <g id="noun_114076_cc" transform="translate(29.000000, 24.000000)" fill="#2196F3">
+            <g id="noun_114076_cc" transform="translate(25.000000, 24.000000)" fill="#2196F3">
                 <g id="Group">
                     <g id="Shape">
                         <path d="M24.6315789,0.442684211 C16.7152632,0.442684211 10.2747895,6.88315789 10.2747895,14.7994737 C10.2747895,18.1055789 11.4092105,21.1448421 13.2942105,23.5744737 C13.7293684,24.1355263 14.2014737,24.6644211 14.7132632,25.155 C17.2934211,27.6270526 20.7842632,29.1569474 24.6315789,29.1569474 C28.4788947,29.1569474 31.9704211,27.6277368 34.5498947,25.1543158 C35.0616842,24.6644211 35.5337895,24.1362105 35.9689474,23.5744737 C37.8539474,21.1448421 38.9883684,18.1055789 38.9883684,14.7994737 C38.9883684,6.88384211 32.5478947,0.442684211 24.6315789,0.442684211 L24.6315789,0.442684211 Z M34.0702632,22.6802105 C33.5906316,23.2535789 33.0603684,23.7838421 32.4856316,24.2621053 C30.3529474,26.0355789 27.6147368,27.1043158 24.6315789,27.1043158 C21.6477368,27.1043158 18.9108947,26.0355789 16.7775263,24.2627895 C16.2021053,23.7845263 15.6725263,23.2535789 15.1928947,22.6808947 C13.4064211,20.5441053 12.3274211,17.7963158 12.3274211,14.8001579 C12.3274211,8.01552632 17.8469474,2.496 24.6315789,2.496 C31.4162105,2.496 36.9357368,8.01552632 36.9357368,14.8001579 C36.9357368,17.7963158 35.8567368,20.5434211 34.0702632,22.6802105 L34.0702632,22.6802105 Z"></path>

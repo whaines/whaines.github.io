@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="104px" height="132px" viewBox="0 0 104 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
     <title>Group 2</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-2" transform="translate(2.000000, 2.000000)">
-            <g id="mental_models_i-copy">
-                <circle id="Oval-43-Copy-8" stroke="#2196F3" stroke-width="3" cx="50" cy="50" r="50"></circle>
-                <text id="Corp-SSO" font-family="Lato-Light, Lato" font-size="14" font-weight="300" fill="#2196F3">
-                    <tspan x="21" y="127">Corp SSO</tspan>
-                </text>
+            <g id="mental_models_i-copy" stroke-width="3" stroke="#2196F3">
+                <circle id="Oval-43-Copy-8" cx="50" cy="50" r="50"></circle>
             </g>
             <g id="noun_167372_cc" transform="translate(21.000000, 19.000000)" fill="#2196F3">
                 <g id="buildings-2">
