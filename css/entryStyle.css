@@ -343,8 +343,15 @@ img#clients{
   animation-name: fadeInUp;
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 599px) {
   p{
     font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  div#bio {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }

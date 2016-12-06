@@ -34,8 +34,8 @@
 }
 
 .fadeIn {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
@@ -69,8 +69,8 @@
 }
 
 .fadeInUp {
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
@@ -105,8 +105,8 @@
 }
 
 .fadeInUp1 {
-  -webkit-animation-duration: 1.75s;
-  animation-duration: 1.75s;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
   -webkit-animation-name: fadeInUp1;
   animation-name: fadeInUp1;
 }
@@ -141,8 +141,8 @@
 }
 
 .fadeInUp2 {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-name: fadeInUp2;
   animation-name: fadeInUp2;
 }
