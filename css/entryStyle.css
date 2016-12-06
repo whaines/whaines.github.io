@@ -2,26 +2,37 @@ body {
   padding:0;
   margin:0;
   overflow:hidden;
-  font-family: Roboto Mono, Open Sans, Lato, sans-serif;
+  font-family: Open Sans, Lato, sans-serif;
+  font-weight: 100;
 }
 
-div{
-  margin-top: 7%;
-  padding-left: 18%;
-  padding-right: 18%;
+div#bio{
+  margin-top: 12%;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
   position: fixed;
+  text-align: center;
+  background: white;
+  /*border: 0.5px solid black;*/
+  border-radius: 5%;
+  box-shadow: 0 0px 40px 0 rgba(0, 0, 0, 0.08);
 }
 
 img{
-  width: 15%;
+  width: 20%;
   padding-bottom: 3%;
 }
 
 p{
   color: black;
-  font-size: 1.25em;
+  font-size: 120%;
   line-height: 1.5em;
   padding-bottom: 3%;
+  text-align: center;
 }
 
 button span{
@@ -32,12 +43,11 @@ button span{
   margin-top: 6%;
   text-decoration: none;
   font-size: 1.25em;
-  margin-left: 5%;
   color: rgba(0, 100, 220, 1)
 }
 
-#clients{
-  width: 60%;
+div#clients{
+  width: 50%;
   max-width: 800px;
   position: fixed;
   margin-top: 2%;
@@ -107,6 +117,7 @@ button span{
 /* Nina */
 .button--nina {
   margin-top: 8%;
+  margin-left: 25%;
 	padding: 0 2em;
 	background: rgba(74, 144, 226, 1);
 	color: #fff;
