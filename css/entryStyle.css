@@ -4,10 +4,12 @@ body {
   overflow:hidden;
   font-family: Open Sans, Lato, sans-serif;
   font-weight: 100;
+  font-weight: lighter;
 }
 
 div#bio{
-  margin-top: 12%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   margin-left: 35%;
   margin-right: 35%;
   padding-top: 2%;
@@ -33,6 +35,7 @@ p{
   line-height: 1.75em;
   /*padding-bottom: 3%;*/
   text-align: center;
+  opacity: 0.5;
 }
 
 button span{
