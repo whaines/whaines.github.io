@@ -22,6 +22,8 @@ div#bio{
   /*border: 0.5px solid black;*/
   border-radius: 5%;
   box-shadow: 0 0px 40px 0 rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  min-width: 400px;
 }
 
 img#awh{
