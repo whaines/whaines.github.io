@@ -907,6 +907,7 @@ button:focus {
     border: 1px solid rgba(74, 74, 74, 0.075);
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
+    border-radius: 20px;
   }
 
   .grid__item:hover::before,
@@ -923,21 +924,25 @@ button:focus {
   /* 3 columns */
   .grid__item {
     width: 33.333%;
+    border-radius: 20px;
   }
 }
 @media screen and (min-width: 1500px) {
   .grid__item {
     width: 33.333%;
+    border-radius: 20px;
   }
 }
 @media screen and (min-width: 1800px) {
   .grid__item {
     width: 33.333%;
+    border-radius: 20px;
   }
 }
 @media screen and (min-width: 2100px) {
   .grid__item {
     width: 33.333%;
+    border-radius: 20px;
   }
 }
 /* small screen changes for sidebar (it becomes an off-canvas menu) */
