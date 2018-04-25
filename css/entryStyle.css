@@ -39,7 +39,7 @@ button:focus {
   width: 6%
 }
 
-.top-bar div#awh{
+.top-bar div img#awh{
   max-width: 75px;
 }
 
@@ -138,49 +138,49 @@ div#clients img{
     background-image: url("../img/lines.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 150%;
   }
 
   .top-bar div img {
     width: 6%
   }
 
-  .top-bar div#awh{
-    max-width: 75px;
+  .top-bar div img#awh{
+    width: 10%;
+    margin-top: 45%;
   }
 
   .top-bar div#headline{
+    font-size: 150%;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 70%;
+    color: #1E1689;
+
+  }
+
+  .top-bar div#words {
     font-size: 100%;
     font-weight: 700;
     line-height: 1.5em;
     width: 100%;
     text-align: center;
     margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
-    max-width: 50%;
-    color: #1E1689;
-
-  }
-
-  .top-bar div#words {
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1.5em;
-    width: 100%;
-    text-align: center;
-    margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
-    max-width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 70%;
     color: #1E1689;
   }
 
   div#clients img{
-    width: 50%;
+    width: 80%;
     text-align: center;
     /* opacity: 0.6; */
-    margin-top: 5%;
+    margin-top: 10%;
   }
 
   .info {
@@ -192,17 +192,17 @@ div#clients img{
   }
 
   .top-bar div button {
-    margin-top: 10%;
+    margin-top: 30%;
     color: rgba(73,143,226,0.50);
     background: #ffffff;
     box-shadow: 0 2px 10px 0 rgba(73,143,226,0.20);
     border-radius: 8px;
     border: 0;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 75%;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 100%;
   }
 
   .top-bar div button:hover{
@@ -233,8 +233,9 @@ div#clients img{
     width: 6%
   }
 
-  .top-bar div#awh{
+  .top-bar div img#awh{
     max-width: 75px;
+    margin-top: 25%;
   }
 
   .top-bar div#headline{
@@ -320,7 +321,7 @@ div#clients img{
     width: 6%
   }
 
-  .top-bar div#awh{
+  .top-bar div img#awh{
     max-width: 75px;
   }
 
@@ -424,8 +425,8 @@ div#clients img{
     width: 6%
   }
 
-  .top-bar div#awh{
-    max-width: 75px;
+  .top-bar div img#awh{
+    max-width: 275px;
   }
 
   .top-bar div#headline{
