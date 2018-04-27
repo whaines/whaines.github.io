@@ -26,7 +26,7 @@
 }
 
 .fadeIn {
-  animation-delay: 0.5s;
+  animation-delay: 0.25s;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
@@ -62,7 +62,7 @@
 }
 
 .fadeInUp {
-  animation-delay: 1.5s;
+  animation-delay: 0.5s;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
@@ -97,7 +97,7 @@
 }
 
 .fadeInUp2 {
-  animation-delay: 1.75s;
+  animation-delay: 0.75s;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
@@ -132,7 +132,7 @@
 }
 
 .fadeInUp3 {
-  animation-delay: 2s;
+  animation-delay: 1s;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
@@ -167,7 +167,7 @@
 }
 
 .fadeInUp4 {
-  animation-delay: 2.25s;
+  animation-delay: 1.25s;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
@@ -202,7 +202,7 @@
 }
 
 .fadeInUp5 {
-  animation-delay: 2.75s;
+  animation-delay: 1.5s;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
