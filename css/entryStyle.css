@@ -493,7 +493,7 @@ footer div#clients img{
     background: #fff;
     height: -webkit-fill-available;
     width: 100%;
-    height: 875px;
+    height: 925px;
     padding-top: 3%;
     line-height: 1;
     text-align: center;
@@ -668,7 +668,7 @@ footer div#clients img{
     padding-bottom: 2%;
     border-radius: 5px;
     min-height: 100px;
-    min-width: 75px;
+    min-width: 100px;
   }
 
   div.results ul li div div.stat{
@@ -679,6 +679,7 @@ footer div#clients img{
 
   div.results ul li div div.desc{
     font-weight: 100;
+    font-size: 45%;
   }
 
   div.arrow{
@@ -702,7 +703,7 @@ footer div#clients img{
     background: #3440C7;
     height: -webkit-fill-available;
     width: 100%;
-    height: 900px;
+    height: 975px;
     text-align: center;
     background-image: url("../img/background/gsx_background.svg");
     background-repeat: no-repeat;
@@ -727,7 +728,7 @@ footer div#clients img{
     background: #F4F0F3;
     height: -webkit-fill-available;
     width: 100%;
-    height: 875px;
+    height: 975px;
     text-align: center;
     background-image: url("../img/background/apex_background.svg");
     background-repeat: no-repeat;
@@ -751,7 +752,7 @@ footer div#clients img{
     background: #31373B;
     height: -webkit-fill-available;
     width: 100%;
-    height: 875px;
+    height: 950px;
     text-align: center;
     background-image: url("../img/background/psnow_background.svg");
     background-repeat: no-repeat;
@@ -775,7 +776,7 @@ footer div#clients img{
     background: #F5CEC8;
     height: -webkit-fill-available;
     width: 100%;
-    height: 925px;
+    height: 1025px;
     text-align: center;
     background-image: url("../img/background/id_background.svg");
     background-repeat: no-repeat;
@@ -806,7 +807,7 @@ footer div#clients img{
     background: #AEE6CD;
     height: -webkit-fill-available;
     width: 100%;
-    height: 900px;
+    height: 950px;
     text-align: center;
     background-image: url("../img/background/elements_background.svg");
     background-repeat: no-repeat;
@@ -830,7 +831,7 @@ footer div#clients img{
     background: #A08DB7;
     height: -webkit-fill-available;
     width: 100%;
-    height: 925px;
+    height: 1025px;
     text-align: center;
     background-image: url("../img/background/channels_background.svg");
     background-repeat: no-repeat;
@@ -860,7 +861,7 @@ footer div#clients img{
     background: #F8D592;
     height: -webkit-fill-available;
     width: 100%;
-    height: 875px;
+    height: 950px;
     text-align: center;
     background-image: url("../img/background/other_background.svg");
     background-repeat: no-repeat;
