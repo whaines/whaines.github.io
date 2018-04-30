@@ -23,7 +23,7 @@ button:focus {
 header .top-bar {
   background: #fff;
   height: -webkit-fill-available;
-  height: 1700px;
+  height: 1600px;
   width: 100%;
   padding-top: 3%;
   line-height: 1;
@@ -161,7 +161,7 @@ div#me_results li{
 /* Global */
 
 .top-bar div#headline{
-  font-size: 200%;
+  font-size: 250%;
   font-weight: 700;
   line-height: 1.5em;
   width: 100%;
@@ -173,15 +173,15 @@ div#me_results li{
 }
 
 .top-bar div#words {
-  font-size: 125%;
+  font-size: 150%;
   font-weight: 700;
   line-height: 1.5em;
   width: 100%;
   text-align: center;
   margin-top: 1%;
-  margin-left: 37.5%;
-  margin-right: 37.5%;
-  max-width: 25%;
+  margin-left: 33%;
+  margin-right: 33%;
+  max-width: 33%;
 }
 
 .top-bar div img.project_header{
@@ -218,13 +218,13 @@ div.results ul li{
 }
 
 div.results ul li div div.stat{
-  font-weight: lighter;
+  font-weight: 500;
   font-size: 550%;
   margin-bottom: 2%;
 }
 
 div.results ul li div div.desc{
-  font-weight: 100;
+  font-weight: 500;
   font-size: 125%;
   max-width: 300px;
   line-height: 1.75;
@@ -246,12 +246,12 @@ section#gsx{
   background: #3440C7;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2050px;
+  height: 1950px;
   text-align: center;
   background-image: url("../img/background/gsx_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 125%;
   color: #C8CDF2;
   padding-bottom: 5%;
 }
@@ -268,12 +268,12 @@ section#apex{
   background: #F4F0F3;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2100px;
+  height: 2000px;
   text-align: center;
   background-image: url("../img/background/apex_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 125%;
   color: #004977;
   padding-bottom: 5%;
 }
@@ -294,12 +294,12 @@ section#psnow{
   background: #31373B;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2050px;
+  height: 1950px;
   text-align: center;
   background-image: url("../img/background/psnow_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 125%;
   color: #D7D7D7;
   padding-bottom: 5%;
 }
@@ -320,12 +320,12 @@ section#id{
   background: #F5CEC8;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2200px;
+  height: 2050px;
   text-align: center;
   background-image: url("../img/background/id_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 125%;
   color: #3440C7;
   padding-bottom: 5%;
 }
@@ -346,12 +346,12 @@ section#elements{
   background: #AEE6CD;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2050px;
+  height: 1950px;
   text-align: center;
   background-image: url("../img/background/elements_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 125%;
   color: #1E1689;
   padding-bottom: 5%;
 }
@@ -373,12 +373,12 @@ section#channels{
   background: #A08DB7;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2200px;
+  height: 2050px;
   text-align: center;
   background-image: url("../img/background/channels_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 125%;
   color: #D0FAE8;
   padding-bottom: 5%;
 }
@@ -405,12 +405,12 @@ section#other{
   background: #F8D592;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2100px;
+  height: 2050px;
   text-align: center;
   background-image: url("../img/background/other_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 125%;
   color: #A9859C;
 }
 
@@ -436,7 +436,6 @@ footer .top-bar {
   height: -webkit-fill-available;
   width: 100%;
   height: 900px;
-  padding-top: 3%;
   line-height: 1;
   text-align: center;
   background-image: url("../img/background/landscape.svg");
@@ -447,7 +446,7 @@ footer .top-bar {
 }
 
 footer .top-bar div img {
-  width: 5%;
+  width: 6%;
   margin-top: 3%;
 }
 
@@ -458,9 +457,9 @@ footer .top-bar div#headline{
   width: 100%;
   text-align: center;
   margin-top: 3%;
-  margin-left: 30%;
-  margin-right: 30%;
-  max-width: 40%;
+  margin-left: 33%;
+  margin-right: 33%;
+  max-width: 33%;
   color: #1E1689;
 }
 
@@ -2425,13 +2424,13 @@ footer div#clients img{
   div#me_results li{
     background: #FFFFFF;
     /* border: 1px solid rgba(30,22,137,0.20); */
-    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.10);
+    /* box-shadow: 0 2px 15px 0 rgba(0,0,0,0.10);
     border-radius: 5px;
   }
 
   /* Global */
 
-  .top-bar div#headline{
+  /* .top-bar div#headline{
     font-size: 275%;
     font-weight: 700;
     line-height: 1.5em;
@@ -2515,7 +2514,7 @@ footer div#clients img{
 
   /* GSX */
 
-  section#gsx{
+  /* section#gsx{
     background: #3440C7;
     height: -webkit-fill-available;
     width: 100%;
@@ -2535,11 +2534,11 @@ footer div#clients img{
     width: 85%;
     max-width: 1500px;
     margin-top: 5%;
-  }
+  } */
 
   /* Apex */
 
-  section#apex{
+  /* section#apex{
     background: #F4F0F3;
     height: -webkit-fill-available;
     width: 100%;
@@ -2559,11 +2558,11 @@ footer div#clients img{
     width: 95%;
     max-width: 1500px;
     margin-top: 5%;
-  }
+  } */
 
   /* PS Now */
 
-  section#psnow{
+  /* section#psnow{
     background: #31373B;
     height: -webkit-fill-available;
     width: 100%;
@@ -2583,11 +2582,11 @@ footer div#clients img{
     width: 95%;
     max-width: 1500px;
     margin-top: 5%;
-  }
+  } */
 
   /* Google ID */
 
-  section#id{
+  /* section#id{
     background: #F5CEC8;
     height: -webkit-fill-available;
     width: 100%;
@@ -2607,11 +2606,11 @@ footer div#clients img{
     width: 95%;
     max-width: 1500px;
     margin-top: 5%;
-  }
+  } */
 
   /* Elements */
 
-  section#elements{
+  /* section#elements{
     background: #AEE6CD;
     height: -webkit-fill-available;
     width: 100%;
@@ -2632,11 +2631,11 @@ footer div#clients img{
     max-width: 1500px;
     margin-top: 5%;
     margin-bottom: 5%;
-  }
+  } */
 
   /* Channels */
 
-  section#channels{
+  /* section#channels{
     background: #A08DB7;
     height: -webkit-fill-available;
     width: 100%;
@@ -2662,11 +2661,11 @@ footer div#clients img{
     font-weight: 500;
     font-size: 250%;
     padding-bottom: 5%;
-  }
+  } */
 
   /* Other */
 
-  section#other{
+  /* section#other{
     background: #F8D592;
     height: -webkit-fill-available;
     width: 100%;
@@ -2691,11 +2690,11 @@ footer div#clients img{
     font-weight: 500;
     font-size: 300%;
     padding-bottom: 5%;
-  }
+  } */
 
   /* footer */
 
-  footer .top-bar {
+  /* footer .top-bar {
     background: #fff;
     height: -webkit-fill-available;
     height: 1000px;
