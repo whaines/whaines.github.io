@@ -2283,7 +2283,7 @@ footer div#clients img{
 
 /* Media Queries - 999 - 1400px */
 
-@media screen and (min-width: 1399px) and (max-width: 1799px) {
+/* @media screen and (min-width: 1399px) and (max-width: 1799px) {
 
   header .top-bar {
     background: #fff;
@@ -2739,7 +2739,7 @@ footer div#clients img{
     max-width: 50%;
     color: #1E1689;
   }
-}
+} */
 
 
 /* Media Queries - 1799 */
