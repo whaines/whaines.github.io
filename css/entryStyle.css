@@ -23,7 +23,7 @@ button:focus {
 header .top-bar {
   background: #fff;
   height: -webkit-fill-available;
-  height: 1700px;
+  height: 1650px;
   width: 100%;
   padding-top: 3%;
   line-height: 1;
@@ -161,7 +161,7 @@ div#me_results li{
 /* Global */
 
 .top-bar div#headline{
-  font-size: 250%;
+  font-size: 225%;
   font-weight: 700;
   line-height: 1.5em;
   width: 100%;
@@ -173,7 +173,7 @@ div#me_results li{
 }
 
 .top-bar div#words {
-  font-size: 150%;
+  font-size: 125%;
   font-weight: 700;
   line-height: 1.5em;
   width: 100%;
@@ -246,12 +246,12 @@ section#gsx{
   background: #3440C7;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2150px;
+  height: 1950px;
   text-align: center;
   background-image: url("../img/background/gsx_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 125%;
+  background-size: 105%;
   color: #C8CDF2;
   padding-bottom: 5%;
 }
@@ -268,20 +268,21 @@ section#apex{
   background: #F4F0F3;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2200px;
+  height: 2000px;
   text-align: center;
   background-image: url("../img/background/apex_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 125%;
+  background-size: 105%;
   color: #004977;
   padding-bottom: 5%;
 }
 
 section#apex div.device_img img{
-  width: 85%;
+  width: 75%;
   max-width: 1500px;
-  margin-top: 5%;
+  margin-top: 7%;
+  margin-bottom: 5%;
 }
 
 div#apex_results li{
@@ -294,12 +295,12 @@ section#psnow{
   background: #31373B;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2150px;
+  height: 1950px;
   text-align: center;
   background-image: url("../img/background/psnow_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 125%;
+  background-size: 100%;
   color: #D7D7D7;
   padding-bottom: 5%;
 }
@@ -307,7 +308,8 @@ section#psnow{
 section#psnow div.device_img img{
   width: 85%;
   max-width: 1500px;
-  margin-top: 5%;
+  margin-top: 7%;
+  margin-bottom: 5%;
 }
 
 div#psnow_results li{
@@ -320,20 +322,20 @@ section#id{
   background: #F5CEC8;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2300px;
+  height: 2100px;
   text-align: center;
   background-image: url("../img/background/id_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 125%;
+  background-size: 115%;
   color: #3440C7;
   padding-bottom: 5%;
 }
 
 section#id div.device_img img{
-  width: 85%;
+  width: 95%;
   max-width: 1500px;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 div#id_results li{
@@ -346,12 +348,12 @@ section#elements{
   background: #AEE6CD;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2150px;
+  height: 2100px;
   text-align: center;
   background-image: url("../img/background/elements_background.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 125%;
+  background-size: 115%;
   color: #1E1689;
   padding-bottom: 5%;
 }
@@ -359,8 +361,9 @@ section#elements{
 section#elements div.device_img img{
   width: 85%;
   max-width: 1500px;
-  margin-top: 5%;
-  margin-right: 5%;
+  margin-top: 8%;
+  margin-right: 8%;
+  margin-bottom: 8%;
 }
 
 div#elements_results li{
@@ -373,7 +376,7 @@ section#channels{
   background: #A08DB7;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2300px;
+  height: 2100px;
   text-align: center;
   background-image: url("../img/background/channels_background.svg");
   background-repeat: no-repeat;
@@ -384,7 +387,7 @@ section#channels{
 }
 
 section#channels div.device_img img{
-  width: 85%;
+  width: 90%;
   max-width: 1500px;
   margin-top: 5%;
 }
@@ -394,7 +397,7 @@ div#channels_results li{
 }
 
 div#channels_results li div div.stat{
-  font-weight: 500;
+  font-weight: 700;
   font-size: 225%;
   margin-bottom: 5%;
 }
@@ -405,7 +408,7 @@ section#other{
   background: #F8D592;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2200px;
+  height: 2050px;
   text-align: center;
   background-image: url("../img/background/other_background.svg");
   background-repeat: no-repeat;
@@ -424,7 +427,7 @@ div#other_results li{
 }
 
 div#other_results li div div.stat{
-  font-weight: lighter;
+  font-weight: 700;
   font-size: 300%;
   margin-bottom: 5%;
 }
@@ -441,7 +444,7 @@ footer .top-bar {
   background-image: url("../img/background/landscape.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 125%;
   margin-top: 3%;
 }
 
@@ -483,7 +486,7 @@ footer div#clients img{
 }
 
 
-/* Media Queries - 0 - 599px */
+/* Media Queries - 0 - 399px */
 
 @media screen and (min-width: 0px) and (max-width: 399px) {
 
@@ -931,7 +934,7 @@ footer div#clients img{
 }
 
 
-/* Media Queries - 0 - 599px */
+/* Media Queries - 399px - 599px */
 
 @media screen and (min-width: 399px) and (max-width: 599px) {
 
@@ -1602,7 +1605,7 @@ footer div#clients img{
     background-image: url("../img/background/gsx_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200%;
+    background-size: 175%;
     color: #C8CDF2;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1626,7 +1629,7 @@ footer div#clients img{
     background-image: url("../img/background/apex_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200%;
+    background-size: 175%;
     color: #004977;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1634,7 +1637,7 @@ footer div#clients img{
   }
 
   section#apex div.device_img img{
-    width: 95%;
+    width: 80%;
     max-width: 1500px;
     margin-top: 5%;
   }
@@ -1650,7 +1653,7 @@ footer div#clients img{
     background-image: url("../img/background/psnow_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200%;
+    background-size: 150%;
     color: #D7D7D7;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1658,7 +1661,7 @@ footer div#clients img{
   }
 
   section#psnow div.device_img img{
-    width: 95%;
+    width: 85%;
     max-width: 1500px;
     margin-top: 5%;
   }
@@ -1674,7 +1677,7 @@ footer div#clients img{
     background-image: url("../img/background/id_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200%;
+    background-size: 175%;
     color: #3440C7;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1698,7 +1701,7 @@ footer div#clients img{
     background-image: url("../img/background/elements_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200%;
+    background-size: 150%;
     color: #1E1689;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1722,7 +1725,7 @@ footer div#clients img{
     background-image: url("../img/background/channels_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200%;
+    background-size: 175%;
     color: #D0FAE8;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1752,7 +1755,7 @@ footer div#clients img{
     background-image: url("../img/background/other_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200%;
+    background-size: 150%;
     color: #A9859C;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1827,13 +1830,13 @@ footer div#clients img{
     background: #fff;
     height: -webkit-fill-available;
     width: 100%;
-    height: 1550px;
+    height: 1450px;
     line-height: 1;
     text-align: center;
     background-image: url("../img/background/lines.svg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+    background-position: left;
+    background-size: 200%;
   }
 
   header .top-bar div img {
@@ -1847,7 +1850,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline{
-    font-size: 300%;
+    font-size: 275%;
     font-weight: 700;
     line-height: 1.5em;
     width: 100%;
@@ -1861,7 +1864,7 @@ footer div#clients img{
   }
 
   header .top-bar div#words {
-    font-size: 200%;
+    font-size: 175%;
     font-weight: 700;
     line-height: 1.5em;
     width: 100%;
@@ -1994,7 +1997,7 @@ footer div#clients img{
   }
 
   .top-bar div img.project_header{
-    width: 10%;
+    width: 15%;
     max-width: 250px;
   }
 
@@ -2057,7 +2060,7 @@ footer div#clients img{
     background: #3440C7;
     height: -webkit-fill-available;
     width: 100%;
-    height: 2100px;
+    height: 1800px;
     text-align: center;
     background-image: url("../img/background/gsx_background.svg");
     background-repeat: no-repeat;
@@ -2081,7 +2084,7 @@ footer div#clients img{
     background: #F4F0F3;
     height: -webkit-fill-available;
     width: 100%;
-    height: 2100px;
+    height: 1800px;
     text-align: center;
     background-image: url("../img/background/apex_background.svg");
     background-repeat: no-repeat;
@@ -2094,7 +2097,7 @@ footer div#clients img{
   }
 
   section#apex div.device_img img{
-    width: 95%;
+    width: 85%;
     max-width: 1500px;
     margin-top: 5%;
   }
@@ -2105,7 +2108,7 @@ footer div#clients img{
     background: #31373B;
     height: -webkit-fill-available;
     width: 100%;
-    height: 2100px;
+    height: 1700px;
     text-align: center;
     background-image: url("../img/background/psnow_background.svg");
     background-repeat: no-repeat;
@@ -2129,7 +2132,7 @@ footer div#clients img{
     background: #F5CEC8;
     height: -webkit-fill-available;
     width: 100%;
-    height: 2100px;
+    height: 1800px;
     text-align: center;
     background-image: url("../img/background/id_background.svg");
     background-repeat: no-repeat;
@@ -2153,7 +2156,7 @@ footer div#clients img{
     background: #AEE6CD;
     height: -webkit-fill-available;
     width: 100%;
-    height: 2050px;
+    height: 1750px;
     text-align: center;
     background-image: url("../img/background/elements_background.svg");
     background-repeat: no-repeat;
@@ -2178,7 +2181,7 @@ footer div#clients img{
     background: #A08DB7;
     height: -webkit-fill-available;
     width: 100%;
-    height: 2050px;
+    height: 1850px;
     text-align: center;
     background-image: url("../img/background/channels_background.svg");
     background-repeat: no-repeat;
@@ -2208,7 +2211,7 @@ footer div#clients img{
     background: #F8D592;
     height: -webkit-fill-available;
     width: 100%;
-    height: 2100px;
+    height: 1800px;
     text-align: center;
     background-image: url("../img/background/other_background.svg");
     background-repeat: no-repeat;
@@ -2280,467 +2283,6 @@ footer div#clients img{
 }
 
 
-/* Media Queries - 999 - 1400px */
-
-/* @media screen and (min-width: 1399px) and (max-width: 1799px) {
-
-  header .top-bar {
-    background: #fff;
-    height: -webkit-fill-available;
-    width: 100%;
-    height: 1700px;
-    line-height: 1;
-    text-align: center;
-    background-image: url("../img/background/lines.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-  }
-
-  header .top-bar div img {
-    width: 5%;
-  }
-
-  header .top-bar div img#awh{
-    max-width: 90px;
-    margin-bottom: 3%;
-    width: 10%;
-  }
-
-  header .top-bar div#headline{
-    font-size: 350%;
-    font-weight: 700;
-    line-height: 1.5em;
-    width: 100%;
-    text-align: center;
-    margin-top: 3%;
-    margin-left: 25%;
-    margin-right: 25%;
-    max-width: 50%;
-    color: #1E1689;
-
-  }
-
-  header .top-bar div#words {
-    font-size: 215%;
-    font-weight: 700;
-    line-height: 1.5em;
-    width: 100%;
-    text-align: center;
-    margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
-    max-width: 50%;
-    color: #1E1689;
-  }
-
-  header div#clients img{
-    width: 50%;
-    text-align: center;
-    margin-top: 2%;
-  }
-
-  .info {
-  	position: fixed;
-  	bottom: 25vmax;
-  	right: 2vmax;
-  	margin: 0;
-  	-webkit-writing-mode: vertical-lr;
-  	writing-mode: vertical-lr;
-  	z-index: 100;
-    color: #1E1689;
-  	text-align: right;
-    font-weight: 700;
-    font-size: 100%;
-  }
-
-  .info2 {
-  	position: fixed;
-  	bottom: 25vmax;
-  	left: 2vmax;
-  	margin: 0;
-  	-webkit-writing-mode: vertical-lr;
-  	writing-mode: vertical-lr;
-  	z-index: 100;
-    color: #1E1689;
-  	text-align: left;
-    font-weight: 700;
-    font-size: 100%;
-  }
-
-  header .top-bar div button {
-    margin-top: 5%;
-    color: #1E1689;
-    background: #ffffff;
-    box-shadow: 0 2px 10px 0 rgba(73,143,226,0.20);
-    border-radius: 8px;
-    border: 0;
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 125%;
-    font-weight: 700;
-  }
-
-  header .top-bar div button:hover{
-    background: rgba(255,255,255,1);
-    box-shadow: 0 2px 20px 0 rgba(73,143,226,0.40);
-    color: #1E1689;
-  }
-
-  header .top-bar div button p{
-    margin-bottom: 10px;
-    margin-top:0px;
-  }
-
-  header .top-bar div img#arrowbttn {
-    width: 20%;
-  }
-
-  header .top-bar div#headline2{
-    font-size: 275%;
-    font-weight: 700;
-    line-height: 1.5em;
-    text-align: center;
-    margin-top: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
-    max-width: 70%;
-  }
-
-  header .top-bar div#words2{
-    font-size: 150%;
-    font-weight: 700;
-    line-height: 1.5em;
-    width: 100%;
-    text-align: center;
-    margin-top: 1%;
-    margin-left: 32%;
-    margin-right: 32%;
-    max-width: 35%;
-  }
-
-  div#me_results li{
-    background: #FFFFFF;
-    /* border: 1px solid rgba(30,22,137,0.20); */
-    /* box-shadow: 0 2px 15px 0 rgba(0,0,0,0.10);
-    border-radius: 5px;
-  }
-
-  /* Global */
-
-  /* .top-bar div#headline{
-    font-size: 275%;
-    font-weight: 700;
-    line-height: 1.5em;
-    width: 100%;
-    text-align: center;
-    margin-top: 4%;
-    margin-left: 25%;
-    margin-right: 25%;
-    max-width: 50%;
-  }
-
-  .top-bar div#words {
-    font-size: 150%;
-    font-weight: 700;
-    line-height: 1.5em;
-    width: 100%;
-    text-align: center;
-    margin-top: 1%;
-    margin-left: 30%;
-    margin-right: 30%;
-    max-width: 40%;
-  }
-
-  .top-bar div img.project_header{
-    width: 12.5%;
-    max-width: 250px;
-  }
-
-  div.device_img img{
-    width: 75%;
-    max-width: 1500px;
-  }
-
-  div.results ul{
-    list-style-type: none;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    -webkit-padding-start: 0px;
-    margin-left: 5%;
-  }
-
-  div.results ul li{
-    display: inline-table;
-    margin-left: 1%;
-    margin-right: 1%;
-    max-width: 15%;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding-top: 3%;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 2%;
-    border-radius: 5px;
-    min-height: 200px;
-    min-width: 300px;
-  }
-
-  div.results ul li div div.stat{
-    font-weight: 500;
-    font-size: 450%;
-    margin-bottom: 5%;
-  }
-
-  div.results ul li div div.desc{
-    font-weight: 500;
-    font-size: 125%;
-  }
-
-  div.arrow{
-    margin-top: 2%;
-    margin-bottom: 5%;
-  }
-
-  div.arrow img{
-    position: relative;
-    width: 5%;
-  }
-
-  div.arrow p{
-    font-size: 125%;
-  }
-
-  /* GSX */
-
-  /* section#gsx{
-    background: #3440C7;
-    height: -webkit-fill-available;
-    width: 100%;
-    height: 2300px;
-    text-align: center;
-    background-image: url("../img/background/gsx_background.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 125%;
-    color: #C8CDF2;
-    padding-top: 2%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  section#gsx div.device_img img{
-    width: 85%;
-    max-width: 1500px;
-    margin-top: 5%;
-  } */
-
-  /* Apex */
-
-  /* section#apex{
-    background: #F4F0F3;
-    height: -webkit-fill-available;
-    width: 100%;
-    height: 2300px;
-    text-align: center;
-    background-image: url("../img/background/apex_background.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 125%;
-    color: #004977;
-    padding-top: 2%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  section#apex div.device_img img{
-    width: 95%;
-    max-width: 1500px;
-    margin-top: 5%;
-  } */
-
-  /* PS Now */
-
-  /* section#psnow{
-    background: #31373B;
-    height: -webkit-fill-available;
-    width: 100%;
-    height: 2300px;
-    text-align: center;
-    background-image: url("../img/background/psnow_background.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 125%;
-    color: #D7D7D7;
-    padding-top: 2%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  section#psnow div.device_img img{
-    width: 95%;
-    max-width: 1500px;
-    margin-top: 5%;
-  } */
-
-  /* Google ID */
-
-  /* section#id{
-    background: #F5CEC8;
-    height: -webkit-fill-available;
-    width: 100%;
-    height: 2300px;
-    text-align: center;
-    background-image: url("../img/background/id_background.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 125%;
-    color: #3440C7;
-    padding-top: 2%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  section#id div.device_img img{
-    width: 95%;
-    max-width: 1500px;
-    margin-top: 5%;
-  } */
-
-  /* Elements */
-
-  /* section#elements{
-    background: #AEE6CD;
-    height: -webkit-fill-available;
-    width: 100%;
-    height: 2250px;
-    text-align: center;
-    background-image: url("../img/background/elements_background.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 125%;
-    color: #1E1689;
-    padding-top: 2%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  section#elements div.device_img img{
-    width: 85%;
-    max-width: 1500px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  } */
-
-  /* Channels */
-
-  /* section#channels{
-    background: #A08DB7;
-    height: -webkit-fill-available;
-    width: 100%;
-    height: 2300px;
-    text-align: center;
-    background-image: url("../img/background/channels_background.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 125%;
-    color: #D0FAE8;
-    padding-top: 2%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  section#channels div.device_img img{
-    width: 85%;
-    max-width: 1500px;
-    margin-top: 5%;
-  }
-
-  div#channels_results li div div.stat{
-    font-weight: 500;
-    font-size: 250%;
-    padding-bottom: 5%;
-  } */
-
-  /* Other */
-
-  /* section#other{
-    background: #F8D592;
-    height: -webkit-fill-available;
-    width: 100%;
-    height: 2250px;
-    text-align: center;
-    background-image: url("../img/background/other_background.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 150%;
-    color: #A9859C;
-    padding-top: 2%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  section#other div.device_img img{
-    width: 100%;
-    max-width: 1500px;
-  }
-
-  div#other_results li div div.stat{
-    font-weight: 500;
-    font-size: 300%;
-    padding-bottom: 5%;
-  } */
-
-  /* footer */
-
-  /* footer .top-bar {
-    background: #fff;
-    height: -webkit-fill-available;
-    height: 1000px;
-    width: 100%;
-    padding-top: 2%;
-    line-height: 1;
-    text-align: center;
-    background-image: url("../img/background/landscape.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 150%;
-    margin-top: 2%;
-  }
-
-  footer .top-bar div img {
-    width: 8%;
-  }
-
-  footer .top-bar div#headline{
-    font-size: 375%;
-    font-weight: 700;
-    line-height: 1.5em;
-    width: 100%;
-    text-align: center;
-    margin-top: 3%;
-    margin-left: 30%;
-    margin-right: 30%;
-    max-width: 40%;
-    color: #1E1689;
-  }
-
-  footer .top-bar div#words {
-    font-size: 250%;
-    font-weight: 700;
-    line-height: 1.5em;
-    width: 100%;
-    text-align: center;
-    margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
-    max-width: 50%;
-    color: #1E1689;
-  }
-} */
-
-
 /* Media Queries - 1799 */
 
 @media screen and (min-width: 1799px) {
@@ -2749,7 +2291,7 @@ footer div#clients img{
     background: #fff;
     height: -webkit-fill-available;
     width: 100%;
-    height: 2400px;
+    height: 2700px;
     padding-top: 3%;
     line-height: 1;
     text-align: center;
@@ -2760,7 +2302,7 @@ footer div#clients img{
   }
 
   header .top-bar div img {
-    width: 3%;
+    width: 5%;
   }
 
   header .top-bar div img#awh{
@@ -2768,7 +2310,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline{
-    font-size: 450%;
+    font-size: 500%;
     font-weight: 700;
     line-height: 1.5em;
     width: 100%;
@@ -2782,7 +2324,7 @@ footer div#clients img{
   }
 
   header .top-bar div#words {
-    font-size: 300%;
+    font-size: 350%;
     font-weight: 700;
     line-height: 1.5em;
     width: 100%;
@@ -2835,11 +2377,11 @@ footer div#clients img{
     box-shadow: 0 2px 30px 0 rgba(73,143,226,0.20);
     border-radius: 8px;
     border: 0;
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 150%;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 250%;
     font-weight: 700;
   }
 
@@ -2993,7 +2535,7 @@ footer div#clients img{
     background: #F4F0F3;
     height: -webkit-fill-available;
     width: 100%;
-    height: 3350px;
+    height: 3750px;
     text-align: center;
     background-image: url("../img/background/apex_background.svg");
     background-repeat: no-repeat;
@@ -3005,7 +2547,7 @@ footer div#clients img{
   }
 
   section#apex div.device_img img{
-    width: 100%;
+    width: 90%;
     max-width: 2000px;
     margin-top: 5%;
   }
@@ -3016,7 +2558,7 @@ footer div#clients img{
     background: #31373B;
     height: -webkit-fill-available;
     width: 100%;
-    height: 3350px;
+    height: 3450px;
     text-align: center;
     background-image: url("../img/background/psnow_background.svg");
     background-repeat: no-repeat;
@@ -3103,13 +2645,13 @@ footer div#clients img{
   }
 
   div#channels_results li div div.stat{
-    font-weight: lighter;
+    font-weight: 700;
     font-size: 425%;
     padding-bottom: 5%;
   }
 
   div#channels_results li div div.desc{
-    font-weight: lighter;
+    font-weight: 700;
     font-size: 250%;
   }
 
@@ -3136,13 +2678,13 @@ footer div#clients img{
   }
 
   div#other_results li div div.stat{
-    font-weight: lighter;
+    font-weight: 700;
     font-size: 525%;
     padding-bottom: 2%;
   }
 
   div#other_results li div div.desc{
-    font-weight: lighter;
+    font-weight: 700;
     font-size: 250%;
   }
 
@@ -3153,7 +2695,7 @@ footer div#clients img{
     height: -webkit-fill-available;
     height: 1300px;
     width: 100%;
-    padding-top: 8%;
+    /* padding-top: 8%; */
     line-height: 1;
     text-align: center;
     background-image: url("../img/background/landscape.svg");
