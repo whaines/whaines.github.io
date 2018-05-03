@@ -494,7 +494,7 @@ footer div#clients img{
     background: #fff;
     height: -webkit-fill-available;
     width: 100%;
-    height: 825px;
+    height: 875px;
     padding-top: 3%;
     line-height: 1;
     text-align: center;
@@ -837,7 +837,7 @@ footer div#clients img{
     background-image: url("../img/background/channels_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200%;
+    background-size: 210%;
     color: #D0FAE8;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1430,14 +1430,14 @@ footer div#clients img{
     width: 100%;
     text-align: center;
     margin-top: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
-    max-width: 60%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    max-width: 55%;
     color: #1E1689;
   }
 
   header div#clients img{
-    width: 70%;
+    width: 60%;
     text-align: center;
     margin-top: 5%;
   }
@@ -1457,11 +1457,11 @@ footer div#clients img{
     box-shadow: 0 2px 10px 0 rgba(73,143,226,0.20);
     border-radius: 8px;
     border: 0;
-    padding-left: 65px;
-    padding-right: 65px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 125%;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 105%;
     font-weight: 700;
   }
 
@@ -1477,7 +1477,7 @@ footer div#clients img{
   }
 
   header .top-bar div img#arrowbttn {
-    width: 10%;
+    width: 15%;
   }
 
   header .top-bar div#headline2{
@@ -1605,7 +1605,7 @@ footer div#clients img{
     background-image: url("../img/background/gsx_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 175%;
+    background-size: 150%;
     color: #C8CDF2;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1629,7 +1629,7 @@ footer div#clients img{
     background-image: url("../img/background/apex_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 175%;
+    background-size: 150%;
     color: #004977;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1653,7 +1653,7 @@ footer div#clients img{
     background-image: url("../img/background/psnow_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 150%;
+    background-size: 125%;
     color: #D7D7D7;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1677,7 +1677,7 @@ footer div#clients img{
     background-image: url("../img/background/id_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 175%;
+    background-size: 150%;
     color: #3440C7;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1696,7 +1696,7 @@ footer div#clients img{
     background: #AEE6CD;
     height: -webkit-fill-available;
     width: 100%;
-    height: 1200px;
+    height: 1300px;
     text-align: center;
     background-image: url("../img/background/elements_background.svg");
     background-repeat: no-repeat;
@@ -1725,7 +1725,7 @@ footer div#clients img{
     background-image: url("../img/background/channels_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 175%;
+    background-size: 150%;
     color: #D0FAE8;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1755,7 +1755,7 @@ footer div#clients img{
     background-image: url("../img/background/other_background.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 150%;
+    background-size: 125%;
     color: #A9859C;
     padding-top: 5%;
     padding-bottom: 0;
@@ -1786,7 +1786,7 @@ footer div#clients img{
     background-image: url("../img/background/landscape.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 150%;
+    background-size: 125%;
     margin-top: 3%;
   }
 
@@ -1795,12 +1795,12 @@ footer div#clients img{
   }
 
   footer .top-bar div#headline{
-    font-size: 250%;
+    font-size: 225%;
     font-weight: 700;
     line-height: 1.5em;
     width: 100%;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: 25%;
     margin-right: 25%;
     max-width: 50%;
@@ -2278,6 +2278,920 @@ footer div#clients img{
     margin-left: 25%;
     margin-right: 25%;
     max-width: 50%;
+    color: #1E1689;
+  }
+}
+
+/* Media Queries - 1399 - 1799px */
+
+@media screen and (min-width: 1399px) and (max-width: 1499px) {
+
+  header .top-bar {
+    background: #fff;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 1500px;
+    line-height: 1;
+    text-align: center;
+    background-image: url("../img/background/lines.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+  }
+
+  header .top-bar div img {
+    width: 4%;
+  }
+
+  header .top-bar div img#awh{
+    max-width: 90px;
+    width: 5%;
+  }
+
+  header .top-bar div#headline{
+    font-size: 275%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 40%;
+    color: #1E1689;
+
+  }
+
+  header .top-bar div#words {
+    font-size: 175%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 40%;
+    color: #1E1689;
+  }
+
+  header div#clients img{
+    width: 40%;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .info {
+  	position: fixed;
+  	bottom: 25vmax;
+  	right: 2vmax;
+  	margin: 0;
+  	-webkit-writing-mode: vertical-lr;
+  	writing-mode: vertical-lr;
+  	z-index: 100;
+    color: #1E1689;
+  	text-align: right;
+    font-weight: 700;
+    font-size: 100%;
+  }
+
+  .info2 {
+  	position: fixed;
+  	bottom: 25vmax;
+  	left: 2vmax;
+  	margin: 0;
+  	-webkit-writing-mode: vertical-lr;
+  	writing-mode: vertical-lr;
+  	z-index: 100;
+    color: #1E1689;
+  	text-align: left;
+    font-weight: 700;
+    font-size: 100%;
+  }
+
+  header .top-bar div button {
+    margin-top: 8%;
+    color: #1E1689;
+    background: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(73,143,226,0.20);
+    border-radius: 8px;
+    border: 0;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 125%;
+    font-weight: 700;
+  }
+
+  header .top-bar div button:hover{
+    background: rgba(255,255,255,1);
+    box-shadow: 0 2px 20px 0 rgba(73,143,226,0.40);
+    color: #1E1689;
+  }
+
+  header .top-bar div button p{
+    margin-bottom: 10px;
+    margin-top:0px;
+  }
+
+  header .top-bar div img#arrowbttn {
+    width: 20%;
+  }
+
+  header .top-bar div#headline2{
+    font-size: 225%;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 70%;
+  }
+
+  header .top-bar div#words2{
+    font-size: 125%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 30%;
+  }
+
+  div#me_results li{
+    background: #FFFFFF;
+    /* border: 1px solid rgba(30,22,137,0.20); */
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.10);
+    border-radius: 5px;
+  }
+
+  /* Global */
+
+  .top-bar div#headline{
+    font-size: 225%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 50%;
+  }
+
+  .top-bar div#words {
+    font-size: 125%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 30%;
+  }
+
+  .top-bar div img.project_header{
+    width: 9%;
+    max-width: 250px;
+  }
+
+  div.device_img img{
+    width: 75%;
+    max-width: 1500px;
+  }
+
+  div.results ul{
+    list-style-type: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    -webkit-padding-start: 0px;
+    margin-left: 5%;
+  }
+
+  div.results ul li{
+    display: inline-table;
+    margin-left: 1%;
+    margin-right: 1%;
+    max-width: 15%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    min-height: 150px;
+    min-width: 250px;
+  }
+
+  div.results ul li div div.stat{
+    font-weight: 500;
+    font-size: 400%;
+    margin-bottom: 5%;
+  }
+
+  div.results ul li div div.desc{
+    font-weight: 500;
+    font-size: 100%;
+  }
+
+  div.arrow{
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  div.arrow img{
+    position: relative;
+    width: 4%;
+  }
+
+  div.arrow p{
+    font-size: 100%;
+  }
+
+  /* GSX */
+
+  section#gsx{
+    background: #3440C7;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2050px;
+    text-align: center;
+    background-image: url("../img/background/gsx_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125%;
+    color: #C8CDF2;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#gsx div.device_img img{
+    width: 85%;
+    max-width: 1500px;
+    margin-top: 5%;
+  }
+
+  /* Apex */
+
+  section#apex{
+    background: #F4F0F3;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2050px;
+    text-align: center;
+    background-image: url("../img/background/apex_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125%;
+    color: #004977;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#apex div.device_img img{
+    width: 85%;
+    max-width: 1500px;
+    margin-top: 5%;
+  }
+
+  /* PS Now */
+
+  section#psnow{
+    background: #31373B;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 1950px;
+    text-align: center;
+    background-image: url("../img/background/psnow_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+    color: #D7D7D7;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#psnow div.device_img img{
+    width: 85%;
+    max-width: 1500px;
+    margin-top: 7%;
+  }
+
+  /* Google ID */
+
+  section#id{
+    background: #F5CEC8;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2100px;
+    text-align: center;
+    background-image: url("../img/background/id_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125%;
+    color: #3440C7;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#id div.device_img img{
+    width: 95%;
+    max-width: 1500px;
+    margin-top: 5%;
+  }
+
+  /* Elements */
+
+  section#elements{
+    background: #AEE6CD;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2000px;
+    text-align: center;
+    background-image: url("../img/background/elements_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+    color: #1E1689;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#elements div.device_img img{
+    width: 85%;
+    max-width: 1500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  /* Channels */
+
+  section#channels{
+    background: #A08DB7;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2100px;
+    text-align: center;
+    background-image: url("../img/background/channels_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    color: #D0FAE8;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#channels div.device_img img{
+    width: 85%;
+    max-width: 1500px;
+    margin-top: 5%;
+  }
+
+  div#channels_results li div div.stat{
+    font-weight: 700;
+    font-size: 200%;
+    padding-bottom: 5%;
+  }
+
+  /* Other */
+
+  section#other{
+    background: #F8D592;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2050px;
+    text-align: center;
+    background-image: url("../img/background/other_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    color: #A9859C;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#other div.device_img img{
+    width: 100%;
+    max-width: 1500px;
+  }
+
+  div#other_results li div div.stat{
+    font-weight: 700;
+    font-size: 225%;
+    padding-bottom: 3%;
+  }
+
+  /* footer */
+
+  footer .top-bar {
+    background: #fff;
+    height: -webkit-fill-available;
+    height: 750px;
+    width: 100%;
+    line-height: 1;
+    text-align: center;
+    background-image: url("../img/background/landscape.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+  }
+
+  footer .top-bar div img {
+    width: 7%;
+  }
+
+  footer .top-bar div#headline{
+    font-size: 275%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 30%;
+    color: #1E1689;
+  }
+
+  footer .top-bar div#words {
+    font-size: 150%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 30%;
+    color: #1E1689;
+  }
+}
+
+
+/* Media Queries - 1399 - 1799px */
+
+@media screen and (min-width: 1499px) and (max-width: 1799px) {
+
+  header .top-bar {
+    background: #fff;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 1650px;
+    line-height: 1;
+    text-align: center;
+    background-image: url("../img/background/lines.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+  }
+
+  header .top-bar div img {
+    width: 4%;
+  }
+
+  header .top-bar div img#awh{
+    max-width: 90px;
+    width: 5%;
+  }
+
+  header .top-bar div#headline{
+    font-size: 325%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 40%;
+    color: #1E1689;
+
+  }
+
+  header .top-bar div#words {
+    font-size: 200%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 40%;
+    color: #1E1689;
+  }
+
+  header div#clients img{
+    width: 40%;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .info {
+  	position: fixed;
+  	bottom: 25vmax;
+  	right: 2vmax;
+  	margin: 0;
+  	-webkit-writing-mode: vertical-lr;
+  	writing-mode: vertical-lr;
+  	z-index: 100;
+    color: #1E1689;
+  	text-align: right;
+    font-weight: 700;
+    font-size: 100%;
+  }
+
+  .info2 {
+  	position: fixed;
+  	bottom: 25vmax;
+  	left: 2vmax;
+  	margin: 0;
+  	-webkit-writing-mode: vertical-lr;
+  	writing-mode: vertical-lr;
+  	z-index: 100;
+    color: #1E1689;
+  	text-align: left;
+    font-weight: 700;
+    font-size: 100%;
+  }
+
+  header .top-bar div button {
+    margin-top: 8%;
+    color: #1E1689;
+    background: #ffffff;
+    box-shadow: 0 2px 10px 0 rgba(73,143,226,0.20);
+    border-radius: 8px;
+    border: 0;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 125%;
+    font-weight: 700;
+  }
+
+  header .top-bar div button:hover{
+    background: rgba(255,255,255,1);
+    box-shadow: 0 2px 20px 0 rgba(73,143,226,0.40);
+    color: #1E1689;
+  }
+
+  header .top-bar div button p{
+    margin-bottom: 10px;
+    margin-top:0px;
+  }
+
+  header .top-bar div img#arrowbttn {
+    width: 20%;
+  }
+
+  header .top-bar div#headline2{
+    font-size: 225%;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 70%;
+  }
+
+  header .top-bar div#words2{
+    font-size: 150%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 30%;
+  }
+
+  div#me_results li{
+    background: #FFFFFF;
+    /* border: 1px solid rgba(30,22,137,0.20); */
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.10);
+    border-radius: 5px;
+  }
+
+  /* Global */
+
+  .top-bar div#headline{
+    font-size: 225%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 50%;
+  }
+
+  .top-bar div#words {
+    font-size: 125%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 30%;
+  }
+
+  .top-bar div img.project_header{
+    width: 9%;
+    max-width: 250px;
+  }
+
+  div.device_img img{
+    width: 75%;
+    max-width: 1500px;
+  }
+
+  div.results ul{
+    list-style-type: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    -webkit-padding-start: 0px;
+    margin-left: 5%;
+  }
+
+  div.results ul li{
+    display: inline-table;
+    margin-left: 1%;
+    margin-right: 1%;
+    max-width: 15%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    min-height: 150px;
+    min-width: 250px;
+  }
+
+  div.results ul li div div.stat{
+    font-weight: 500;
+    font-size: 500%;
+    margin-bottom: 5%;
+  }
+
+  div.results ul li div div.desc{
+    font-weight: 500;
+    font-size: 100%;
+  }
+
+  div.arrow{
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  div.arrow img{
+    position: relative;
+    width: 4%;
+  }
+
+  div.arrow p{
+    font-size: 100%;
+  }
+
+  /* GSX */
+
+  section#gsx{
+    background: #3440C7;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2300px;
+    text-align: center;
+    background-image: url("../img/background/gsx_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #C8CDF2;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#gsx div.device_img img{
+    width: 85%;
+    max-width: 1500px;
+    margin-top: 5%;
+  }
+
+  /* Apex */
+
+  section#apex{
+    background: #F4F0F3;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2300px;
+    text-align: center;
+    background-image: url("../img/background/apex_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #004977;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#apex div.device_img img{
+    width: 85%;
+    max-width: 1500px;
+    margin-top: 5%;
+  }
+
+  /* PS Now */
+
+  section#psnow{
+    background: #31373B;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2200px;
+    text-align: center;
+    background-image: url("../img/background/psnow_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #D7D7D7;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#psnow div.device_img img{
+    width: 85%;
+    max-width: 1500px;
+    margin-top: 7%;
+  }
+
+  /* Google ID */
+
+  section#id{
+    background: #F5CEC8;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2300px;
+    text-align: center;
+    background-image: url("../img/background/id_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #3440C7;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#id div.device_img img{
+    width: 95%;
+    max-width: 1500px;
+    margin-top: 5%;
+  }
+
+  /* Elements */
+
+  section#elements{
+    background: #AEE6CD;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2250px;
+    text-align: center;
+    background-image: url("../img/background/elements_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #1E1689;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#elements div.device_img img{
+    width: 85%;
+    max-width: 1500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  /* Channels */
+
+  section#channels{
+    background: #A08DB7;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2300px;
+    text-align: center;
+    background-image: url("../img/background/channels_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #D0FAE8;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#channels div.device_img img{
+    width: 85%;
+    max-width: 1500px;
+    margin-top: 5%;
+  }
+
+  div#channels_results li div div.stat{
+    font-weight: 700;
+    font-size: 200%;
+    padding-bottom: 5%;
+  }
+
+  /* Other */
+
+  section#other{
+    background: #F8D592;
+    height: -webkit-fill-available;
+    width: 100%;
+    height: 2150px;
+    text-align: center;
+    background-image: url("../img/background/other_background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #A9859C;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  section#other div.device_img img{
+    width: 100%;
+    max-width: 1500px;
+  }
+
+  div#other_results li div div.stat{
+    font-weight: 700;
+    font-size: 275%;
+    padding-bottom: 3%;
+  }
+
+  /* footer */
+
+  footer .top-bar {
+    background: #fff;
+    height: -webkit-fill-available;
+    height: 800px;
+    width: 100%;
+    line-height: 1;
+    text-align: center;
+    background-image: url("../img/background/landscape.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+  }
+
+  footer .top-bar div img {
+    width: 5%;
+  }
+
+  footer .top-bar div#headline{
+    font-size: 305%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 30%;
+    color: #1E1689;
+  }
+
+  footer .top-bar div#words {
+    font-size: 175%;
+    font-weight: 700;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    max-width: 30%;
     color: #1E1689;
   }
 }
