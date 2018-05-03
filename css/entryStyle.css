@@ -246,7 +246,7 @@ section#gsx{
   background: #3440C7;
   height: -webkit-fill-available;
   width: 100%;
-  height: 1950px;
+  height: 2150px;
   text-align: center;
   background-image: url("../img/background/gsx_background.svg");
   background-repeat: no-repeat;
@@ -268,7 +268,7 @@ section#apex{
   background: #F4F0F3;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2000px;
+  height: 2250px;
   text-align: center;
   background-image: url("../img/background/apex_background.svg");
   background-repeat: no-repeat;
@@ -295,7 +295,7 @@ section#psnow{
   background: #31373B;
   height: -webkit-fill-available;
   width: 100%;
-  height: 1950px;
+  height: 2150px;
   text-align: center;
   background-image: url("../img/background/psnow_background.svg");
   background-repeat: no-repeat;
@@ -322,7 +322,7 @@ section#id{
   background: #F5CEC8;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2100px;
+  height: 2250px;
   text-align: center;
   background-image: url("../img/background/id_background.svg");
   background-repeat: no-repeat;
@@ -348,7 +348,7 @@ section#elements{
   background: #AEE6CD;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2100px;
+  height: 2300px;
   text-align: center;
   background-image: url("../img/background/elements_background.svg");
   background-repeat: no-repeat;
@@ -376,7 +376,7 @@ section#channels{
   background: #A08DB7;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2100px;
+  height: 2300px;
   text-align: center;
   background-image: url("../img/background/channels_background.svg");
   background-repeat: no-repeat;
@@ -408,7 +408,7 @@ section#other{
   background: #F8D592;
   height: -webkit-fill-available;
   width: 100%;
-  height: 2050px;
+  height: 2150px;
   text-align: center;
   background-image: url("../img/background/other_background.svg");
   background-repeat: no-repeat;
@@ -444,7 +444,7 @@ footer .top-bar {
   background-image: url("../img/background/landscape.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 125%;
+  background-size: 100%;
   margin-top: 3%;
 }
 
