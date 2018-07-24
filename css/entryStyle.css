@@ -40,6 +40,7 @@ header .top-bar div img {
 }
 
 header .top-bar div#headline{
+  font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
   font-size: 300%;
   font-weight: 900;
   line-height: 1.5em;
@@ -102,6 +103,7 @@ header .top-bar div img#arrowbttn {
 }
 
 header .top-bar div#headline2{
+  font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
   font-size: 200%;
   font-weight: 700;
   line-height: 1.5em;
@@ -161,7 +163,8 @@ div#me_results li{
 /* Global */
 
 .top-bar div#headline{
-  font-size: 225%;
+  font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+  font-size: 300%;
   font-weight: 700;
   line-height: 1.5em;
   width: 100%;
@@ -218,6 +221,7 @@ div.results ul li{
 }
 
 div.results ul li div div.stat{
+  font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 550%;
   margin-bottom: 2%;
@@ -514,6 +518,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 150%;
     font-weight: 700;
     line-height: 1.5em;
@@ -545,6 +550,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline2{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 150%;
     font-weight: 700;
     line-height: 1.5em;
@@ -615,6 +621,7 @@ footer div#clients img{
   /* Global */
 
   .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 125%;
     font-weight: 700;
     line-height: 1.5em;
@@ -672,6 +679,7 @@ footer div#clients img{
   }
 
   div.results ul li div div.stat{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 175%;
     margin-bottom: 5%;
@@ -962,6 +970,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 150%;
     font-weight: 700;
     line-height: 1.5em;
@@ -993,6 +1002,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline2{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 150%;
     font-weight: 700;
     line-height: 1.5em;
@@ -1063,6 +1073,7 @@ footer div#clients img{
   /* Global */
 
   .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 125%;
     font-weight: 700;
     line-height: 1.5em;
@@ -1121,6 +1132,7 @@ footer div#clients img{
   }
 
   div.results ul li div div.stat{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 200%;
     margin-bottom: 5%;
@@ -1410,6 +1422,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 200%;
     font-weight: 700;
     line-height: 1.5em;
@@ -1481,6 +1494,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline2{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 150%;
     font-weight: 700;
     line-height: 1.5em;
@@ -1513,6 +1527,7 @@ footer div#clients img{
   /* Global */
 
   .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 150%;
     font-weight: 700;
     line-height: 1.5em;
@@ -1570,6 +1585,7 @@ footer div#clients img{
   }
 
   div.results ul li div div.stat{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 250%;
     margin-bottom: 5%;
@@ -1850,6 +1866,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 275%;
     font-weight: 700;
     line-height: 1.5em;
@@ -1941,6 +1958,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline2{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 250%;
     font-weight: 700;
     line-height: 1.5em;
@@ -1973,6 +1991,7 @@ footer div#clients img{
   /* Global */
 
   .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 225%;
     font-weight: 700;
     line-height: 1.5em;
@@ -2030,6 +2049,7 @@ footer div#clients img{
   }
 
   div.results ul li div div.stat{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 450%;
     margin-bottom: 5%;
@@ -2310,6 +2330,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 275%;
     font-weight: 700;
     line-height: 1.5em;
@@ -2401,6 +2422,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline2{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 250%;
     font-weight: 700;
     line-height: 1.5em;
@@ -2433,6 +2455,7 @@ footer div#clients img{
   /* Global */
 
   .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 250%;
     font-weight: 700;
     line-height: 1.5em;
@@ -2490,6 +2513,7 @@ footer div#clients img{
   }
 
   div.results ul li div div.stat{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 350%;
     margin-bottom: 5%;
@@ -2769,6 +2793,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 275%;
     font-weight: 700;
     line-height: 1.5em;
@@ -2860,6 +2885,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline2{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 225%;
     font-weight: 700;
     line-height: 1.5em;
@@ -2892,6 +2918,7 @@ footer div#clients img{
   /* Global */
 
   .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 225%;
     font-weight: 700;
     line-height: 1.5em;
@@ -2949,6 +2976,7 @@ footer div#clients img{
   }
 
   div.results ul li div div.stat{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 400%;
     margin-bottom: 5%;
@@ -3227,6 +3255,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 325%;
     font-weight: 700;
     line-height: 1.5em;
@@ -3318,6 +3347,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline2{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 225%;
     font-weight: 700;
     line-height: 1.5em;
@@ -3350,6 +3380,7 @@ footer div#clients img{
   /* Global */
 
   .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 225%;
     font-weight: 700;
     line-height: 1.5em;
@@ -3407,6 +3438,7 @@ footer div#clients img{
   }
 
   div.results ul li div div.stat{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 500%;
     margin-bottom: 5%;
@@ -3684,6 +3716,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 500%;
     font-weight: 700;
     line-height: 1.5em;
@@ -3766,6 +3799,7 @@ footer div#clients img{
   }
 
   header .top-bar div#headline2{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 350%;
     font-weight: 700;
     line-height: 1.5em;
@@ -3798,6 +3832,7 @@ footer div#clients img{
   /* Global */
 
   .top-bar div#headline{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-size: 375%;
     font-weight: 700;
     line-height: 1.5em;
@@ -3855,6 +3890,7 @@ footer div#clients img{
   }
 
   div.results ul li div div.stat{
+    font-family: Canela, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 925%;
     margin-bottom: 5%;
