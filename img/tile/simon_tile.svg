@@ -8,8 +8,8 @@
         <ellipse id="path-3" cx="14.1549158" cy="14.2566974" rx="14.1549158" ry="14.2566974"></ellipse>
     </defs>
     <g id="V3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Intro-Copy-7" transform="translate(-931.000000, -4851.000000)">
-            <g id="Group-42-Copy-2" transform="translate(165.000000, 4211.000000)">
+        <g id="Intro-Copy-7" transform="translate(-931.000000, -4503.000000)">
+            <g id="Group-42-Copy-2" transform="translate(165.000000, 3863.000000)">
                 <g id="Group-25-Copy-8" transform="translate(766.000000, 640.000000)">
                     <g id="Group-23">
                         <mask id="mask-2" fill="white">
@@ -58,7 +58,7 @@
                             </g>
                         </g>
                     </g>
-                    <text id="Simon-Annuities" font-family="CircularStd-Medium, Circular Std" font-size="36" font-weight="400" fill="#FFFFFF">
+                    <text id="Simon-Annuities" font-family="Canela-Light, Canela" font-size="40" font-weight="300" fill="#FFFFFF">
                         <tspan x="24" y="129">Simon Annuities</tspan>
                     </text>
                 </g>

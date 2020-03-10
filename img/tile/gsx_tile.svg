@@ -11,8 +11,8 @@
         <path d="M27.7979651,12.1870483 L14.3895349,12.1870483 L14.3895349,17.7410256 L22.1075581,17.7410256 C21.3880814,21.2694346 18.3793605,23.2950028 14.3895349,23.2950028 C9.68023256,23.2950028 5.88662791,19.5052301 5.88662791,14.8006846 C5.88662791,10.0961392 9.68023256,6.30636646 14.3895349,6.30636646 C16.4171512,6.30636646 18.2485465,7.02511646 19.6875,8.20125282 L23.8735465,4.01943464 C21.3226744,1.79784373 18.0523256,0.425684643 14.3895349,0.425684643 C6.40988372,0.425684643 0,6.82909373 0,14.8006846 C0,22.7722756 6.40988372,29.1756846 14.3895349,29.1756846 C21.5843023,29.1756846 28.125,23.9484119 28.125,14.8006846 C28.125,13.9512528 27.994186,13.0364801 27.7979651,12.1870483 Z" id="path-9"></path>
     </defs>
     <g id="V3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Intro-Copy-7" transform="translate(-165.000000, -4327.000000)">
-            <g id="Group-42-Copy-2" transform="translate(165.000000, 4211.000000)">
+        <g id="Intro-Copy-7" transform="translate(-165.000000, -3979.000000)">
+            <g id="Group-42-Copy-2" transform="translate(165.000000, 3863.000000)">
                 <g id="Group-25" transform="translate(0.000000, 116.000000)">
                     <g id="Group-23">
                         <mask id="mask-2" fill="white">
@@ -54,9 +54,9 @@
                             </g>
                         </g>
                     </g>
-                    <text id="Google-Shopping-Expr" font-family="CircularStd-Medium, Circular Std" font-size="36" font-weight="400" fill="#EAECFF">
+                    <text id="Google-Shopping-Expr" font-family="Canela-Light, Canela" font-size="40" font-weight="300" fill="#EAECFF">
                         <tspan x="24" y="129">Google Shopping </tspan>
-                        <tspan x="24" y="175">Express</tspan>
+                        <tspan x="24" y="177">Express</tspan>
                     </text>
                 </g>
             </g>

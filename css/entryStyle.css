@@ -80,6 +80,11 @@ div.results ul li div div.desc{
   line-height: 1.75;
 }
 
+/* div#work ul li img:hover {
+  box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.2);
+
+} */
+
 /* Apex */
 
 div#apex_results li{
@@ -122,8 +127,8 @@ div#channels_results li div div.stat{
     height: 1215px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -156,7 +161,7 @@ div#channels_results li div div.stat{
     margin-left: 15%;
     margin-right: 15%;
     max-width: 50%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -170,7 +175,7 @@ div#channels_results li div div.stat{
     margin-left: 15%;
     margin-right: 15%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -182,7 +187,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 15%;
     max-width: 50%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -212,7 +217,7 @@ div#channels_results li div div.stat{
     margin-left: 15%;
     margin-right: 15%;
     max-width: 55%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -225,7 +230,7 @@ div#channels_results li div div.stat{
     margin-left: 15%;
     margin-right: 15%;
     max-width: 55%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -234,7 +239,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 15%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -250,6 +255,7 @@ div#channels_results li div div.stat{
     min-height: 60px;
     min-width: 60px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -257,14 +263,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 150%;
     margin-bottom: 5%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 6px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -294,6 +300,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 60px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -306,7 +313,7 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 55%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
@@ -813,8 +820,8 @@ div#channels_results li div div.stat{
     height: 1250px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -847,7 +854,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -861,7 +868,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -873,7 +880,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -903,7 +910,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -916,7 +923,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -925,7 +932,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -941,6 +948,7 @@ div#channels_results li div div.stat{
     min-height: 60px;
     min-width: 60px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -948,14 +956,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 150%;
     margin-bottom: 5%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 6px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -985,6 +993,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 65px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -997,14 +1006,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 55%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 55%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -1504,8 +1513,8 @@ div#channels_results li div div.stat{
     height: 1300px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -1538,7 +1547,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -1552,7 +1561,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -1564,7 +1573,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -1594,7 +1603,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -1607,7 +1616,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -1616,7 +1625,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -1632,6 +1641,7 @@ div#channels_results li div div.stat{
     min-height: 60px;
     min-width: 65px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -1639,14 +1649,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 150%;
     margin-bottom: 5%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 6px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -1676,6 +1686,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 65px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -1688,14 +1699,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 55%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 55%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -2195,8 +2206,8 @@ div#channels_results li div div.stat{
     height: 1550px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -2229,7 +2240,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -2243,7 +2254,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -2255,7 +2266,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -2285,7 +2296,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -2298,7 +2309,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -2307,7 +2318,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -2323,6 +2334,7 @@ div#channels_results li div div.stat{
     min-height: 60px;
     min-width: 75px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -2330,14 +2342,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 175%;
     margin-bottom: 5%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 8px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -2367,6 +2379,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 80px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -2379,14 +2392,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 75%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 73%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -2887,8 +2900,8 @@ div#channels_results li div div.stat{
     height: 1850px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -2921,7 +2934,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -2935,7 +2948,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -2947,7 +2960,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -2977,7 +2990,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -2990,7 +3003,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -2999,7 +3012,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -3015,6 +3028,7 @@ div#channels_results li div div.stat{
     min-height: 60px;
     min-width: 92px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -3022,14 +3036,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 200%;
     margin-bottom: 5%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 8px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -3059,6 +3073,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 100px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -3071,14 +3086,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 85%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 85%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -3579,8 +3594,8 @@ div#channels_results li div div.stat{
     height: 2150px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -3613,7 +3628,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -3627,7 +3642,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -3639,7 +3654,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -3669,7 +3684,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -3682,7 +3697,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -3691,7 +3706,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -3707,6 +3722,7 @@ div#channels_results li div div.stat{
     min-height: 60px;
     min-width: 110px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -3714,14 +3730,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 225%;
     margin-bottom: 5%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 10px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -3751,6 +3767,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 115px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -3763,14 +3780,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 95%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 105%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -4271,8 +4288,8 @@ div#channels_results li div div.stat{
     height: 2515px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -4305,7 +4322,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -4319,7 +4336,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -4331,7 +4348,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -4361,7 +4378,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -4374,7 +4391,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -4383,7 +4400,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -4399,6 +4416,7 @@ div#channels_results li div div.stat{
     min-height: 60px;
     min-width: 125px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -4406,14 +4424,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 250%;
     margin-bottom: 5%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 10px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -4443,6 +4461,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 135px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -4455,14 +4474,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 105%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 125%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -4967,8 +4986,8 @@ div#channels_results li div div.stat{
     height: 2675px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -5001,7 +5020,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -5015,7 +5034,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -5027,7 +5046,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -5057,7 +5076,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -5070,7 +5089,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -5079,7 +5098,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -5095,6 +5114,7 @@ div#channels_results li div div.stat{
     min-height: 60px;
     min-width: 125px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -5102,14 +5122,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 250%;
     margin-bottom: 5%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 10px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -5139,6 +5159,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 135px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -5151,14 +5172,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 105%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 125%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -5663,8 +5684,8 @@ div#channels_results li div div.stat{
     height: 3125px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -5697,7 +5718,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -5711,7 +5732,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -5723,7 +5744,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -5753,7 +5774,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -5766,7 +5787,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -5775,7 +5796,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -5791,6 +5812,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 155px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -5798,14 +5820,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 325%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 12px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -5835,6 +5857,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 170px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -5847,14 +5870,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 125%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 150%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -6358,8 +6381,8 @@ div#channels_results li div div.stat{
     height: 3425px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -6392,7 +6415,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -6406,7 +6429,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -6418,7 +6441,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -6448,7 +6471,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -6461,7 +6484,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -6470,7 +6493,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -6486,6 +6509,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 165px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -6493,14 +6517,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 350%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 14px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -6530,6 +6554,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 180px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -6542,14 +6567,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 150%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 160%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -7053,8 +7078,8 @@ div#channels_results li div div.stat{
     height: 3625px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -7087,7 +7112,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -7101,7 +7126,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -7113,7 +7138,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -7143,7 +7168,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -7156,7 +7181,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -7165,7 +7190,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -7181,6 +7206,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 185px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -7188,14 +7214,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 375%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 14px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -7225,6 +7251,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 200px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -7237,14 +7264,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 175%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 175%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -7748,8 +7775,8 @@ div#channels_results li div div.stat{
     height: 4100px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -7782,7 +7809,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -7796,7 +7823,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -7808,7 +7835,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -7838,7 +7865,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -7851,7 +7878,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -7860,7 +7887,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -7876,6 +7903,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 200px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -7883,14 +7911,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 425%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 16px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -7920,6 +7948,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 225px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -7932,14 +7961,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 200%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 200%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -8443,8 +8472,8 @@ div#channels_results li div div.stat{
     height: 4425px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -8477,7 +8506,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -8491,7 +8520,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -8503,7 +8532,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -8533,7 +8562,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -8546,7 +8575,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -8555,7 +8584,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -8571,6 +8600,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 215px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -8578,14 +8608,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 450%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 18px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -8615,6 +8645,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 235px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -8627,14 +8658,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 215%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 215%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -9138,8 +9169,8 @@ div#channels_results li div div.stat{
     height: 4775px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -9172,7 +9203,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -9186,7 +9217,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -9198,7 +9229,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -9228,7 +9259,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -9241,7 +9272,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -9250,7 +9281,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -9266,6 +9297,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 235px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -9273,14 +9305,14 @@ div#channels_results li div div.stat{
     font-weight: 100;
     font-size: 475%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 20px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -9310,6 +9342,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 250px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -9322,14 +9355,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 225%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 225%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -9833,8 +9866,8 @@ div#channels_results li div div.stat{
     height: 5000px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -9867,7 +9900,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -9881,7 +9914,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -9893,7 +9926,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -9923,7 +9956,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -9936,7 +9969,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -9945,7 +9978,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -9961,6 +9994,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 245px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -9968,14 +10002,14 @@ div#channels_results li div div.stat{
     font-weight: 100s;
     font-size: 500%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 20px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -10005,6 +10039,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 275px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -10017,14 +10052,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 250%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 250%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -10528,8 +10563,8 @@ div#channels_results li div div.stat{
     height: 5300px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -10562,7 +10597,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -10576,7 +10611,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -10588,7 +10623,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -10618,7 +10653,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -10631,7 +10666,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -10640,7 +10675,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -10656,6 +10691,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 265px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -10663,14 +10699,14 @@ div#channels_results li div div.stat{
     font-weight: 100s;
     font-size: 550%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 22px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -10700,6 +10736,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 290px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -10712,14 +10749,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 250%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 250%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -11223,8 +11260,8 @@ div#channels_results li div div.stat{
     height: 5600px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -11257,7 +11294,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -11271,7 +11308,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -11283,7 +11320,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -11313,7 +11350,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -11326,7 +11363,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -11335,7 +11372,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -11351,6 +11388,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 275px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -11358,14 +11396,14 @@ div#channels_results li div div.stat{
     font-weight: 100s;
     font-size: 575%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 24px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -11395,6 +11433,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 300px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -11407,14 +11446,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 275%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 275%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -11918,8 +11957,8 @@ div#channels_results li div div.stat{
     height: 5950px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -11952,7 +11991,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -11966,7 +12005,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -11978,7 +12017,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -12008,7 +12047,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -12021,7 +12060,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -12030,7 +12069,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -12046,6 +12085,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 300px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -12053,14 +12093,14 @@ div#channels_results li div div.stat{
     font-weight: 100s;
     font-size: 600%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 24px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -12090,6 +12130,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 325px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -12102,14 +12143,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 275%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 275%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -12613,8 +12654,8 @@ div#channels_results li div div.stat{
     height: 6200px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -12647,7 +12688,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -12661,7 +12702,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -12673,7 +12714,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -12703,7 +12744,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -12716,7 +12757,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -12725,7 +12766,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -12741,6 +12782,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 320px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -12748,14 +12790,14 @@ div#channels_results li div div.stat{
     font-weight: 100s;
     font-size: 625%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 24px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -12785,6 +12827,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 350px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -12797,14 +12840,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 275%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 275%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -13308,8 +13351,8 @@ div#channels_results li div div.stat{
     height: 6400px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -13342,7 +13385,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -13356,7 +13399,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -13368,7 +13411,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -13398,7 +13441,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -13411,7 +13454,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -13420,7 +13463,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -13436,6 +13479,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 325px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -13443,14 +13487,14 @@ div#channels_results li div div.stat{
     font-weight: 100s;
     font-size: 650%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 24px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -13480,6 +13524,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 360px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -13492,14 +13537,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 275%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 275%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -14003,8 +14048,8 @@ div#channels_results li div div.stat{
     height: 6850px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -14037,7 +14082,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -14051,7 +14096,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -14063,7 +14108,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -14093,7 +14138,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -14106,7 +14151,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -14115,7 +14160,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -14131,6 +14176,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 350px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -14138,14 +14184,14 @@ div#channels_results li div div.stat{
     font-weight: 100s;
     font-size: 675%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 26px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -14175,6 +14221,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 375px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -14187,14 +14234,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 295%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 295%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -14698,8 +14745,8 @@ div#channels_results li div div.stat{
     height: 7200px;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -14708,7 +14755,7 @@ div#channels_results li div div.stat{
   header .top-bar a{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 500;
-    color: #2196F3;
+    color: #5E6880;
   }
 
   header .top-bar a:hover{
@@ -14732,7 +14779,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -14746,7 +14793,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -14788,7 +14835,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -14801,7 +14848,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -14810,7 +14857,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     border-radius: 20px;
   }
 
@@ -14826,6 +14873,7 @@ div#channels_results li div div.stat{
     min-height: 65px;
     min-width: 360px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -14833,14 +14881,14 @@ div#channels_results li div div.stat{
     font-weight: 100s;
     font-size: 700%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 28px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -14870,6 +14918,7 @@ div#channels_results li div div.stat{
     min-height: 50px;
     min-width: 400px;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -14882,14 +14931,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 300%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 300%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -15393,8 +15442,8 @@ div#channels_results li div div.stat{
     height: 100%;
     line-height: 1;
     text-align: left;
-    background-color: #F7F7F7;
-    background-image: url("../img/background/new_intro_background.svg");
+    background-color: #D3E3F0;
+    background-image: url("../img/background/alt_intro.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -15427,7 +15476,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#hey {
@@ -15441,7 +15490,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words {
@@ -15453,7 +15502,7 @@ div#channels_results li div div.stat{
     /* margin-top: 2%; */
     margin-left: 20%;
     max-width: 40%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header div#clients img{
@@ -15483,7 +15532,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #111111;
+    color: #5E6880;
   }
 
   header .top-bar div#words2{
@@ -15496,7 +15545,7 @@ div#channels_results li div div.stat{
     margin-left: 20%;
     margin-right: 20%;
     max-width: 45%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul{
@@ -15505,7 +15554,7 @@ div#channels_results li div div.stat{
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
     margin-left: 19%;
-    color: #111111;
+    color: #5E6880;
     padding-bottom: 0;
   }
 
@@ -15521,6 +15570,7 @@ div#channels_results li div div.stat{
     min-height: 60%;
     min-width: 20%;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   div.results#me_results ul li div div.stat{
@@ -15528,14 +15578,14 @@ div#channels_results li div div.stat{
     font-weight: 100s;
     font-size: 725%;
     margin-bottom: 3%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 28px;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.2em;
     padding-top: 5%;
   }
@@ -15566,6 +15616,7 @@ div#channels_results li div div.stat{
     min-height: 70px;
     min-width: 25%;
     box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
   }
 
   div.results#values img{
@@ -15578,14 +15629,14 @@ div#channels_results li div div.stat{
     font-weight: 300;
     font-size: 300%;
     margin-bottom: 10%;
-    color: #9B9B9B;
+    color: #5E6880;
   }
 
   div.results#values ul li div div.desc{
     font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 300%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }

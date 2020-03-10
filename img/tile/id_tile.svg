@@ -7,8 +7,8 @@
         <rect id="path-1" x="0" y="0" width="343" height="222" rx="20"></rect>
     </defs>
     <g id="V3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Intro-Copy-7" transform="translate(-931.000000, -4589.000000)">
-            <g id="Group-42-Copy-2" transform="translate(165.000000, 4211.000000)">
+        <g id="Intro-Copy-7" transform="translate(-931.000000, -4241.000000)">
+            <g id="Group-42-Copy-2" transform="translate(165.000000, 3863.000000)">
                 <g id="Group-25-Copy-5" transform="translate(766.000000, 378.000000)">
                     <g id="Group-23">
                         <mask id="mask-2" fill="white">
@@ -27,7 +27,7 @@
                             <polygon id="Close" points="0.299229127 0 3.42243315 3.11733333 6.54563716 0 6.84486629 0.298666667 3.72166227 3.416 6.84486629 6.53333333 6.54563716 6.832 3.42243315 3.71466667 0.299229127 6.832 0 6.53333333 3.12320402 3.416 0 0.298666667"></polygon>
                         </g>
                     </g>
-                    <text id="Google-Identity" font-family="CircularStd-Medium, Circular Std" font-size="36" font-weight="400" fill="#3440C7">
+                    <text id="Google-Identity" font-family="Canela-Light, Canela" font-size="40" font-weight="300" fill="#3440C7">
                         <tspan x="24" y="129">Google Identity</tspan>
                     </text>
                 </g>

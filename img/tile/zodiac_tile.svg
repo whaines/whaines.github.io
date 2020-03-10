@@ -7,8 +7,8 @@
         <rect id="path-1" x="0" y="0" width="343" height="222" rx="20"></rect>
     </defs>
     <g id="V3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Intro-Copy-7" transform="translate(-548.000000, -4851.000000)">
-            <g id="Group-42-Copy-2" transform="translate(165.000000, 4211.000000)">
+        <g id="Intro-Copy-7" transform="translate(-548.000000, -4503.000000)">
+            <g id="Group-42-Copy-2" transform="translate(165.000000, 3863.000000)">
                 <g id="Group-25-Copy-7" transform="translate(383.000000, 640.000000)">
                     <g id="Group-23">
                         <mask id="mask-2" fill="white">
@@ -29,9 +29,9 @@
                             </g>
                         </g>
                     </g>
-                    <text id="Zodiac-Data-Science" font-family="CircularStd-Medium, Circular Std" font-size="36" font-weight="400" fill="#C8DDF2">
+                    <text id="Zodiac-Data-Science" font-family="Canela-Light, Canela" font-size="40" font-weight="300" fill="#C8DDF2">
                         <tspan x="24" y="129">Zodiac Data </tspan>
-                        <tspan x="24" y="175">Science</tspan>
+                        <tspan x="24" y="177">Science</tspan>
                     </text>
                 </g>
             </g>
