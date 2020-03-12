@@ -1,5 +1,67 @@
 /* Global */
 
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/CircularStd-Book.otf") format("otf"),
+       url("/fonts/CircularStd-Book.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/CircularStd-Medium.otf") format("otf"),
+       url("/fonts/CircularStd-Medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/CircularStd-Bold.otf") format("otf"),
+       url("/fonts/CircularStd-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/CircularStd-Black.otf") format("otf"),
+       url("/fonts/CircularStd-Black.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/Canela-Thin.otf") format("otf"),
+       url("/fonts/Canela-Thin.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/Canela-Regular.otf") format("otf"),
+       url("/fonts/Canela-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/Canela-Medium.otf") format("otf"),
+       url("/fonts/Canela-Medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/Canela-Light.otf") format("otf"),
+       url("/fonts/Canela-Light.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/Canela-Bold.otf") format("otf"),
+       url("/fonts/Canela-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/Canela-Black.otf") format("otf"),
+       url("/fonts/Canela-Black.otf") format("otf");
+}
+
+
+
 body {
   font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
 }
@@ -67,7 +129,7 @@ div.results ul li{
 }
 
 div.results ul li div div.stat{
-  font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+  font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
   font-weight: 500;
   font-size: 550%;
   margin-bottom: 2%;
@@ -151,9 +213,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -165,9 +227,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 80%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -180,7 +242,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 8px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -207,9 +269,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -222,7 +284,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 8px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -259,8 +321,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 150%;
     margin-bottom: 5%;
     color: #5E6880;
@@ -268,7 +330,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 6px;
     color: #5E6880;
     line-height: 1.2em;
@@ -317,10 +379,10 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 55%;
-    color: #9B9B9B;
+    color: #5E6880;
     line-height: 1.5;
     padding-top: 5%;
   }
@@ -365,9 +427,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -409,15 +471,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 120%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 5px;
     line-height: 1.2;
   }
@@ -717,7 +779,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 60%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -725,7 +787,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 5px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -765,7 +827,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 85%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -844,9 +906,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -858,9 +920,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 80%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -873,7 +935,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 8px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -900,9 +962,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -915,7 +977,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 8px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -952,8 +1014,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 150%;
     margin-bottom: 5%;
     color: #5E6880;
@@ -961,7 +1023,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 6px;
     color: #5E6880;
     line-height: 1.2em;
@@ -991,7 +1053,7 @@ div#channels_results li div div.stat{
     padding-right: 2%;
     padding-bottom: 2%;
     min-height: 50px;
-    min-width: 65px;
+    min-width: 60px;
     box-shadow: none;
     background-color: rgba(255, 255, 255, 0);
   }
@@ -1010,8 +1072,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 55%;
     color: #5E6880;
     line-height: 1.5;
@@ -1058,9 +1120,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -1102,15 +1164,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 120%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 6px;
     line-height: 1.2;
   }
@@ -1410,7 +1472,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 60%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -1418,7 +1480,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 5px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -1458,7 +1520,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 85%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -1537,9 +1599,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -1551,9 +1613,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 80%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -1566,7 +1628,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 8px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -1593,9 +1655,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -1608,7 +1670,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 8px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -1645,8 +1707,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 150%;
     margin-bottom: 5%;
     color: #5E6880;
@@ -1654,7 +1716,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 6px;
     color: #5E6880;
     line-height: 1.2em;
@@ -1703,8 +1765,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 55%;
     color: #5E6880;
     line-height: 1.5;
@@ -1751,9 +1813,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -1795,15 +1857,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 120%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 6px;
     line-height: 1.2;
   }
@@ -2103,7 +2165,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 65%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -2111,7 +2173,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 6px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -2151,7 +2213,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 85%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -2230,9 +2292,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 125%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -2244,9 +2306,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 100%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -2259,7 +2321,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 10px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -2286,9 +2348,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 125%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -2301,7 +2363,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 10px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -2338,8 +2400,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 175%;
     margin-bottom: 5%;
     color: #5E6880;
@@ -2347,7 +2409,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 8px;
     color: #5E6880;
     line-height: 1.2em;
@@ -2396,8 +2458,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 73%;
     color: #5E6880;
     line-height: 1.5;
@@ -2445,9 +2507,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 125%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -2489,15 +2551,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 175%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 6px;
     line-height: 1.2;
   }
@@ -2797,7 +2859,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 75%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -2805,7 +2867,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 6px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -2845,7 +2907,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 95%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -2924,9 +2986,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 150%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -2938,9 +3000,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -2953,7 +3015,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -2980,9 +3042,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 150%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -2995,7 +3057,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -3032,8 +3094,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 200%;
     margin-bottom: 5%;
     color: #5E6880;
@@ -3041,7 +3103,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 8px;
     color: #5E6880;
     line-height: 1.2em;
@@ -3090,8 +3152,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 85%;
     color: #5E6880;
     line-height: 1.5;
@@ -3139,9 +3201,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 150%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -3183,15 +3245,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 200%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 8px;
     line-height: 1.2;
   }
@@ -3491,7 +3553,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 100%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -3499,7 +3561,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 8px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -3539,7 +3601,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 110%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -3618,9 +3680,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 175%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -3632,9 +3694,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 125%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -3647,7 +3709,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -3674,9 +3736,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 175%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -3689,7 +3751,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -3726,8 +3788,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 225%;
     margin-bottom: 5%;
     color: #5E6880;
@@ -3735,7 +3797,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 10px;
     color: #5E6880;
     line-height: 1.2em;
@@ -3784,8 +3846,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 105%;
     color: #5E6880;
     line-height: 1.5;
@@ -3833,9 +3895,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 200%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -3877,15 +3939,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 225%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 10px;
     line-height: 1.2;
   }
@@ -4185,7 +4247,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 110%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -4193,7 +4255,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 10px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -4233,7 +4295,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 145%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -4312,9 +4374,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 215%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -4326,9 +4388,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 140%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -4341,7 +4403,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -4368,9 +4430,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 215%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -4383,7 +4445,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -4420,8 +4482,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 250%;
     margin-bottom: 5%;
     color: #5E6880;
@@ -4429,7 +4491,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 10px;
     color: #5E6880;
     line-height: 1.2em;
@@ -4478,8 +4540,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 125%;
     color: #5E6880;
     line-height: 1.5;
@@ -4527,9 +4589,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 215%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -4571,15 +4633,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 250%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 10px;
     line-height: 1.2;
   }
@@ -4883,7 +4945,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 125%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -4891,7 +4953,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 10px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -4931,7 +4993,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 155%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -5010,9 +5072,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 225%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -5024,9 +5086,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 150%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -5039,7 +5101,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -5066,9 +5128,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 225%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -5081,7 +5143,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -5118,8 +5180,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 250%;
     margin-bottom: 5%;
     color: #5E6880;
@@ -5127,7 +5189,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 10px;
     color: #5E6880;
     line-height: 1.2em;
@@ -5176,8 +5238,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 125%;
     color: #5E6880;
     line-height: 1.5;
@@ -5225,9 +5287,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 225%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -5269,15 +5331,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 250%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 10px;
     line-height: 1.2;
   }
@@ -5581,7 +5643,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 150%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -5589,7 +5651,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 10px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -5629,7 +5691,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 200%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -5708,9 +5770,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 250%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -5722,9 +5784,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 175%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -5737,7 +5799,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -5764,9 +5826,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 250%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -5779,7 +5841,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -5816,8 +5878,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 325%;
     margin-bottom: 3%;
     color: #5E6880;
@@ -5825,7 +5887,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 12px;
     color: #5E6880;
     line-height: 1.2em;
@@ -5874,8 +5936,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 150%;
     color: #5E6880;
     line-height: 1.5;
@@ -5923,9 +5985,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 275%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -5967,15 +6029,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 300%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 12px;
     line-height: 1.2;
   }
@@ -6279,7 +6341,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 175%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -6287,7 +6349,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 12px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -6327,7 +6389,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 225%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -6405,9 +6467,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 275%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -6419,9 +6481,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 200%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -6434,7 +6496,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -6461,9 +6523,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 275%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -6476,7 +6538,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -6513,8 +6575,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 350%;
     margin-bottom: 3%;
     color: #5E6880;
@@ -6522,7 +6584,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 14px;
     color: #5E6880;
     line-height: 1.2em;
@@ -6571,8 +6633,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 160%;
     color: #5E6880;
     line-height: 1.5;
@@ -6620,9 +6682,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 300%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -6664,15 +6726,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 325%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 14px;
     line-height: 1.2;
   }
@@ -6976,7 +7038,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 175%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -6984,7 +7046,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 14px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -7024,7 +7086,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 225%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -7102,9 +7164,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 300%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -7116,9 +7178,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 225%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -7131,7 +7193,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -7158,9 +7220,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 300%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -7173,7 +7235,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -7210,8 +7272,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 375%;
     margin-bottom: 3%;
     color: #5E6880;
@@ -7219,7 +7281,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 14px;
     color: #5E6880;
     line-height: 1.2em;
@@ -7268,8 +7330,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 175%;
     color: #5E6880;
     line-height: 1.5;
@@ -7317,9 +7379,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 325%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -7361,15 +7423,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 375%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.2;
   }
@@ -7673,7 +7735,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 175%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -7681,7 +7743,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 16px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -7721,7 +7783,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 225%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -7799,9 +7861,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 325%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -7813,9 +7875,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 250%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -7828,7 +7890,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -7855,9 +7917,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 325%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -7870,7 +7932,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -7907,8 +7969,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 425%;
     margin-bottom: 3%;
     color: #5E6880;
@@ -7916,7 +7978,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 16px;
     color: #5E6880;
     line-height: 1.2em;
@@ -7965,8 +8027,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 200%;
     color: #5E6880;
     line-height: 1.5;
@@ -8014,9 +8076,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 350%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -8058,15 +8120,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 400%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.2;
   }
@@ -8370,7 +8432,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 200%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -8378,7 +8440,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 16px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -8418,7 +8480,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 250%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -8496,9 +8558,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 350%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -8510,9 +8572,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 275%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -8525,7 +8587,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 26px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -8552,9 +8614,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 350%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -8567,7 +8629,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 26px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -8604,8 +8666,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 450%;
     margin-bottom: 3%;
     color: #5E6880;
@@ -8613,7 +8675,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 18px;
     color: #5E6880;
     line-height: 1.2em;
@@ -8662,8 +8724,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 215%;
     color: #5E6880;
     line-height: 1.5;
@@ -8711,9 +8773,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 375%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -8755,15 +8817,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 425%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.2;
   }
@@ -9067,7 +9129,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 225%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -9075,7 +9137,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 18px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -9115,7 +9177,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 275%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -9193,9 +9255,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 375%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -9207,9 +9269,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 300%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -9222,7 +9284,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 28px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -9249,9 +9311,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 375%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -9264,7 +9326,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 28px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -9301,8 +9363,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 475%;
     margin-bottom: 3%;
     color: #5E6880;
@@ -9310,7 +9372,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     color: #5E6880;
     line-height: 1.2em;
@@ -9359,8 +9421,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 225%;
     color: #5E6880;
     line-height: 1.5;
@@ -9408,9 +9470,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 400%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -9452,15 +9514,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 450%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 18px;
     line-height: 1.2;
   }
@@ -9764,7 +9826,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 225%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -9772,7 +9834,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -9812,7 +9874,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 300%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -9890,9 +9952,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 400%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -9904,9 +9966,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 325%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -9919,7 +9981,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 28px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -9946,9 +10008,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 400%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -9961,7 +10023,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 28px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -9998,7 +10060,7 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-weight: 100s;
     font-size: 500%;
     margin-bottom: 3%;
@@ -10007,7 +10069,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     color: #5E6880;
     line-height: 1.2em;
@@ -10056,8 +10118,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 250%;
     color: #5E6880;
     line-height: 1.5;
@@ -10105,9 +10167,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 425%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -10149,15 +10211,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 475%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     line-height: 1.2;
   }
@@ -10461,7 +10523,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 250%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -10469,7 +10531,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -10509,7 +10571,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 325%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -10587,9 +10649,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 425%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -10601,9 +10663,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 350%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -10616,7 +10678,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -10643,9 +10705,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 450%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -10658,7 +10720,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -10695,7 +10757,7 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-weight: 100s;
     font-size: 550%;
     margin-bottom: 3%;
@@ -10704,7 +10766,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 22px;
     color: #5E6880;
     line-height: 1.2em;
@@ -10753,8 +10815,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 250%;
     color: #5E6880;
     line-height: 1.5;
@@ -10802,9 +10864,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 425%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -10846,15 +10908,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 475%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     line-height: 1.2;
   }
@@ -11158,7 +11220,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 275%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -11166,7 +11228,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -11206,7 +11268,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 350%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -11284,9 +11346,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 450%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -11298,9 +11360,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 375%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -11313,7 +11375,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 32px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -11340,9 +11402,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 450%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -11355,7 +11417,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 32px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -11392,7 +11454,7 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-weight: 100s;
     font-size: 575%;
     margin-bottom: 3%;
@@ -11401,7 +11463,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     color: #5E6880;
     line-height: 1.2em;
@@ -11450,8 +11512,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 275%;
     color: #5E6880;
     line-height: 1.5;
@@ -11499,9 +11561,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 450%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -11543,15 +11605,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 500%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     line-height: 1.2;
   }
@@ -11855,7 +11917,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 275%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -11863,7 +11925,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -11903,7 +11965,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 375%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -11981,9 +12043,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 475%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -11995,9 +12057,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 400%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -12010,7 +12072,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 34px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -12037,9 +12099,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 475%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -12052,7 +12114,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 34px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -12089,7 +12151,7 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-weight: 100s;
     font-size: 600%;
     margin-bottom: 3%;
@@ -12098,7 +12160,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     color: #5E6880;
     line-height: 1.2em;
@@ -12147,8 +12209,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 275%;
     color: #5E6880;
     line-height: 1.5;
@@ -12196,9 +12258,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 475%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -12240,15 +12302,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 525%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     line-height: 1.2;
   }
@@ -12552,7 +12614,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 275%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -12560,7 +12622,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -12600,7 +12662,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 400%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -12678,9 +12740,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 500%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -12692,9 +12754,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 400%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -12707,7 +12769,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -12734,9 +12796,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 500%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -12749,7 +12811,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -12786,7 +12848,7 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-weight: 100s;
     font-size: 625%;
     margin-bottom: 3%;
@@ -12795,7 +12857,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     color: #5E6880;
     line-height: 1.2em;
@@ -12844,8 +12906,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 275%;
     color: #5E6880;
     line-height: 1.5;
@@ -12893,9 +12955,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 500%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -12937,15 +12999,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 550%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     line-height: 1.2;
   }
@@ -13249,7 +13311,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 300%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -13257,7 +13319,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -13297,7 +13359,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 475%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -13375,9 +13437,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 525%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -13389,9 +13451,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 400%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -13404,7 +13466,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -13431,9 +13493,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 550%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -13446,7 +13508,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -13483,7 +13545,7 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-weight: 100s;
     font-size: 650%;
     margin-bottom: 3%;
@@ -13492,7 +13554,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     color: #5E6880;
     line-height: 1.2em;
@@ -13541,8 +13603,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 275%;
     color: #5E6880;
     line-height: 1.5;
@@ -13590,9 +13652,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 525%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -13634,15 +13696,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 575%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     line-height: 1.2;
   }
@@ -13946,7 +14008,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 300%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -13954,7 +14016,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -13994,7 +14056,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 475%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -14072,9 +14134,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 550%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -14086,9 +14148,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 425%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -14101,7 +14163,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 38px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -14128,9 +14190,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 550%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -14143,7 +14205,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 38px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -14180,7 +14242,7 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-weight: 100s;
     font-size: 675%;
     margin-bottom: 3%;
@@ -14189,7 +14251,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 26px;
     color: #5E6880;
     line-height: 1.2em;
@@ -14238,8 +14300,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 295%;
     color: #5E6880;
     line-height: 1.5;
@@ -14287,9 +14349,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 550%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -14331,15 +14393,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 600%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     line-height: 1.2;
   }
@@ -14643,7 +14705,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 325%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -14651,7 +14713,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -14691,7 +14753,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 475%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -14769,9 +14831,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 575%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -14783,9 +14845,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 425%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -14798,7 +14860,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 40px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -14825,9 +14887,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 575%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -14840,7 +14902,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 40px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -14877,7 +14939,7 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-weight: 100s;
     font-size: 700%;
     margin-bottom: 3%;
@@ -14886,7 +14948,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 28px;
     color: #5E6880;
     line-height: 1.2em;
@@ -14935,8 +14997,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 300%;
     color: #5E6880;
     line-height: 1.5;
@@ -14984,9 +15046,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 550%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -15028,15 +15090,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 625%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 28px;
     line-height: 1.2;
   }
@@ -15340,7 +15402,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 350%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -15348,7 +15410,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 26px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -15388,7 +15450,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 500%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -15466,9 +15528,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 600%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -15480,9 +15542,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#hey {
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 450%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -15495,7 +15557,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words {
     font-size: 300%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -15522,9 +15584,9 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline2{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 600%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -15537,7 +15599,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#words2{
     font-size: 300%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.2em;
     width: 100%;
     text-align: left;
@@ -15574,7 +15636,7 @@ div#channels_results li div div.stat{
   }
 
   div.results#me_results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-weight: 100s;
     font-size: 725%;
     margin-bottom: 3%;
@@ -15583,7 +15645,7 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 28px;
     color: #5E6880;
     line-height: 1.2em;
@@ -15633,8 +15695,8 @@ div#channels_results li div div.stat{
   }
 
   div.results#values ul li div div.desc{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 300%;
     color: #5E6880;
     line-height: 1.5;
@@ -15682,9 +15744,9 @@ div#channels_results li div div.stat{
   /* Global */
 
   .top-bar div#headline{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
     font-size: 550%;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     width: 100%;
     text-align: left;
@@ -15726,15 +15788,15 @@ div#channels_results li div div.stat{
   }
 
   div.results ul li div div.stat{
-    font-family: Canela, Palatino, Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: Canela, Times New Roman, Georgia, Circular Std, serif;
+    font-weight: 300;
     font-size: 625%;
     margin-bottom: 5%;
     margin-top: 2%;
   }
 
   div.results ul li div div.desc{
-    font-weight: 100;
+    font-weight: 300;
     font-size: 28px;
     line-height: 1.2;
   }
@@ -16038,7 +16100,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 350%;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -16046,7 +16108,7 @@ div#channels_results li div div.stat{
 
   section#channels div#channels_results div.desc {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 26px;
     margin-bottom: 5%;
     margin-top: 2%;
@@ -16086,7 +16148,7 @@ div#channels_results li div div.stat{
 
   section#freelance div#freelance_results div.stat {
     font-family: Circular Std, Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 500%;
     margin-bottom: 5%;
     margin-top: 2%;
