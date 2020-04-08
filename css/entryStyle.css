@@ -2,50 +2,50 @@
 
 @font-face {
   font-family: "Circular Std";
-  src: url("/fonts/Circular-Book.otf") format("otf"),
-       url("/fonts/Circular-Book.otf") format("otf");
+  src: url("/fonts/Circular-Book.ttf") format("ttf"),
+       url("/fonts/Circular-Book.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Circular Std";
-  src: url("/fonts/Circular-Medium.otf") format("otf"),
-       url("/fonts/Circular-Medium.otf") format("otf");
+  src: url("/fonts/Circular-Medium.ttf") format("ttf"),
+       url("/fonts/Circular-Medium.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Circular Std";
-  src: url("/fonts/Circular-Bold.otf") format("otf"),
-       url("/fonts/Circular-Bold.otf") format("otf");
+  src: url("/fonts/Circular-Bold.ttf") format("ttf"),
+       url("/fonts/Circular-Bold.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Circular Std";
-  src: url("/fonts/Circular-Black.otf") format("otf"),
-       url("/fonts/Circular-Black.otf") format("otf");
+  src: url("/fonts/Circular-Black.ttf") format("ttf"),
+       url("/fonts/Circular-Black.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Canela";
-  src: url("/fonts/Canela-Thin.otf") format("otf"),
-       url("/fonts/Canela-Thin.otf") format("otf");
+  src: url("/fonts/Canela-Thin.ttf") format("ttf"),
+       url("/fonts/Canela-Thin.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Canela";
-  src: url("/fonts/Canela-Light.otf") format("otf"),
-       url("/fonts/Canela-Light.otf") format("otf");
+  src: url("/fonts/Canela-Light.ttf") format("ttf"),
+       url("/fonts/Canela-Light.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Canela";
-  src: url("/fonts/Canela-Regular.otf") format("otf"),
-       url("/fonts/Canela-Regular.otf") format("otf");
+  src: url("/fonts/Canela-Regular.ttf") format("ttf"),
+       url("/fonts/Canela-Regular.ttf") format("ttf");
 }
 
 @font-face {
   font-family: "Canela";
-  src: url("/fonts/Canela-Medium.otf") format("otf"),
-       url("/fonts/Canela-Medium.otf") format("otf");
+  src: url("/fonts/Canela-Medium.ttf") format("ttf"),
+       url("/fonts/Canela-Medium.ttf") format("ttf");
 }
 
 
