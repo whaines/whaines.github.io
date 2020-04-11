@@ -19,11 +19,6 @@
  src: url(/fonts/Canela/Canela-Light.otf);
 }
 
-@font-face {
- font-family: "Canela";
- src: url(/fonts/Canela/Canela-Regular.otf);
-}
-
 /* Global */
 
 body {
