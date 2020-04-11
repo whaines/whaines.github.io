@@ -60,7 +60,7 @@ a {
   color: #729fd8;
   text-decoration: none;
   font-family: "Circular Std", Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 a:hover{
@@ -119,13 +119,13 @@ div.results ul li{
 
 div.results ul li div div.stat{
   font-family: "Canela", "Circular Std", Palatino, Georgia, serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 550%;
   margin-bottom: 2%;
 }
 
 div.results ul li div div.desc{
-  font-weight: 500;
+  font-weight: 300;
   font-size: 125%;
   max-width: 300px;
   line-height: 1.75;
@@ -157,7 +157,7 @@ div#channels_results li{
 }
 
 div#channels_results li div div.stat{
-  font-weight: 700;
+  font-weight: 300;
   font-size: 225%;
   margin-bottom: 5%;
 }
@@ -182,7 +182,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a {
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -875,7 +875,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -1568,7 +1568,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -2261,7 +2261,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -2955,7 +2955,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -3649,7 +3649,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -4343,7 +4343,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -5041,7 +5041,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -5739,7 +5739,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -6436,7 +6436,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -7133,7 +7133,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -7830,7 +7830,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -8527,7 +8527,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -9224,7 +9224,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -9921,7 +9921,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -10618,7 +10618,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -11315,7 +11315,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -12012,7 +12012,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -12737,7 +12737,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -13434,7 +13434,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -14131,7 +14131,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
@@ -14828,7 +14828,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #5E6880;
   }
 
@@ -15525,7 +15525,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", Avenir, Lato, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #729fd8;
   }
 
