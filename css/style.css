@@ -10,16 +10,6 @@
 }
 
 @font-face {
- font-family: "Circular Std";
- src: url(/fonts/CircularStd/CircularStd-Bold.otf);
-}
-
-@font-face {
- font-family: "Circular Std";
- src: url(/fonts/CircularStd/CircularStd-Black.otf);
-}
-
-@font-face {
  font-family: "Canela";
  src: url(/fonts/Canela/Canela-Thin.otf);
 }
@@ -37,16 +27,6 @@
 @font-face {
  font-family: "Canela";
  src: url(/fonts/Canela/Canela-Medium.otf);
-}
-
-@font-face {
- font-family: "Canela";
- src: url(/fonts/Canela/Canela-Bold.otf);
-}
-
-@font-face {
- font-family: "Canela";
- src: url(/fonts/Canela/Canela-Black.otf);
 }
 
 /* Global */
