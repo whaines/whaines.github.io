@@ -23,7 +23,7 @@
 
 body {
   font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 a {
@@ -31,7 +31,7 @@ a {
   color: #729fd8;
   text-decoration: none;
   font-family: "Circular Std", Helvetica, sans-serif;
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 a:hover{
