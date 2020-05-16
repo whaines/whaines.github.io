@@ -1,7 +1,8 @@
 /* Fonts */
+
 @font-face {
  font-family: "Circular Std";
- src: url(/fonts/CircularStd/CircularStd-Book.otf);
+ src: url(/fonts/CircularStd/CircularStd-Medium.otf);
 }
 
 @font-face {
@@ -27,7 +28,7 @@ a {
   color: #729fd8;
   text-decoration: none;
   font-family: "Circular Std", Helvetica, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 a:hover{
