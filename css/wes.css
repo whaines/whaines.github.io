@@ -19,6 +19,7 @@
 body {
   font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
   font-weight: 100;
+  letter-spacing: -1.5%;
 }
 
 a {
@@ -33,6 +34,10 @@ a:hover{
   color: #186FB5;
 }
 
+a#profile:hover{
+  display:
+}
+
 button:focus {
   outline: none;
 }
@@ -44,6 +49,11 @@ header .top-bar {
   background-position: center;
   background-size: 100%;
   color: #1E1689;
+}
+
+img#profile{
+  width:8%;
+  margin-left: 2%;
 }
 
 div#me_results li{
@@ -11994,16 +12004,17 @@ div#channels_results li div div.stat{
 
   header .top-bar div#headline{
     font-family: "Canela", "Circular Std", Georgia, serif;
-    font-size: 475%;
-
-    line-height: 1.5em;
+    font-size: 400%;
+    line-height: 1.3em;
     width: 100%;
     text-align: left;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 20%;
     margin-right: 20%;
-    max-width: 40%;
+    margin-bottom: 2%;
+    max-width: 55%;
     color: #5E6880;
+    font-weight: 100;
   }
 
   header .top-bar div#hey {
