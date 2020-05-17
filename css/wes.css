@@ -1,8 +1,7 @@
 /* Fonts */
-
 @font-face {
  font-family: "Circular Std";
- src: url(/fonts/CircularStd/CircularStd-Medium.otf);
+ src: url(/fonts/CircularStd/CircularStd-Book.otf);
 }
 
 @font-face {
@@ -20,7 +19,10 @@
 body {
   font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
   font-weight: 100;
+<<<<<<< HEAD
   letter-spacing: -1.5%;
+=======
+>>>>>>> parent of dd57ad2... Letter Spacing
 }
 
 a {
@@ -28,7 +30,7 @@ a {
   color: #729fd8;
   text-decoration: none;
   font-family: "Circular Std", Helvetica, sans-serif;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 a:hover{
