@@ -23,18 +23,10 @@ body {
 
 a {
   outline: none;
-  color: #729fd8;
+  color: #00ffa5;
   text-decoration: none;
   font-family: "Circular Std", Helvetica, sans-serif;
   font-weight: 100;
-}
-
-a:hover{
-  color: #186FB5;
-}
-
-a#profile:hover{
-  display:
 }
 
 button:focus {
@@ -48,11 +40,6 @@ header .top-bar {
   background-position: center;
   background-size: 100%;
   color: #1E1689;
-}
-
-img#profile{
-  width:8%;
-  margin-left: 2%;
 }
 
 div#me_results li{
@@ -158,7 +145,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -197,7 +184,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -918,7 +905,6 @@ div#channels_results li div div.stat{
 
 }
 
-
 /* Media Queries - 349 - 399px */
 
 @media screen and (min-width: 349px) and (max-width: 399px) {
@@ -940,7 +926,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -979,7 +965,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -1722,7 +1708,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -1761,7 +1747,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -2503,7 +2489,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -2542,7 +2528,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -3284,7 +3270,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -3323,7 +3309,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -4065,7 +4051,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -4104,7 +4090,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -4846,7 +4832,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -4885,7 +4871,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -5627,7 +5613,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -5666,7 +5652,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -6408,7 +6394,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -6447,7 +6433,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -7189,7 +7175,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -7228,7 +7214,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -7970,7 +7956,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -8009,7 +7995,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -8750,7 +8736,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -8789,7 +8775,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -9530,7 +9516,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -9569,7 +9555,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -10308,7 +10294,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -10347,7 +10333,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -11086,7 +11072,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -11125,7 +11111,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -11863,7 +11849,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -11901,7 +11887,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -12639,7 +12625,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -12677,7 +12663,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -13415,7 +13401,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -13453,7 +13439,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -14191,7 +14177,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -14229,7 +14215,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -14967,7 +14953,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -15005,7 +14991,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -15743,7 +15729,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -15781,7 +15767,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -16518,7 +16504,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -16556,7 +16542,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
@@ -17293,7 +17279,7 @@ div#channels_results li div div.stat{
 
   header .top-bar a{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    color: #729fd8;
+    color: #00ffa5;
   }
 
   header .top-bar a:hover{
@@ -17331,7 +17317,7 @@ div#channels_results li div div.stat{
   }
 
   header .top-bar div#headline #fun{
-    color: #00FFA5;
+    color: #4859E0;
   }
 
   div.results#basic_info ul{
