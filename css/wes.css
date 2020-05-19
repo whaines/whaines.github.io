@@ -140,7 +140,7 @@ div#channels_results li div div.stat{
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
   }
 
   header .top-bar a{
@@ -154,18 +154,18 @@ div#channels_results li div div.stat{
 
   header .top-bar div img#awh{
     max-width: 6%;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
   header .top-bar div.mini{
     margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
     color: #979797;
     font-weight: bold;
     letter-spacing: 0px;
-    font-size: 5%;
+    font-size: 50%;
   }
 
   header .top-bar div#headline{
@@ -175,8 +175,8 @@ div#channels_results li div div.stat{
     width: 100%;
     text-align: left;
     margin-top: 1%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
     max-width: 55%;
     color: #ffffff;
@@ -192,7 +192,7 @@ div#channels_results li div div.stat{
     margin-top: 2%;
     margin-bottom: 2%;
     -webkit-padding-start: 0px;
-    margin-left: 20%;
+    margin-left: 10%;
     color: #ffffff;
     padding-bottom: 0;
   }
@@ -224,11 +224,11 @@ div#channels_results li div div.stat{
   }
 
   header div#clients img{
-    width: 60%;
+    width: 70%;
     text-align: left;
     margin-top: 2%;
-    margin-left: 19%;
-    margin-right: 19%;
+    margin-left: 9%;
+    margin-right: 9%;
   }
 
   .info {
@@ -241,8 +241,8 @@ div#channels_results li div div.stat{
 
   header .top-bar div.mini_title{
     margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
     color: #979797;
     font-weight: bold;
@@ -256,8 +256,8 @@ div#channels_results li div div.stat{
     line-height: 1.5em;
     width: 100%;
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     max-width: 45%;
     color: #ffffff;
   }
@@ -268,9 +268,9 @@ div#channels_results li div div.stat{
     width: 100%;
     text-align: left;
     margin-top: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
-    max-width: 45%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 55%;
     color: #979797;
   }
 
@@ -279,7 +279,7 @@ div#channels_results li div div.stat{
     margin-top: 5%;
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
-    margin-left: 19%;
+    margin-left: 9%;
     color: #ffffff;
     padding-bottom: 0;
   }
@@ -313,8 +313,8 @@ div#channels_results li div div.stat{
 
   div#values{
     margin-top: 2%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 4%;
+    margin-right: 16%;
   }
 
   div.results#values ul{
@@ -370,7 +370,7 @@ div#channels_results li div div.stat{
     margin-top: 4%;
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
-    margin-left: 19%;
+    margin-left: 9%;
     /* margin-right: 17%; */
   }
 
@@ -401,8 +401,8 @@ div#channels_results li div div.stat{
 
   .top-bar div.mini_title{
       margin-top: 5%;
-      margin-left: 20%;
-      margin-right: 20%;
+      margin-left: 10%;
+      margin-right: 10%;
       color: rgba(255, 255, 255, 0.5);
       font-weight: bold;
       letter-spacing: 0px;
@@ -416,7 +416,7 @@ div#channels_results li div div.stat{
     width: 100%;
     text-align: left;
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 50%;
   }
 
@@ -426,7 +426,7 @@ div#channels_results li div div.stat{
     line-height: 1.5em;
     width: 100%;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 40%;
   }
 
@@ -435,7 +435,7 @@ div#channels_results li div div.stat{
     margin-top: 4%;
     padding-bottom: 7%;
     -webkit-padding-start: 0px;
-    margin-left: 19%;
+    margin-left: 9%;
   }
 
   div.results ul li{
@@ -482,7 +482,7 @@ div#channels_results li div div.stat{
 
   section#gsx div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     /* margin-bottom: 2%; */
     max-width: 100%;
   }
@@ -511,7 +511,7 @@ div#channels_results li div div.stat{
 
   section#adapt div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -543,7 +543,7 @@ div#channels_results li div div.stat{
 
   section#spotify div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -575,7 +575,7 @@ div#channels_results li div div.stat{
 
   section#apex div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -603,7 +603,7 @@ div#channels_results li div div.stat{
 
   section#psnow div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -635,7 +635,7 @@ div#channels_results li div div.stat{
 
   section#nike div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -675,7 +675,7 @@ div#channels_results li div div.stat{
 
   section#id div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -707,7 +707,7 @@ div#channels_results li div div.stat{
 
   section#elements div img.project_header{
     width: 64%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -739,7 +739,7 @@ div#channels_results li div div.stat{
 
   section#zodiac div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -767,7 +767,7 @@ div#channels_results li div div.stat{
 
   section#simon div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -803,7 +803,7 @@ div#channels_results li div div.stat{
 
   section#channels div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -851,7 +851,7 @@ div#channels_results li div div.stat{
 
   section#freelance div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -894,7 +894,7 @@ div#channels_results li div div.stat{
 
   section#footer div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-bottom: 2%;
     max-width: 100%;
   }
@@ -921,7 +921,7 @@ div#channels_results li div div.stat{
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
   }
 
   header .top-bar a{
@@ -935,18 +935,18 @@ div#channels_results li div div.stat{
 
   header .top-bar div img#awh{
     max-width: 6%;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
   header .top-bar div.mini{
     margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
     color: #979797;
     font-weight: bold;
     letter-spacing: 0px;
-    font-size: 5%;
+    font-size: 50%;
   }
 
   header .top-bar div#headline{
@@ -956,8 +956,8 @@ div#channels_results li div div.stat{
     width: 100%;
     text-align: left;
     margin-top: 1%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
     max-width: 55%;
     color: #ffffff;
@@ -966,6 +966,7 @@ div#channels_results li div div.stat{
 
   header .top-bar div#headline #fun{
     color: #4859E0;
+    letter-spacing: -4px;
   }
 
   div.results#basic_info ul{
@@ -973,7 +974,7 @@ div#channels_results li div div.stat{
     margin-top: 2%;
     margin-bottom: 2%;
     -webkit-padding-start: 0px;
-    margin-left: 20%;
+    margin-left: 10%;
     color: #ffffff;
     padding-bottom: 0;
   }
@@ -1005,11 +1006,11 @@ div#channels_results li div div.stat{
   }
 
   header div#clients img{
-    width: 60%;
+    width: 70%;
     text-align: left;
     margin-top: 2%;
-    margin-left: 19%;
-    margin-right: 19%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .info {
@@ -1022,8 +1023,8 @@ div#channels_results li div div.stat{
 
   header .top-bar div.mini_title{
     margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
     color: #979797;
     font-weight: bold;
@@ -1037,8 +1038,8 @@ div#channels_results li div div.stat{
     line-height: 1.5em;
     width: 100%;
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     max-width: 45%;
     color: #ffffff;
   }
@@ -1049,9 +1050,9 @@ div#channels_results li div div.stat{
     width: 100%;
     text-align: left;
     margin-top: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
-    max-width: 45%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 55%;
     color: #979797;
   }
 
@@ -1060,7 +1061,7 @@ div#channels_results li div div.stat{
     margin-top: 5%;
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
-    margin-left: 19%;
+    margin-left: 9%;
     color: #ffffff;
     padding-bottom: 0;
   }
@@ -1094,8 +1095,8 @@ div#channels_results li div div.stat{
 
   div#values{
     margin-top: 2%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 4%;
+    margin-right: 16%;
   }
 
   div.results#values ul{
@@ -1151,7 +1152,7 @@ div#channels_results li div div.stat{
     margin-top: 4%;
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
-    margin-left: 19%;
+    margin-left: 10%;
     /* margin-right: 17%; */
   }
 
@@ -1182,8 +1183,8 @@ div#channels_results li div div.stat{
 
   .top-bar div.mini_title{
       margin-top: 5%;
-      margin-left: 20%;
-      margin-right: 20%;
+      margin-left: 10%;
+      margin-right: 10%;
       color: rgba(255, 255, 255, 0.5);
       font-weight: bold;
       letter-spacing: 0px;
@@ -1197,7 +1198,7 @@ div#channels_results li div div.stat{
     width: 100%;
     text-align: left;
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 50%;
   }
 
@@ -1207,7 +1208,7 @@ div#channels_results li div div.stat{
     line-height: 1.5em;
     width: 100%;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 40%;
   }
 
@@ -1216,7 +1217,7 @@ div#channels_results li div div.stat{
     margin-top: 4%;
     padding-bottom: 7%;
     -webkit-padding-start: 0px;
-    margin-left: 19%;
+    margin-left: 9%;
   }
 
   div.results ul li{
@@ -1263,7 +1264,7 @@ div#channels_results li div div.stat{
 
   section#gsx div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     /* margin-bottom: 2%; */
     max-width: 100%;
   }
@@ -1292,7 +1293,7 @@ div#channels_results li div div.stat{
 
   section#adapt div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1324,7 +1325,7 @@ div#channels_results li div div.stat{
 
   section#spotify div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1356,7 +1357,7 @@ div#channels_results li div div.stat{
 
   section#apex div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1384,7 +1385,7 @@ div#channels_results li div div.stat{
 
   section#psnow div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1416,7 +1417,7 @@ div#channels_results li div div.stat{
 
   section#nike div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1456,7 +1457,7 @@ div#channels_results li div div.stat{
 
   section#id div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1488,7 +1489,7 @@ div#channels_results li div div.stat{
 
   section#elements div img.project_header{
     width: 64%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1520,7 +1521,7 @@ div#channels_results li div div.stat{
 
   section#zodiac div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1548,7 +1549,7 @@ div#channels_results li div div.stat{
 
   section#simon div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1584,7 +1585,7 @@ div#channels_results li div div.stat{
 
   section#channels div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1632,7 +1633,7 @@ div#channels_results li div div.stat{
 
   section#freelance div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -1675,7 +1676,7 @@ div#channels_results li div div.stat{
 
   section#footer div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-bottom: 2%;
     max-width: 100%;
   }
@@ -1685,7 +1686,6 @@ div#channels_results li div div.stat{
   }
 
 }
-
 
 /* Media Queries - 399px - 450px */
 
@@ -1703,7 +1703,7 @@ div#channels_results li div div.stat{
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
   }
 
   header .top-bar a{
@@ -1717,18 +1717,18 @@ div#channels_results li div div.stat{
 
   header .top-bar div img#awh{
     max-width: 6%;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 
   header .top-bar div.mini{
     margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
     color: #979797;
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 10%;
+    font-size: 50%;
   }
 
   header .top-bar div#headline{
@@ -1738,8 +1738,8 @@ div#channels_results li div div.stat{
     width: 100%;
     text-align: left;
     margin-top: 1%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
     max-width: 55%;
     color: #ffffff;
@@ -1755,7 +1755,7 @@ div#channels_results li div div.stat{
     margin-top: 2%;
     margin-bottom: 2%;
     -webkit-padding-start: 0px;
-    margin-left: 20%;
+    margin-left: 10%;
     color: #ffffff;
     padding-bottom: 0;
   }
@@ -1787,11 +1787,11 @@ div#channels_results li div div.stat{
   }
 
   header div#clients img{
-    width: 60%;
+    width: 70%;
     text-align: left;
     margin-top: 2%;
-    margin-left: 19%;
-    margin-right: 19%;
+    margin-left: 9%;
+    margin-right: 9%;
   }
 
   .info {
@@ -1804,8 +1804,8 @@ div#channels_results li div div.stat{
 
   header .top-bar div.mini_title{
     margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
     color: #979797;
     font-weight: bold;
@@ -1819,8 +1819,8 @@ div#channels_results li div div.stat{
     line-height: 1.5em;
     width: 100%;
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     max-width: 45%;
     color: #ffffff;
   }
@@ -1831,9 +1831,9 @@ div#channels_results li div div.stat{
     width: 100%;
     text-align: left;
     margin-top: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
-    max-width: 45%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 50%;
     color: #979797;
   }
 
@@ -1842,7 +1842,7 @@ div#channels_results li div div.stat{
     margin-top: 5%;
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
-    margin-left: 19%;
+    margin-left: 9%;
     color: #ffffff;
     padding-bottom: 0;
   }
@@ -1869,15 +1869,15 @@ div#channels_results li div div.stat{
 
   div.results#me_results ul li div div.desc{
     font-family: "Circular Std", "Avenir", Helvetica, sans-serif;
-    font-size: 60%;
+    font-size: 50%;
     color: #ffffff;
     line-height: 1.2em;
   }
 
   div#values{
     margin-top: 2%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 4%;
+    margin-right: 16%;
   }
 
   div.results#values ul{
@@ -1933,7 +1933,7 @@ div#channels_results li div div.stat{
     margin-top: 4%;
     margin-bottom: 5%;
     -webkit-padding-start: 0px;
-    margin-left: 19%;
+    margin-left: 9%;
     /* margin-right: 17%; */
   }
 
@@ -1964,8 +1964,8 @@ div#channels_results li div div.stat{
 
   .top-bar div.mini_title{
       margin-top: 5%;
-      margin-left: 20%;
-      margin-right: 20%;
+      margin-left: 10%;
+      margin-right: 10%;
       color: rgba(255, 255, 255, 0.5);
       font-weight: bold;
       letter-spacing: 0px;
@@ -1979,7 +1979,7 @@ div#channels_results li div div.stat{
     width: 100%;
     text-align: left;
     margin-top: 2%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 50%;
   }
 
@@ -1989,7 +1989,7 @@ div#channels_results li div div.stat{
     line-height: 1.5em;
     width: 100%;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 40%;
   }
 
@@ -1998,7 +1998,7 @@ div#channels_results li div div.stat{
     margin-top: 4%;
     padding-bottom: 7%;
     -webkit-padding-start: 0px;
-    margin-left: 19%;
+    margin-left: 9%;
   }
 
   div.results ul li{
@@ -2045,7 +2045,7 @@ div#channels_results li div div.stat{
 
   section#gsx div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     /* margin-bottom: 2%; */
     max-width: 100%;
   }
@@ -2074,7 +2074,7 @@ div#channels_results li div div.stat{
 
   section#adapt div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2106,7 +2106,7 @@ div#channels_results li div div.stat{
 
   section#spotify div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2138,7 +2138,7 @@ div#channels_results li div div.stat{
 
   section#apex div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2166,7 +2166,7 @@ div#channels_results li div div.stat{
 
   section#psnow div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2198,7 +2198,7 @@ div#channels_results li div div.stat{
 
   section#nike div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2238,7 +2238,7 @@ div#channels_results li div div.stat{
 
   section#id div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2270,7 +2270,7 @@ div#channels_results li div div.stat{
 
   section#elements div img.project_header{
     width: 64%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2302,7 +2302,7 @@ div#channels_results li div div.stat{
 
   section#zodiac div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2330,7 +2330,7 @@ div#channels_results li div div.stat{
 
   section#simon div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2366,7 +2366,7 @@ div#channels_results li div div.stat{
 
   section#channels div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2414,7 +2414,7 @@ div#channels_results li div div.stat{
 
   section#freelance div img.project_header{
     width: 65%;
-    margin-left: 20%;
+    margin-left: 10%;
     max-width: 100%;
   }
 
@@ -2457,7 +2457,7 @@ div#channels_results li div div.stat{
 
   section#footer div img.project_header{
     width: 63%;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-bottom: 2%;
     max-width: 100%;
   }
