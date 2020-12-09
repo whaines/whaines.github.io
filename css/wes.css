@@ -131,7 +131,7 @@ div#channels_results li div div.stat{
   header .top-bar {
     background: #121212;
     height: -webkit-fill-available;
-    width: 100%;
+    width: 100%; 
     height: 100%;
     line-height: 1;
     text-align: left;
