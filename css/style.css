@@ -3190,7 +3190,7 @@ section#outro div.desc{
 
 /* Media Queries - 1500 and 2000 */
 
-@media screen and (min-width: 1500px) and (max-width: 2000px) {
+@media screen and (min-width: 1500px) and (max-width: 1600px) {
 
 /* global */
 body {
@@ -3494,6 +3494,1249 @@ section#outro div.desc{
 
 }
 
+
+/* Media Queries - 1600 and 1700 */
+
+@media screen and (min-width: 1600px) and (max-width: 1700px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.panel {
+  min-height: 130vh;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+section div.words {
+  position: absolute;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 50%;
+  margin-bottom: 4%;
+}
+
+section div.company{
+  font-size: 2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 25%;
+}
+
+section div.project{
+  font-size: 2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 25%;
+}
+
+section div.desc{
+  margin-top: 10%;
+  font-size: 2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.impact{
+  margin-top: 20%;
+  margin-bottom: 2%;
+  font-size: 2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 35%;
+  font-size: 1.25em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 1.25em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: 9%;
+  width: 135vh;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.0);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+
+.left_sticky{
+  position: fixed;
+  top: 60%;
+  left: 2%;
+}
+
+.right_sticky{
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+
+#navbar a#name{
+  margin-left: 1%;
+}
+
+#navbar a#profession {
+  margin-left: 10%;
+}
+
+#navbar a#cv {
+  margin-left: 10%;
+}
+
+#navbar a#email {
+  margin-left: 10%;
+}
+
+#navbar a#scroll {
+  margin-left: 20%;
+  text-align: right;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 50vh;
+}
+
+section#intro div.company{
+  font-size: 4em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 4em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 4em;
+  margin-top: 1%;
+  width: 60%;
+}
+
+
+/* Projects */
+
+section#projects .panel {
+  min-height: 150vh;
+}
+
+section#projects div.company{
+  width: 30%;
+}
+
+section#projects div.project{
+  width: 30%;
+}
+
+section#projects div.desc{
+  margin-top: 26%;
+  width: 30%;
+  font-size: 1.5em;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 12%;
+}
+
+
+/* Nike Adapt */
+
+
+section#adapt div.impact{
+  margin-top: 22%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 15%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 14%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 22%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 21%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 19%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.impact{
+  margin-top: 23%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.impact{
+  margin-top: 18%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 16%;
+}
+
+
+/* Slack Channels */
+
+section#slack div.impact{
+  margin-top: 13%;
+}
+
+
+/* Freelance Projects */
+
+section#freelance div.impact{
+  margin-top: 22%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 50%;
+}
+
+section#outro div.desc{
+  margin-top: 20%;
+}
+
+}
+
+
+/* Media Queries - 1700 and 1800 */
+
+@media screen and (min-width: 1700px) and (max-width: 1800px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.panel {
+  min-height: 130vh;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+section div.words {
+  position: absolute;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 50%;
+  margin-bottom: 4%;
+}
+
+section div.company{
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 35%;
+}
+
+section div.project{
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.desc{
+  margin-top: 10%;
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.impact{
+  margin-top: 20%;
+  margin-bottom: 2%;
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 30%;
+  font-size: 1.25em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 1.25em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: 10%;
+  width: 142vh;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.0);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+
+.left_sticky{
+  position: fixed;
+  top: 60%;
+  left: 2%;
+}
+
+.right_sticky{
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+
+#navbar a#name{
+  margin-left: 1%;
+}
+
+#navbar a#profession {
+  margin-left: 10%;
+}
+
+#navbar a#cv {
+  margin-left: 10%;
+}
+
+#navbar a#email {
+  margin-left: 10%;
+}
+
+#navbar a#scroll {
+  margin-left: 20%;
+  text-align: right;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 50vh;
+}
+
+section#intro div.company{
+  font-size: 4em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 4em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 4em;
+  margin-top: 1%;
+  width: 60%;
+}
+
+
+/* Projects */
+
+section#projects .panel {
+  min-height: 150vh;
+}
+
+section#projects div.company{
+  width: 30%;
+}
+
+section#projects div.project{
+  width: 30%;
+}
+
+section#projects div.desc{
+  margin-top: 30%;
+  width: 30%;
+  font-size: 1.5em;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 6%;
+}
+
+
+/* Nike Adapt */
+
+
+section#adapt div.impact{
+  margin-top: 12%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 9%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 6%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 12%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 11%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 9%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.impact{
+  margin-top: 14%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.impact{
+  margin-top: 11%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 7%;
+}
+
+
+/* Slack Channels */
+
+section#slack div.impact{
+  margin-top: 6%;
+}
+
+
+/* Freelance Projects */
+
+section#freelance div.impact{
+  margin-top: 15%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 50%;
+}
+
+section#outro div.desc{
+  margin-top: 20%;
+}
+
+}
+
+
+/* Media Queries - 1800 and 1900 */
+
+@media screen and (min-width: 1800px) and (max-width: 1900px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.panel {
+  min-height: 130vh;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+section div.words {
+  position: absolute;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 50%;
+  margin-bottom: 4%;
+}
+
+section div.company{
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 35%;
+}
+
+section div.project{
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.desc{
+  margin-top: 10%;
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.impact{
+  margin-top: 20%;
+  margin-bottom: 2%;
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 30%;
+  font-size: 1.25em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 1.25em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: 10%;
+  width: 140vh;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.0);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+
+.left_sticky{
+  position: fixed;
+  top: 60%;
+  left: 2%;
+}
+
+.right_sticky{
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+
+#navbar a#name{
+  margin-left: 1%;
+}
+
+#navbar a#profession {
+  margin-left: 10%;
+}
+
+#navbar a#cv {
+  margin-left: 10%;
+}
+
+#navbar a#email {
+  margin-left: 10%;
+}
+
+#navbar a#scroll {
+  margin-left: 20%;
+  text-align: right;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 45vh;
+}
+
+section#intro div.company{
+  font-size: 4em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 4em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 4em;
+  margin-top: 1%;
+  width: 60%;
+}
+
+
+/* Projects */
+
+section#projects .panel {
+  min-height: 150vh;
+}
+
+section#projects div.company{
+  width: 30%;
+}
+
+section#projects div.project{
+  width: 30%;
+}
+
+section#projects div.desc{
+  margin-top: 33%;
+  width: 30%;
+  font-size: 1.5em;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 9%;
+}
+
+
+/* Nike Adapt */
+
+
+section#adapt div.impact{
+  margin-top: 15%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 12%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 9%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 15%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 14%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 13%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.impact{
+  margin-top: 19%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.impact{
+  margin-top: 15%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 11%;
+}
+
+
+/* Slack Channels */
+
+section#slack div.impact{
+  margin-top: 8%;
+}
+
+
+/* Freelance Projects */
+
+section#freelance div.impact{
+  margin-top: 20%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 50%;
+}
+
+section#outro div.desc{
+  margin-top: 20%;
+}
+
+}
+
+
+/* Media Queries - 1900 and 2000 */
+
+@media screen and (min-width: 1900px) and (max-width: 2000px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.panel {
+  min-height: 130vh;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+section div.words {
+  position: absolute;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 50%;
+  margin-bottom: 4%;
+}
+
+section div.company{
+  font-size: 2.75em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 35%;
+}
+
+section div.project{
+  font-size: 2.75em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.desc{
+  margin-top: 10%;
+  font-size: 2.75em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.impact{
+  margin-top: 20%;
+  margin-bottom: 2%;
+  font-size: 2.75em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 30%;
+  font-size: 1.25em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 1.25em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: 9%;
+  width: 145vh;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.0);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+
+.left_sticky{
+  position: fixed;
+  top: 60%;
+  left: 2%;
+}
+
+.right_sticky{
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+
+#navbar a#name{
+  margin-left: 1%;
+}
+
+#navbar a#profession {
+  margin-left: 10%;
+}
+
+#navbar a#cv {
+  margin-left: 10%;
+}
+
+#navbar a#email {
+  margin-left: 10%;
+}
+
+#navbar a#scroll {
+  margin-left: 20%;
+  text-align: right;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 40vh;
+}
+
+section#intro div.company{
+  font-size: 4em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 4em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 4em;
+  margin-top: 1%;
+  width: 60%;
+}
+
+
+/* Projects */
+
+section#projects .panel {
+  min-height: 150vh;
+}
+
+section#projects div.company{
+  width: 30%;
+}
+
+section#projects div.project{
+  width: 30%;
+}
+
+section#projects div.desc{
+  margin-top: 35%;
+  width: 30%;
+  font-size: 1.5em;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 9%;
+}
+
+
+/* Nike Adapt */
+
+
+section#adapt div.impact{
+  margin-top: 15%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 11%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 9%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 14%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 13%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 11%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.impact{
+  margin-top: 17%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.impact{
+  margin-top: 15%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 10%;
+}
+
+
+/* Slack Channels */
+
+section#slack div.impact{
+  margin-top: 7%;
+}
+
+
+/* Freelance Projects */
+
+section#freelance div.impact{
+  margin-top: 19%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 50%;
+}
+
+section#outro div.desc{
+  margin-top: 20%;
+}
+
+}
 
 
 /* Media Queries - 2000 to 2300 */
