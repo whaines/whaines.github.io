@@ -2378,8 +2378,8 @@ section#intro .project_intro{
   margin-top: 50vh;
 }
 
-section#intro .project_intro img{
-  width: 45%;
+section#intro div.project_intro img{
+  width: 30%;
 }
 
 section#intro div.company{
@@ -2564,7 +2564,7 @@ p {
 }
 
 .panel {
-  min-height: 110vh;
+  min-height: 130vh;
 }
 
 section div.words {
@@ -2572,8 +2572,8 @@ section div.words {
   margin-left: 5%;
 }
 
-section .project_intro{
-  width: 50%;
+section .project_intro img{
+  width: 45%;
   margin-bottom: 4%;
 }
 
@@ -2638,8 +2638,8 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: 11%;
-  width: 113vh;
+  margin-left: 10%;
+  width: 135vh;
   height: 100%;
 }
 
@@ -2656,7 +2656,7 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 0.8em;
   float: left;
   display: block;
   color: #ffffff;
@@ -2674,7 +2674,7 @@ section div.hero_img img {
 
 .left_sticky{
   position: fixed;
-  top: 60%;
+  top: 55%;
   left: 2%;
 }
 
@@ -2684,24 +2684,36 @@ section div.hero_img img {
   right: 2%;
 }
 
+#navbar a#www img{
+  width: 80%;
+}
+
 #navbar a#name{
   margin-left: 1%;
+  padding-bottom: 2%;
 }
 
 #navbar a#profession {
   margin-left: 10%;
+  padding-bottom: 2%;
+
 }
 
 #navbar a#cv {
   margin-left: 10%;
+  padding-bottom: 2%;
+
 }
 
 #navbar a#email {
   margin-left: 10%;
+  padding-bottom: 2%;
+
 }
 
 #navbar a#scroll {
   margin-left: 16%;
+  padding-bottom: 2%;
   text-align: right;
 }
 
@@ -2715,6 +2727,10 @@ section#intro .panel{
 
 section#intro .project_intro{
   margin-top: 55vh;
+}
+
+section#intro .project_intro img{
+  width: 25%;
 }
 
 section#intro div.company{
@@ -2740,6 +2756,10 @@ section#projects .panel {
   min-height: 150vh;
 }
 
+section#projects .project_intro img{
+  width: 25%;
+}
+
 section#projects div.company{
   width: 30%;
 }
@@ -2751,14 +2771,14 @@ section#projects div.project{
 section#projects div.desc{
   margin-top: 25%;
   width: 35%;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 
 /* GSX */
 
 section#gsx div.impact{
-  margin-top: 23%;
+  margin-top: 17%;
 }
 
 
@@ -2766,42 +2786,42 @@ section#gsx div.impact{
 
 
 section#adapt div.impact{
-  margin-top: 30%;
+  margin-top: 25%;
 }
 
 
 /* Spotify */
 
 section#spotify div.impact{
-  margin-top: 27%;
+  margin-top: 22%;
 }
 
 
 /* Capital One Apex */
 
 section#apex div.impact{
-  margin-top: 27%;
+  margin-top: 22%;
 }
 
 
 /* Playstation Now */
 
 section#psnow div.impact{
-  margin-top: 34%;
+  margin-top: 30%;
 }
 
 
 /* Nike Sport For You */
 
 section#sport div.impact{
-  margin-top: 30%;
+  margin-top: 26%;
 }
 
 
 /* Google Identity */
 
 section#id div.impact{
-  margin-top: 31%;
+  margin-top: 26%;
 }
 
 
@@ -2812,7 +2832,7 @@ section#elements div.project{
 }
 
 section#elements div.impact{
-  margin-top: 34%;
+  margin-top: 30%;
 }
 
 
@@ -2823,21 +2843,21 @@ section#zodiac div.project{
 }
 
 section#zodiac div.impact{
-  margin-top: 36%;
+  margin-top: 30%;
 }
 
 
 /* Simon Annuities */
 
 section#simon div.impact{
-  margin-top: 28%;
+  margin-top: 23%;
 }
 
 
 /* Slack Channels */
 
 section#slack div.impact{
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 
@@ -2848,7 +2868,7 @@ section#freelance div.company{
 }
 
 section#freelance div.impact{
-  margin-top: 40%;
+  margin-top: 37%;
 }
 
 
@@ -2856,6 +2876,10 @@ section#freelance div.impact{
 
 section#outro div.panel{
   max-height: 30%;
+}
+
+section#outro div.project_intro img{
+  width: 25%;
 }
 
 section#outro div.desc{
