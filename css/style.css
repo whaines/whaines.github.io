@@ -1460,8 +1460,8 @@ section#slack div.impact{
 
 /* Freelance Projects */
 
-section#freelance div.project_intro{
-  width: 80%;
+section#freelance div.project_intro {
+  width: 60%;
 }
 
 section#freelance div.company{
@@ -2536,6 +2536,10 @@ section#freelance div.impact{
 
 section#outro div.panel{
   max-height: 30%;
+}
+
+section#outro div.project_intro img{
+  width: 60%;
 }
 
 section#outro div.desc{
