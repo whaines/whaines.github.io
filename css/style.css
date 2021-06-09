@@ -14,12 +14,16 @@ a{
   color: white;
 }
 
+a:hover{
+  opacity: 0.75;
+}
+
 /* panel styles */
 .panel {
   min-height: 150vh;
 }
 .color-intro {
-  background-color: #707C7E;
+  background-color: #BDB7AD;
 }
 /* .color-intro {
   background-image: url("../img/intro.svg");
@@ -74,7 +78,8 @@ a{
 
 /* Media Queries - 0 and 320 */
 
-@media screen and (min-width: 0px) and (max-width: 320px) {
+@media screen and (min-width: 0px) and (max-width: 320px),
+ and (orientation: portrait) {
 
 /* global */
 body {
@@ -185,7 +190,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -193,20 +198,27 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.2em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 12%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  margin-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 .sticky {
-  position: relative;
-  width: 100%;
+  position: fixed;
+  width: 65%;
+  height: 8%;
+  margin-top: -30%;
+  margin-left: 7%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
@@ -218,28 +230,27 @@ section div.hero_img img {
 }
 
 #navbar a#www img{
-  width: 150%;
-}
-
-#navbar a#name{
-  margin-left: 12%;
-  margin-top: 1%;
+  width: 100%;
 }
 
 #navbar a#profession {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#cv {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#email {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
-#navbar a#scroll {
-  display: none;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 
@@ -428,7 +439,8 @@ section#outro div.hero_img img{
 
 /* Media Queries - 321 and 400 */
 
-@media screen and (min-width: 321px) and (max-width: 400px) {
+@media screen and (min-width: 321px) and (max-width: 400px),
+screen and (max-height: 700px), and (orientation: portrait){
 
 /* global */
 body {
@@ -540,7 +552,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -548,20 +560,27 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.2em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 12%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  margin-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 .sticky {
-  position: relative;
-  width: 100%;
+  position: fixed;
+  width: 65%;
+  height: 8%;
+  margin-top: -30%;
+  margin-left: 7%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
@@ -573,28 +592,27 @@ section div.hero_img img {
 }
 
 #navbar a#www img{
-  width: 150%;
-}
-
-#navbar a#name{
-  margin-left: 12%;
-  margin-top: 1%;
+  width: 100%;
 }
 
 #navbar a#profession {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#cv {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#email {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
-#navbar a#scroll {
-  display: none;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 
@@ -783,7 +801,8 @@ section#outro div.hero_img img{
 
 /* Media Queries - 400 and 500 */
 
-@media screen and (min-width: 400px) and (max-width: 500px) {
+@media screen and (min-width: 400px) and (max-width: 500px),
+and (orientation: portrait) {
 
 /* global */
 body {
@@ -894,7 +913,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -908,14 +927,21 @@ section div.hero_img img {
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 12%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  margin-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 .sticky {
-  position: relative;
-  width: 100%;
+  position: fixed;
+  width: 65%;
+  height: 7%;
+  margin-top: -40%;
+  margin-left: 7%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
@@ -927,28 +953,27 @@ section div.hero_img img {
 }
 
 #navbar a#www img{
-  width: 150%;
-}
-
-#navbar a#name{
-  margin-left: 12%;
-  margin-top: 1%;
+  width: 100%;
 }
 
 #navbar a#profession {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#cv {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#email {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
-#navbar a#scroll {
-  display: none;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 
@@ -1247,7 +1272,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -1255,55 +1280,63 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 0.7em;
+  font-size: 0.9em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 
 .sticky {
-  position: relative;
-  width: 100%;
+  position: fixed;
+  width: 24%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
-  display: none;
+  position: fixed;
+  top: 55%;
+  left: 2%;
 }
 
 .right_sticky{
-  display: none;
+  position: fixed;
+  top: 5%;
+  right: 2%;
 }
 
 #navbar a#www img{
-  width: 75%;
-  margin-top: 15%;
-}
-
-#navbar a#name{
-  margin-left: 1%;
-  margin-top: 1%;
+  width: 90%;
 }
 
 #navbar a#profession {
-  margin-left: 6%;
-  margin-top: 1%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#cv {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#email {
-  display: none;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
-#navbar a#scroll {
-  display: none;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 
@@ -1602,7 +1635,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -1610,59 +1643,63 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 0.7em;
+  font-size: 0.9em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 
 .sticky {
-  position: relative;
-  width: 100%;
+  position: fixed;
+  width: 24%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
-  display: none;
+  position: fixed;
+  top: 55%;
+  left: 2%;
 }
 
 .right_sticky{
-  display: none;
+  position: fixed;
+  top: 5%;
+  right: 2%;
 }
 
 #navbar a#www img{
-  width: 75%;
-  margin-top: 15%;
-}
-
-#navbar a#name{
-  margin-left: 1%;
-  margin-top: 1%;
+  width: 90%;
 }
 
 #navbar a#profession {
-  margin-left: 6%;
-  margin-top: 1%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#cv {
-  margin-left: 6%;
-  margin-top: 1%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#email {
-  margin-left: 6%;
-  margin-top: 1%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
-#navbar a#scroll {
-  margin-left: 16%;
-  margin-top: 1%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 
@@ -1959,7 +1996,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -1967,59 +2004,63 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 0.7em;
+  font-size: 0.9em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 24%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
-  display: none;
+  position: fixed;
+  top: 55%;
+  left: 2%;
 }
 
 .right_sticky{
-  display: none;
+  position: fixed;
+  top: 5%;
+  right: 2%;
 }
 
 #navbar a#www img{
-  width: 75%;
-  margin-top: 15%;
-}
-
-#navbar a#name{
-  margin-left: 1%;
-  margin-top: 1%;
+  width: 90%;
 }
 
 #navbar a#profession {
-  margin-left: 6%;
-  margin-top: 1%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#cv {
-  margin-left: 6%;
-  margin-top: 1%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#email {
-  margin-left: 6%;
-  margin-top: 1%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
-#navbar a#scroll {
-  margin-left: 24%;
-  margin-top: 1%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 
@@ -2312,7 +2353,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -2320,53 +2361,63 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 0.75em;
+  font-size: 1em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 22%;
+  height: 9%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
-  display: none;
+  position: fixed;
+  top: 55%;
+  left: 2%;
 }
 
 .right_sticky{
-  display: none;
+  position: fixed;
+  top: 5%;
+  right: 2%;
 }
 
 #navbar a#www img{
-  width: 75%;
-}
-
-#navbar a#name{
-  margin-left: 1%;
+  width: 90%;
 }
 
 #navbar a#profession {
-  margin-left: 6%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#cv {
-  margin-left: 6%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#email {
-  margin-left: 6%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
-#navbar a#scroll {
-  margin-left: 29%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 
@@ -2649,8 +2700,8 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: 13%;
-  width: 110vh;
+  margin-left: 11%;
+  width: 120vh;
   height: 100%;
 }
 
@@ -2659,7 +2710,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -2667,57 +2718,59 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 0.85em;
+  font-size: 1em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 22%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
   position: fixed;
-  top: 50%;
+  top: 55%;
   left: 2%;
 }
 
 .right_sticky{
   position: fixed;
-  top: 10%;
+  top: 5%;
   right: 2%;
 }
 
-#navbar a#www img{
-  width: 80%;
-}
-
-#navbar a#name{
-  margin-left: 1%;
-}
-
 #navbar a#profession {
-  margin-left: 6%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#cv {
-  margin-left: 6%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#email {
-  margin-left: 6%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
-#navbar a#scroll {
-  margin-left: 24%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 
@@ -2997,7 +3050,7 @@ section div.details p{
 
 section div.hero_img img {
   margin-left: 11%;
-  width: 135vh;
+  width: 112vh;
   height: 100%;
 }
 
@@ -3006,7 +3059,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -3014,25 +3067,32 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 0.8em;
+  font-size: 1em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 6%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 20%;
+  height: 7%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
   position: fixed;
-  top: 55%;
+  top: 60%;
   left: 2%;
 }
 
@@ -3042,39 +3102,25 @@ section div.hero_img img {
   right: 2%;
 }
 
-#navbar a#www img{
-  width: 80%;
-}
-
-#navbar a#name{
-  margin-left: 1%;
-  padding-bottom: 2%;
-}
-
 #navbar a#profession {
-  margin-left: 10%;
-  padding-bottom: 2%;
-
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#cv {
-  margin-left: 10%;
-  padding-bottom: 2%;
-
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#email {
-  margin-left: 10%;
-  padding-bottom: 2%;
-
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
-#navbar a#scroll {
-  margin-left: 16%;
-  padding-bottom: 2%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
 }
-
 
 
 /* Intro */
@@ -3353,7 +3399,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -3367,14 +3413,21 @@ section div.hero_img img {
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 6%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 20%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
@@ -3389,25 +3442,24 @@ section div.hero_img img {
   right: 2%;
 }
 
-#navbar a#name{
-  margin-left: 1%;
-}
-
 #navbar a#profession {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#cv {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 #navbar a#email {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
-#navbar a#scroll {
-  margin-left: 16%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
 }
 
 
@@ -3672,7 +3724,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -3680,25 +3732,32 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.25em;
+  font-size: 1.5em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 6%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 20%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
   position: fixed;
-  top: 70%;
+  top: 60%;
   left: 2%;
 }
 
@@ -3708,25 +3767,24 @@ section div.hero_img img {
   right: 2%;
 }
 
-#navbar a#name{
-  margin-left: 1%;
-}
-
 #navbar a#profession {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#cv {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#email {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
-#navbar a#scroll {
-  margin-left: 36%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 
@@ -3983,7 +4041,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -3991,20 +4049,27 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.5em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 6%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 20%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
@@ -4019,25 +4084,24 @@ section div.hero_img img {
   right: 2%;
 }
 
-#navbar a#name{
-  margin-left: 1%;
-}
-
 #navbar a#profession {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#cv {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#email {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
-#navbar a#scroll {
-  margin-left: 20%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 
@@ -4294,7 +4358,15 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 9999;
+}
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -4302,20 +4374,27 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.5em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 6%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 20%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
@@ -4330,25 +4409,24 @@ section div.hero_img img {
   right: 2%;
 }
 
-#navbar a#name{
-  margin-left: 1%;
-}
-
 #navbar a#profession {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#cv {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#email {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
-#navbar a#scroll {
-  margin-left: 20%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 
@@ -4605,7 +4683,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -4613,20 +4691,27 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.5em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 6%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 20%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
@@ -4641,25 +4726,24 @@ section div.hero_img img {
   right: 2%;
 }
 
-#navbar a#name{
-  margin-left: 1%;
-}
-
 #navbar a#profession {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#cv {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#email {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
-#navbar a#scroll {
-  margin-left: 20%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 
@@ -4916,7 +5000,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -4924,20 +5008,27 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.5em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 6%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 20%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
@@ -4952,25 +5043,24 @@ section div.hero_img img {
   right: 2%;
 }
 
-#navbar a#name{
-  margin-left: 1%;
-}
-
 #navbar a#profession {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#cv {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#email {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
-#navbar a#scroll {
-  margin-left: 20%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 
@@ -5223,7 +5313,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -5231,20 +5321,27 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.1em;
+  font-size: 1.5em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 6%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 20%;
+  height: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
@@ -5259,25 +5356,24 @@ section div.hero_img img {
   right: 2%;
 }
 
-#navbar a#name{
-  margin-left: 1%;
-}
-
 #navbar a#profession {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#cv {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#email {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
-#navbar a#scroll {
-  margin-left: 24%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 
@@ -5529,7 +5625,7 @@ section div.hero_img img {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.0);
+  background-color: rgba(255, 255, 255, 0.1);
   z-index: 9999;
 }
 
@@ -5537,25 +5633,32 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1.75em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
-  margin-left: 5%;
-  padding-top: 2%;
+  margin-left: 8%;
+  padding-top: 6%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
-  width: 100%;
+  width: 20%;
+  height: 7%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
 }
 
 .left_sticky{
   position: fixed;
-  top: 70%;
+  top: 60%;
   left: 2%;
 }
 
@@ -5565,25 +5668,24 @@ section div.hero_img img {
   right: 2%;
 }
 
-#navbar a#name{
-  margin-left: 1%;
-}
-
 #navbar a#profession {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#cv {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 #navbar a#email {
-  margin-left: 10%;
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
-#navbar a#scroll {
-  margin-left: 32.5%;
-  text-align: right;
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 
