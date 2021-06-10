@@ -72,10 +72,9 @@ a:hover{
 }
 
 
-/* Media Queries - 0 and 320 */
+/* Media Queries - 321 and 399 */
 
-@media screen and (min-width: 0px) and (max-width: 320px),
- and (orientation: portrait) {
+@media screen and (min-width: 0px) and (max-width: 320px) {
 
 /* global */
 body {
@@ -133,7 +132,7 @@ section div.project{
 
 section div.desc{
   margin-top: 20%;
-  font-size: 2.5em;
+  font-size: 2em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -175,9 +174,9 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: -80%;
+  margin-left: -90%;
   margin-top: 20%;
-  width: 120vh;
+  width: 226%;
   height: 100%;
 }
 
@@ -194,7 +193,7 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1.5em;
   float: left;
   display: block;
   color: #ffffff;
@@ -207,14 +206,13 @@ section div.hero_img img {
 
 .sticky {
   position: fixed;
-  width: 65%;
-  height: 8%;
+  width: 75%;
+  height: 10%;
   margin-top: -30%;
-  margin-left: 7%;
+  margin-left: 8%;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   border-radius: 100px;
-
 }
 
 .left_sticky{
@@ -281,8 +279,8 @@ section#intro div.desc{
 }
 
 section#intro div.hero_img img {
-  margin-left: -100%;
-  width: 130vh;
+  margin-left: -98%;
+  width: 240%;
 }
 
 
@@ -338,7 +336,7 @@ section#projects div.tiles{
 
 section#projects div.tiles a img.tile{
   margin-right: 0.5%;
-  width: 40%;
+  width: 48%;
 }
 
 
@@ -468,407 +466,9 @@ section#outro div.hero_img img{
 }
 
 
-/* Media Queries - 321 and 400 */
+/* Media Queries - 321 and 399 */
 
-@media screen and (min-width: 321px) and (max-width: 400px),
-screen and (max-height: 700px), and (orientation: portrait){
-
-/* global */
-body {
-  color: #ffffff;
-  background-color: #000000;
-  transition: background-color 1s ease;
-  font-family: "Inter", Helvetica, sans-serif;
-  font-weight: 500;
-  height: 100%;
-}
-
-p {
-  max-width: 30em;
-  margin-bottom: 1.618em;
-  display: inline-flex;
-  justify-content: space-evenly;
-  margin: 2%;
-}
-
-.panel {
-  min-height: 80vh;
-  margin-top: 50%;
-}
-
-section div.words {
-  position: relative;
-  margin-left: 12%;
-  margin-top: 10%;
-}
-
-section .project_intro{
-  width: 100%;
-  margin-bottom: 20%;
-}
-
-section .project_intro img{
-  width: 120%;
-}
-
-section div.company{
-  font-size: 2.5em;
-  letter-spacing: -0.05em;
-  line-height: 1.2;
-  text-align: left;
-  color: rgba(255, 255, 255, 0.5);
-  width: 120%;
-}
-
-section div.project{
-  font-size: 2.5em;
-  letter-spacing: -0.05em;
-  line-height: 1.2;
-  text-align: left;
-  width: 120%;
-}
-
-section div.desc{
-  margin-top: 20%;
-  font-size: 2em;
-  letter-spacing: -0.05em;
-  line-height: 1.2;
-  text-align: left;
-  width: 120%;
-}
-
-section div.impact{
-  margin-top: 30%;
-  margin-bottom: 2%;
-  font-size: 2.5em;
-  letter-spacing: -0.05em;
-  line-height: 1.2;
-  text-align: left;
-  width: 150%;
-}
-
-section div.results{
-  margin-top: 3%;
-  width: 110%;
-  font-size: 1.5em;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-}
-
-section div.details p{
-  font-size: 1.5em;
-  letter-spacing: -0.05em;
-  line-height: 1.2;
-  text-align: left;
-  color: rgba(255, 255, 255, 0.5);
-  display: inline-block;
-  margin-top: 8%;
-  margin-right: 8%;
-  margin-left: 0;
-}
-
-section div.hero_img img {
-  margin-left: -82%;
-  margin-top: 20%;
-  width: 120vh;
-  height: 100%;
-}
-
-
-/* Navbar */
-
-#navbar {
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.1);
-  z-index: 9999;
-}
-
-/* Navbar links */
-#navbar a {
-  font-family: "Inter", Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 1.2em;
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: left;
-  text-decoration: none;
-  margin-left: 8%;
-  padding-top: 5%;
-  padding-bottom: 2%;
-}
-
-.sticky {
-  position: fixed;
-  width: 65%;
-  height: 8%;
-  margin-top: -30%;
-  margin-left: 7%;
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-  border-radius: 100px;
-
-}
-
-.left_sticky{
-  display: none;
-}
-
-.right_sticky{
-  display: none;
-}
-
-#navbar a#www img{
-  width: 100%;
-}
-
-#navbar a#profession {
-  margin-left: 8%;
-  margin-top: 10px;
-}
-
-#navbar a#cv {
-  margin-left: 8%;
-  margin-top: 10px;
-}
-
-#navbar a#email {
-  margin-left: 8%;
-  margin-top: 10px;
-}
-
-#navbar a#linkedin {
-  margin-left: 8%;
-  margin-top: 10px;
-}
-
-
-/* Intro */
-
-section#intro .panel{
-  min-height: 50vh;
-}
-
-section#intro .project_intro{
-  margin-top: 30vh;
-}
-
-section#intro .project_intro img{
-  width: 110%;
-}
-
-section#intro div.company{
-  font-size: 3em;
-  width: 120%;
-}
-
-section#intro div.project{
-  font-size: 3em;
-  width: 120%;
-}
-
-section#intro div.desc{
-  font-size: 3em;
-  margin-top: 1%;
-  width: 120%;
-}
-
-section#intro div.hero_img img {
-  margin-left: -100%;
-  width: 130vh;
-}
-
-
-/* values */
-
-section#values .panel {
-  min-height: 50vh;
-}
-
-section#values .project_intro img{
-  width: 130%;
-  margin-top: 40%;
-}
-
-section#values div.company{
-  width: 120%;
-}
-
-section#values div.project{
-  width: 120%;
-}
-
-section#values div.desc{
-  margin-top: 8%;
-  width: 120%;
-  font-size: 1.5em;
-}
-
-
-/* Projects */
-
-section#projects {
-  min-height: 155vh;
-}
-
-section#projects div.company{
-  width: 100%;
-}
-
-section#projects div.project{
-  width: 100%;
-  margin-bottom: 5%;
-}
-
-section#projects div#project_tiles{
-  width: 78vh;
-  margin-top: 10%;
-}
-
-section#projects div.tiles{
-  margin-top: 0.5%;
-}
-
-section#projects div.tiles a img.tile{
-  margin-right: 0.5%;
-  width: 40%;
-}
-
-
-/* GSX */
-
-section#gsx div.impact{
-  margin-top: 30%;
-}
-
-
-/* Nike Adapt */
-
-
-section#adapt div.impact{
-  margin-top: 30%;
-}
-
-
-/* Spotify */
-
-section#spotify div.impact{
-  margin-top: 30%;
-}
-
-
-/* Capital One Apex */
-
-section#apex div.impact{
-  margin-top: 30%;
-}
-
-
-/* Playstation Now */
-
-section#psnow div.impact{
-  margin-top: 30%;
-}
-
-
-/* Nike Sport For You */
-
-section#sport div.impact{
-  margin-top: 30%;
-}
-
-
-/* Google Identity */
-
-section#id div.impact{
-  margin-top: 30%;
-}
-
-
-/* Capital One Elements */
-
-section#elements div.project{
-  width: 120%;
-}
-
-section#elements div.impact{
-  margin-top: 30%;
-}
-
-
-/* Zodiac Data Science */
-
-section#zodiac div.project{
-  width: 120%;
-}
-
-section#zodiac div.impact{
-  margin-top: 30%;
-}
-
-
-/* Simon Annuities */
-
-section#simon div.impact{
-  margin-top: 30%;
-}
-
-
-/* Slack Channels */
-
-section#slack div.impact{
-  margin-top: 30%;
-}
-
-
-/* Freelance values */
-
-section#freelance div.project_intro{
-  width: 100%;
-}
-
-section#freelance div.company{
-  width: 120%;
-}
-
-section#freelance div.project{
-  width: 120%;
-}
-
-section#freelance div.impact{
-  margin-top: 30%;
-}
-
-
-/* Outro */
-
-section#outro div.panel{
-  max-height: 30%;
-}
-
-section#outro div.project_intro{
-  width: 100%;
-}
-
-section#outro div.desc{
-  margin-top: 10%;
-}
-
-section#outro div.hero_img img{
-  display: none;
-}
-
-}
-
-
-/* Media Queries - 400 and 500 */
-
-@media screen and (min-width: 400px) and (max-width: 500px),
-and (orientation: portrait) {
+@media screen and (min-width: 321px) and (max-width: 399px) {
 
 /* global */
 body {
@@ -968,9 +568,9 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: -84%;
+  margin-left: -88%;
   margin-top: 20%;
-  width: 100vh;
+  width: 233%;
   height: 100%;
 }
 
@@ -1002,8 +602,402 @@ section div.hero_img img {
   position: fixed;
   width: 65%;
   height: 7%;
-  margin-top: -36%;
-  margin-left: 7%;
+  margin-top: -30%;
+  margin-left: 8%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+}
+
+.left_sticky{
+  display: none;
+}
+
+.right_sticky{
+  display: none;
+}
+
+#navbar a#www img{
+  width: 100%;
+}
+
+#navbar a#profession {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#cv {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#email {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 50vh;
+}
+
+section#intro .project_intro{
+  margin-top: 30vh;
+}
+
+section#intro .project_intro img{
+  width: 110%;
+}
+
+section#intro div.company{
+  font-size: 3em;
+  width: 120%;
+}
+
+section#intro div.project{
+  font-size: 3em;
+  width: 120%;
+}
+
+section#intro div.desc{
+  font-size: 3em;
+  margin-top: 1%;
+  width: 120%;
+}
+
+section#intro div.hero_img img {
+  margin-left: -101%;
+  width: 246%;
+}
+
+
+/* values */
+
+section#values .panel {
+  min-height: 50vh;
+}
+
+section#values .project_intro img{
+  width: 130%;
+  margin-top: 40%;
+}
+
+section#values div.company{
+  width: 120%;
+}
+
+section#values div.project{
+  width: 120%;
+}
+
+section#values div.desc{
+  margin-top: 8%;
+  width: 120%;
+  font-size: 1.5em;
+}
+
+
+/* Projects */
+
+section#projects {
+  min-height: 155vh;
+}
+
+section#projects div.company{
+  width: 100%;
+}
+
+section#projects div.project{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+section#projects div#project_tiles{
+  width: 68vh;
+  margin-top: 20%;
+}
+
+section#projects div.tiles{
+  margin-top: 0.5%;
+}
+
+section#projects div.tiles a img.tile{
+  margin-right: 0.5%;
+  width: 45%;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 30%;
+}
+
+
+/* Nike Adapt */
+
+
+section#adapt div.impact{
+  margin-top: 30%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 30%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 30%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 30%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 30%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 30%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.project{
+  width: 120%;
+}
+
+section#elements div.impact{
+  margin-top: 30%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.project{
+  width: 120%;
+}
+
+section#zodiac div.impact{
+  margin-top: 30%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 30%;
+}
+
+
+/* Slack Channels */
+
+section#slack div.impact{
+  margin-top: 30%;
+}
+
+
+/* Freelance values */
+
+section#freelance div.project_intro{
+  width: 100%;
+}
+
+section#freelance div.company{
+  width: 120%;
+}
+
+section#freelance div.project{
+  width: 120%;
+}
+
+section#freelance div.impact{
+  margin-top: 30%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 30%;
+}
+
+section#outro div.project_intro{
+  width: 100%;
+}
+
+section#outro div.desc{
+  margin-top: 10%;
+}
+
+section#outro div.hero_img img{
+  display: none;
+}
+
+}
+
+
+/* Media Queries - 400 and 499 */
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.panel {
+  min-height: 80vh;
+  margin-top: 50%;
+}
+
+section div.words {
+  position: relative;
+  margin-left: 12%;
+  margin-top: 10%;
+}
+
+section .project_intro{
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+section .project_intro img{
+  width: 120%;
+}
+
+section div.company{
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 120%;
+}
+
+section div.project{
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 120%;
+}
+
+section div.desc{
+  margin-top: 20%;
+  font-size: 2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 120%;
+}
+
+section div.impact{
+  margin-top: 30%;
+  margin-bottom: 2%;
+  font-size: 2.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 150%;
+}
+
+section div.results{
+  margin-top: 3%;
+  width: 110%;
+  font-size: 1.5em;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 8%;
+  margin-right: 8%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: -88%;
+  margin-top: 20%;
+  width: 226%;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 65%;
+  height: 7%;
+  margin-top: -34%;
+  margin-left: 8%;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   border-radius: 100px;
@@ -1074,8 +1068,8 @@ section#intro div.desc{
 }
 
 section#intro div.hero_img img {
-  margin-left: -94%;
-  width: 105vh;
+  margin-left: -96%;
+  width: 230%;
 }
 
 
@@ -1261,9 +1255,9 @@ section#outro div.hero_img img{
 }
 
 
-/* Media Queries - 500 and 700 */
+/* Media Queries - 500 and 599 */
 
-@media screen and (min-width: 500px) and (max-width: 700px) {
+@media screen and (min-width: 500px) and (max-width: 599px) {
 
 /* global */
 body {
@@ -1362,9 +1356,9 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: -65%;
+  margin-left: -61%;
   margin-top: 10%;
-  width: 120vh;
+  width: 154%;
   height: 100%;
 }
 
@@ -1394,26 +1388,21 @@ section div.hero_img img {
 
 .sticky {
   position: fixed;
-  width: 24%;
+  width: 49%;
   height: 8%;
-  margin-top: 2%;
+  margin-top: -71%;
   margin-left: 5%;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   border-radius: 100px;
-
 }
 
 .left_sticky{
-  position: fixed;
-  top: 55%;
-  left: 2%;
+  display: none;
 }
 
 .right_sticky{
-  position: fixed;
-  top: 5%;
-  right: 2%;
+  display: none;
 }
 
 #navbar a#www img{
@@ -1453,23 +1442,23 @@ section#intro .project_intro{
 }
 
 section#intro .project_intro img{
-  width: 45%;
+  width: 80%;
 }
 
 section#intro div.company{
-  font-size: 2.5em;
+  font-size: 2em;
   width: 100%;
 }
 
 section#intro div.project{
-  font-size: 2.5em;
+  font-size: 2em;
   width: 100%;
 }
 
 section#intro div.desc{
-  font-size: 2.5em;
+  font-size: 2em;
   margin-top: 1%;
-  width: 60%;
+  width: 80%;
 }
 
 
@@ -1488,7 +1477,7 @@ section#values div.company{
 }
 
 section#values div.project{
-  width: 60%;
+  width: 80%;
 }
 
 section#values div.desc{
@@ -1500,17 +1489,17 @@ section#values div.desc{
 
 /* Projects */
 
-section#projects {
-  min-height: 155vh;
-}
-
 section#projects div.company{
-  width: 30%;
+  width: 60%;
 }
 
 section#projects div.project{
-  width: 30%;
+  width: 60%;
   margin-bottom: 5%;
+}
+
+section#projects div.project_intro img{
+  width: 70%;
 }
 
 section#projects div.tiles{
@@ -1649,9 +1638,9 @@ section#outro div.hero_img img{
 }
 
 
-/* Media Queries - 700 and 900 */
+/* Media Queries - 600 and 699 */
 
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 699px) {
 
 /* global */
 body {
@@ -1750,9 +1739,9 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: -65%;
+  margin-left: -60%;
   margin-top: 10%;
-  width: 120vh;
+  width: 154%;
   height: 100%;
 }
 
@@ -1782,26 +1771,21 @@ section div.hero_img img {
 
 .sticky {
   position: fixed;
-  width: 24%;
+  width: 40%;
   height: 8%;
-  margin-top: 2%;
+  margin-top: -52%;
   margin-left: 5%;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   border-radius: 100px;
-
 }
 
 .left_sticky{
-  position: fixed;
-  top: 55%;
-  left: 2%;
+  display: none;
 }
 
 .right_sticky{
-  position: fixed;
-  top: 5%;
-  right: 2%;
+  display: none;
 }
 
 #navbar a#www img{
@@ -1826,6 +1810,394 @@ section div.hero_img img {
 #navbar a#linkedin {
   margin-left: 8%;
   margin-top: 10px;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 50vh;
+}
+
+section#intro .project_intro img{
+  width: 65%;
+}
+
+section#intro div.company{
+  font-size: 2em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 2em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 2em;
+  margin-top: 1%;
+  width: 60%;
+}
+
+
+/* values */
+
+section#values .panel {
+  min-height: 150vh;
+}
+
+section#values .project_intro img{
+  width: 60%;
+}
+
+section#values div.company{
+  width: 60%;
+}
+
+section#values div.project{
+  width: 60%;
+}
+
+section#values div.desc{
+  margin-top: 8%;
+  width: 60%;
+  font-size: 1em;
+}
+
+
+/* Projects */
+
+section#projects {
+  min-height: 155vh;
+}
+
+section#projects div.company{
+  width: 60%;
+}
+
+section#projects div.project{
+  width: 60%;
+  margin-bottom: 5%;
+}
+
+section#projects div.project_intro img{
+  width: 70%;
+}
+
+section#projects div.tiles{
+  margin-top: 0.5%;
+}
+
+section#projects div.tiles a img.tile{
+  margin-right: 0.5%;
+  width: 20%;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 10%;
+}
+
+
+/* Nike Adapt */
+
+
+section#adapt div.impact{
+  margin-top: 10%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 10%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 10%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 10%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 10%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 10%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.project{
+  width: 50%;
+}
+
+section#elements div.impact{
+  margin-top: 10%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.project{
+  width: 50%;
+}
+
+section#zodiac div.impact{
+  margin-top: 10%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 10%;
+}
+
+
+/* Slack Channels */
+
+section#slack div.impact{
+  margin-top: 10%;
+}
+
+
+/* Freelance values */
+
+section#freelance div.project_intro{
+  width: 80%;
+}
+
+section#freelance div.company{
+  width: 50%;
+}
+
+section#freelance div.project{
+  width: 50%;
+}
+
+section#freelance div.impact{
+  margin-top: 10%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 30%;
+}
+
+section#outro div.project_intro{
+  width: 40%;
+}
+
+section#outro div.desc{
+  margin-top: 10%;
+}
+
+section#outro div.hero_img img{
+  display: none;
+}
+
+}
+
+
+/* Media Queries - 700 and 799 */
+
+@media screen and (min-width: 700px) and (max-width: 799px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.panel {
+  min-height: 40vh;
+  margin-top: 20%;
+}
+
+section div.words {
+  position: relative;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 60%;
+  margin-bottom: 4%;
+}
+
+section .project_intro img{
+  width: 80%;
+}
+
+section div.company{
+  font-size: 2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 60%;
+}
+
+section div.project{
+  font-size: 2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 60%;
+}
+
+section div.desc{
+  margin-top: 4%;
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 60%;
+}
+
+section div.impact{
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-size: 2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 40%;
+  font-size: 1em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 1em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: -21%;
+  margin-top: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 34%;
+  height: 8%;
+  margin-top: -44%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
+}
+
+.left_sticky{
+  display: none;
+}
+
+.right_sticky{
+  display: none;
+}
+
+#navbar a#www img{
+  width: 80%;
+}
+
+#navbar a#profession {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#cv {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#email {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
 }
 
 
@@ -1893,12 +2265,16 @@ section#projects {
 }
 
 section#projects div.company{
-  width: 30%;
+  width: 60%;
 }
 
 section#projects div.project{
-  width: 30%;
+  width: 60%;
   margin-bottom: 5%;
+}
+
+section#projects div.project_intro img{
+  width: 60%;
 }
 
 section#projects div.tiles{
@@ -2037,9 +2413,9 @@ section#outro div.hero_img img{
 }
 
 
-/* Media Queries - 900 and 1030 */
+/* Media Queries - 800 and 899 */
 
-@media screen and (min-width: 900px) and (max-width: 1030px) {
+@media screen and (min-width: 800px) and (max-width: 899px) {
 
 /* global */
 body {
@@ -2059,11 +2435,12 @@ p {
 }
 
 .panel {
-  min-height: 110vh;
+  min-height: 40vh;
+  margin-top: 20%;
 }
 
 section div.words {
-  position: absolute;
+  position: relative;
   margin-left: 5%;
 }
 
@@ -2077,35 +2454,35 @@ section .project_intro img{
 }
 
 section div.company{
-  font-size: 1.75em;
+  font-size: 2em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
   color: rgba(255, 255, 255, 0.5);
-  width: 35%;
+  width: 60%;
 }
 
 section div.project{
-  font-size: 1.75em;
+  font-size: 2em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
-  width: 35%;
+  width: 60%;
 }
 
 section div.desc{
   margin-top: 4%;
-  font-size: 1.2em;
+  font-size: 1.5em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
-  width: 40%;
+  width: 60%;
 }
 
 section div.impact{
   margin-top: 10%;
   margin-bottom: 2%;
-  font-size: 1.75em;
+  font-size: 2em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -2115,7 +2492,7 @@ section div.impact{
 section div.results{
   margin-top: 1%;
   width: 40%;
-  font-size: 0.75em;
+  font-size: 1em;
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 2%;
@@ -2125,7 +2502,7 @@ section div.results{
 }
 
 section div.details p{
-  font-size: 0.75em;
+  font-size: 1em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -2137,8 +2514,9 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: 11%;
-  width: 112vh;
+  margin-left: -21%;
+  margin-top: 10%;
+  width: 100%;
   height: 100%;
 }
 
@@ -2168,9 +2546,9 @@ section div.hero_img img {
 
 .sticky {
   position: fixed;
-  width: 24%;
+  width: 32%;
   height: 8%;
-  margin-top: 2%;
+  margin-top: -38%;
   margin-left: 5%;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
@@ -2179,39 +2557,35 @@ section div.hero_img img {
 }
 
 .left_sticky{
-  position: fixed;
-  top: 55%;
-  left: 2%;
+  display: none;
 }
 
 .right_sticky{
-  position: fixed;
-  top: 5%;
-  right: 2%;
+  display: none;
 }
 
 #navbar a#www img{
-  width: 90%;
+  width: 80%;
 }
 
 #navbar a#profession {
   margin-left: 8%;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 #navbar a#cv {
   margin-left: 8%;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 #navbar a#email {
   margin-left: 8%;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 #navbar a#linkedin {
   margin-left: 8%;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 
@@ -2254,20 +2628,20 @@ section#values .panel {
 }
 
 section#values .project_intro img{
-  width: 40%;
+  width: 60%;
 }
 
 section#values div.company{
-  width: 30%;
+  width: 60%;
 }
 
 section#values div.project{
-  width: 30%;
+  width: 60%;
 }
 
 section#values div.desc{
-  margin-top: 27%;
-  width: 35%;
+  margin-top: 8%;
+  width: 60%;
   font-size: 1em;
 }
 
@@ -2279,12 +2653,16 @@ section#projects {
 }
 
 section#projects div.company{
-  width: 30%;
+  width: 60%;
 }
 
 section#projects div.project{
-  width: 30%;
+  width: 60%;
   margin-bottom: 5%;
+}
+
+section#projects div.project_intro img{
+  width: 60%;
 }
 
 section#projects div.tiles{
@@ -2300,7 +2678,7 @@ section#projects div.tiles a img.tile{
 /* GSX */
 
 section#gsx div.impact{
-  margin-top: 16%;
+  margin-top: 10%;
 }
 
 
@@ -2308,42 +2686,42 @@ section#gsx div.impact{
 
 
 section#adapt div.impact{
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 
 /* Spotify */
 
 section#spotify div.impact{
-  margin-top: 21%;
+  margin-top: 10%;
 }
 
 
 /* Capital One Apex */
 
 section#apex div.impact{
-  margin-top: 22%;
+  margin-top: 10%;
 }
 
 
 /* Playstation Now */
 
 section#psnow div.impact{
-  margin-top: 28%;
+  margin-top: 10%;
 }
 
 
 /* Nike Sport For You */
 
 section#sport div.impact{
-  margin-top: 23%;
+  margin-top: 10%;
 }
 
 
 /* Google Identity */
 
 section#id div.impact{
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 
@@ -2354,7 +2732,7 @@ section#elements div.project{
 }
 
 section#elements div.impact{
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 
@@ -2365,28 +2743,28 @@ section#zodiac div.project{
 }
 
 section#zodiac div.impact{
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 
 /* Simon Annuities */
 
 section#simon div.impact{
-  margin-top: 22%;
+  margin-top: 10%;
 }
 
 
 /* Slack Channels */
 
 section#slack div.impact{
-  margin-top: 18%;
+  margin-top: 10%;
 }
 
 
 /* Freelance values */
 
-section#freelance div.project_intro{
-  width: 80%;
+section#freelance div.project_intro {
+  width: 60%;
 }
 
 section#freelance div.company{
@@ -2398,7 +2776,7 @@ section#freelance div.project{
 }
 
 section#freelance div.impact{
-  margin-top: 32%;
+  margin-top: 10%;
 }
 
 
@@ -2413,397 +2791,19 @@ section#outro div.project_intro{
 }
 
 section#outro div.desc{
-  margin-top: 16%;
-}
-
-}
-
-
-/* Media Queries - 1030 and 1180 */
-
-@media screen and (min-width: 1030px) and (max-width: 1180px) {
-
-/* global */
-body {
-  color: #ffffff;
-  background-color: #000000;
-  transition: background-color 1s ease;
-  font-family: "Inter", Helvetica, sans-serif;
-  font-weight: 500;
-}
-
-p {
-  max-width: 30em;
-  margin-bottom: 1.618em;
-  display: inline-flex;
-  justify-content: space-evenly;
-  margin: 2%;
-}
-
-.panel {
-  min-height: 130vh;
-}
-
-section div.words {
-  position: absolute;
-  margin-left: 5%;
-}
-
-section .project_intro{
-  width: 60%;
-  margin-bottom: 4%;
-}
-
-section .project_intro img{
-  width: 80%;
-}
-
-section div.company{
-  font-size: 1.75em;
-  letter-spacing: -0.05em;
-  line-height: 1.2;
-  text-align: left;
-  color: rgba(255, 255, 255, 0.5);
-  width: 35%;
-}
-
-section div.project{
-  font-size: 1.75em;
-  letter-spacing: -0.05em;
-  line-height: 1.2;
-  text-align: left;
-  width: 35%;
-}
-
-section div.desc{
-  margin-top: 4%;
-  font-size: 1em;
-  letter-spacing: -0.05em;
-  line-height: 1.2;
-  text-align: left;
-  width: 40%;
-}
-
-section div.impact{
   margin-top: 10%;
-  margin-bottom: 2%;
-  font-size: 1.75em;
-  letter-spacing: -0.05em;
-  line-height: 1.2;
-  text-align: left;
-  width: 35%;
 }
 
-section div.results{
-  margin-top: 1%;
-  width: 45%;
-  font-size: 0.75em;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-}
-
-section div.details p{
-  font-size: 0.75em;
-  letter-spacing: -0.05em;
-  line-height: 1.2;
-  text-align: left;
-  color: rgba(255, 255, 255, 0.5);
-  display: inline-block;
-  margin-top: 4%;
-  margin-right: 5%;
-  margin-left: 0;
-}
-
-section div.hero_img img {
-  margin-left: 10%;
-  width: 140vh;
-  height: 100%;
-}
-
-
-/* Navbar */
-
-#navbar {
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.1);
-  z-index: 9999;
-}
-
-/* Navbar links */
-#navbar a {
-  font-family: "Inter", Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 1em;
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: left;
-  text-decoration: none;
-  margin-left: 8%;
-  padding-top: 5%;
-  padding-bottom: 2%;
-}
-
-.sticky {
-  position: fixed;
-  width: 22%;
-  height: 9%;
-  margin-top: 2%;
-  margin-left: 5%;
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-  border-radius: 100px;
-
-}
-
-.left_sticky{
-  position: fixed;
-  top: 55%;
-  left: 2%;
-}
-
-.right_sticky{
-  position: fixed;
-  top: 5%;
-  right: 2%;
-}
-
-#navbar a#www img{
-  width: 90%;
-}
-
-#navbar a#profession {
-  margin-left: 8%;
-  margin-top: 10px;
-}
-
-#navbar a#cv {
-  margin-left: 8%;
-  margin-top: 10px;
-}
-
-#navbar a#email {
-  margin-left: 8%;
-  margin-top: 10px;
-}
-
-#navbar a#linkedin {
-  margin-left: 8%;
-  margin-top: 10px;
-}
-
-
-
-/* Intro */
-
-section#intro .panel{
-  min-height: 80vh;
-}
-
-section#intro .project_intro{
-  margin-top: 50vh;
-}
-
-section#intro .project_intro img{
-  width: 45%;
-}
-
-section#intro div.company{
-  font-size: 2em;
-  width: 100%;
-}
-
-section#intro div.project{
-  font-size: 2em;
-  width: 100%;
-}
-
-section#intro div.desc{
-  font-size: 2em;
-  margin-top: 1%;
-  width: 60%;
-}
-
-
-/* values */
-
-section#values .panel {
-  min-height: 150vh;
-}
-
-section#values .project_intro img{
-  width: 40%;
-}
-
-section#values div.company{
-  width: 30%;
-}
-
-section#values div.project{
-  width: 30%;
-}
-
-section#values div.desc{
-  margin-top: 26%;
-  width: 35%;
-  font-size: 1em;
-}
-
-
-/* Projects */
-
-section#projects {
-  min-height: 155vh;
-}
-
-section#projects div.company{
-  width: 30%;
-}
-
-section#projects div.project{
-  width: 30%;
-  margin-bottom: 5%;
-}
-
-section#projects div.tiles{
-  margin-top: 0.5%;
-}
-
-section#projects div.tiles a img.tile{
-  margin-right: 0.5%;
-  width: 20%;
-}
-
-
-/* GSX */
-
-section#gsx div.impact{
-  margin-top: 28%;
-}
-
-
-/* Nike Adapt */
-
-
-section#adapt div.impact{
-  margin-top: 38%;
-}
-
-
-/* Spotify */
-
-section#spotify div.impact{
-  margin-top: 34%;
-}
-
-
-/* Capital One Apex */
-
-section#apex div.impact{
-  margin-top: 34%;
-}
-
-
-/* Playstation Now */
-
-section#psnow div.impact{
-  margin-top: 44%;
-}
-
-
-/* Nike Sport For You */
-
-section#sport div.impact{
-  margin-top: 32%;
-}
-
-
-/* Google Identity */
-
-section#id div.impact{
-  margin-top: 38%;
-}
-
-
-/* Capital One Elements */
-
-section#elements div.project{
-  width: 50%;
-}
-
-section#elements div.impact{
-  margin-top: 44%;
-}
-
-
-/* Zodiac Data Science */
-
-section#zodiac div.project{
-  width: 50%;
-}
-
-section#zodiac div.impact{
-  margin-top: 44%;
-}
-
-
-/* Simon Annuities */
-
-section#simon div.impact{
-  margin-top: 36%;
-}
-
-
-/* Slack Channels */
-
-section#slack div.impact{
-  margin-top: 32%;
-}
-
-
-/* Freelance values */
-
-section#freelance div.project_intro{
-  width: 80%;
-}
-
-section#freelance div.company{
-  width: 50%;
-}
-
-section#freelance div.project{
-  width: 50%;
-}
-
-section#freelance div.impact{
-  margin-top: 42%;
-}
-
-
-/* Outro */
-
-section#outro div.panel{
-  max-height: 30%;
-}
-
-section#outro div.project_intro img{
-  width: 60%;
-}
-
-section#outro div.desc{
-  margin-top: 26%;
+section#outro div.hero_img img{
+  display: none;
 }
 
 }
 
 
-/* Media Queries - 1180 and 1300 */
+/* Media Queries - 900 and 999 */
 
-@media screen and (min-width: 1030px) and (max-width: 1300px) {
+@media screen and (min-width: 900px) and (max-width: 999px) {
 
 /* global */
 body {
@@ -2832,7 +2832,1174 @@ section div.words {
 }
 
 section .project_intro{
+  width: 44%;
+  margin-bottom: 4%;
+}
+
+section .project_intro img{
+  width: 90%;
+}
+
+section div.company{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 35%;
+}
+
+section div.project{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.desc{
+  margin-top: 4%;
+  font-size: 1.2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 40%;
+}
+
+section div.impact{
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 36%;
+  font-size: 0.75em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 0.75em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: 10%;
+  width: 85%;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.75em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 24%;
+  height: 7%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
+}
+
+.left_sticky{
+  display: none;
+}
+
+.right_sticky{
+  display: none;
+}
+
+#navbar a#www img{
+  width: 70%;
+}
+
+#navbar a#profession {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#cv {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#email {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 50vh;
+}
+
+section#intro div.project_intro img{
+  width: 30%;
+}
+
+section#intro div.company{
+  font-size: 1.75em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 1.75em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 1.75em;
+  margin-top: 1%;
   width: 60%;
+}
+
+
+/* values */
+
+section#values .panel {
+  min-height: 150vh;
+}
+
+section#values .project_intro img{
+  width: 40%;
+}
+
+section#values div.company{
+  width: 30%;
+}
+
+section#values div.project{
+  width: 30%;
+}
+
+section#values div.desc{
+  margin-top: 18%;
+  width: 35%;
+  font-size: 1em;
+}
+
+
+/* Projects */
+
+section#projects {
+  min-height: 155vh;
+}
+
+section#projects div.project_intro img {
+  width: 40%;
+}
+
+section#projects div.company{
+  width: 30%;
+}
+
+section#projects div.project{
+  width: 30%;
+  margin-bottom: 5%;
+}
+
+section#projects div.tiles{
+  margin-top: 0.5%;
+}
+
+section#projects div.tiles a img.tile{
+  margin-right: 0.5%;
+  width: 20%;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 10%;
+}
+
+
+/* Nike Adapt */
+
+
+section#adapt div.impact{
+  margin-top: 16%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 10%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 10%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 18%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 15%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 16%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.project{
+  width: 50%;
+}
+
+section#elements div.impact{
+  margin-top: 18%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.project{
+  width: 50%;
+}
+
+section#zodiac div.impact{
+  margin-top: 18%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 14%;
+}
+
+
+/* Slack Channels */
+
+section#elements div.project_intro{
+  width: 50%;
+}
+
+section#slack div.impact{
+  margin-top: 10%;
+}
+
+
+/* Freelance values */
+
+section#freelance div.project_intro{
+  width: 60%;
+}
+
+section#freelance div.company{
+  width: 50%;
+}
+
+section#freelance div.project{
+  width: 50%;
+}
+
+section#freelance div.impact{
+  margin-top: 22%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 30%;
+}
+
+section#outro div.project_intro img{
+  width: 60%;
+}
+
+section#outro div.desc{
+  margin-top: 16%;
+}
+
+}
+
+
+/* Media Queries - 1000 and 1100 */
+
+@media screen and (min-width: 1000px) and (max-width: 1099px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.panel {
+  min-height: 110vh;
+}
+
+section div.words {
+  position: absolute;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 50%;
+  margin-bottom: 4%;
+}
+
+section .project_intro img{
+  width: 90%;
+}
+
+section div.company{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 35%;
+}
+
+section div.project{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.desc{
+  margin-top: 4%;
+  font-size: 1.2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 40%;
+}
+
+section div.impact{
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 40%;
+  font-size: 0.75em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 0.75em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: 9%;
+  width: 85%;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.75em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 22%;
+  height: 7%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
+}
+
+.left_sticky{
+  position: fixed;
+  top: 50%;
+  left: 2%;
+}
+
+.right_sticky{
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+
+#navbar a#www img{
+  width: 70%;
+}
+
+#navbar a#profession {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#cv {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#email {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 50vh;
+}
+
+section#intro div.project_intro img{
+  width: 30%;
+}
+
+section#intro div.company{
+  font-size: 1.75em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 1.75em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 1.75em;
+  margin-top: 1%;
+  width: 60%;
+}
+
+
+/* values */
+
+section#values .panel {
+  min-height: 150vh;
+}
+
+section#values .project_intro img{
+  width: 40%;
+}
+
+section#values div.company{
+  width: 30%;
+}
+
+section#values div.project{
+  width: 30%;
+}
+
+section#values div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1em;
+}
+
+
+/* Projects */
+
+section#projects {
+  min-height: 155vh;
+}
+
+section#projects div.project_intro img {
+  width: 40%;
+}
+
+section#projects div.company{
+  width: 30%;
+}
+
+section#projects div.project{
+  width: 30%;
+  margin-bottom: 5%;
+}
+
+section#projects div.tiles{
+  margin-top: 0.5%;
+}
+
+section#projects div.tiles a img.tile{
+  margin-right: 0.5%;
+  width: 20%;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 16%;
+}
+
+
+/* Nike Adapt */
+
+
+section#adapt div.impact{
+  margin-top: 26%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 22%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 21%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 30%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 24%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 24%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.project{
+  width: 50%;
+}
+
+section#elements div.impact{
+  margin-top: 30%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.project{
+  width: 50%;
+}
+
+section#zodiac div.impact{
+  margin-top: 28%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 22%;
+}
+
+
+/* Slack Channels */
+
+section#elements div.project_intro{
+  width: 50%;
+}
+
+section#slack div.impact{
+  margin-top: 18%;
+}
+
+
+/* Freelance values */
+
+section#freelance div.project_intro{
+  width: 60%;
+}
+
+section#freelance div.company{
+  width: 50%;
+}
+
+section#freelance div.project{
+  width: 50%;
+}
+
+section#freelance div.impact{
+  margin-top: 36%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 30%;
+}
+
+section#outro div.project_intro img{
+  width: 60%;
+}
+
+section#outro div.desc{
+  margin-top: 16%;
+}
+
+}
+
+
+
+/* Media Queries - 1100 and 1200 */
+
+@media screen and (min-width: 1100px) and (max-width: 1199px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.panel {
+  min-height: 110vh;
+}
+
+section div.words {
+  position: absolute;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 50%;
+  margin-bottom: 4%;
+}
+
+section .project_intro img{
+  width: 90%;
+}
+
+section div.company{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 35%;
+}
+
+section div.project{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.desc{
+  margin-top: 4%;
+  font-size: 1.2em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 40%;
+}
+
+section div.impact{
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 40%;
+  font-size: 0.75em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 0.75em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: 9%;
+  width: 85%;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.75em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 22%;
+  height: 7%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
+}
+
+.left_sticky{
+  position: fixed;
+  top: 50%;
+  left: 2%;
+}
+
+.right_sticky{
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+
+#navbar a#www img{
+  width: 70%;
+}
+
+#navbar a#profession {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#cv {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#email {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 8px;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 50vh;
+}
+
+section#intro div.project_intro img{
+  width: 30%;
+}
+
+section#intro div.company{
+  font-size: 1.75em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 1.75em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 1.75em;
+  margin-top: 1%;
+  width: 60%;
+}
+
+
+/* values */
+
+section#values .panel {
+  min-height: 150vh;
+}
+
+section#values .project_intro img{
+  width: 40%;
+}
+
+section#values div.company{
+  width: 30%;
+}
+
+section#values div.project{
+  width: 30%;
+}
+
+section#values div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1em;
+}
+
+
+/* Projects */
+
+section#projects {
+  min-height: 155vh;
+}
+
+section#projects div.project_intro img {
+  width: 40%;
+}
+
+section#projects div.company{
+  width: 30%;
+}
+
+section#projects div.project{
+  width: 30%;
+  margin-bottom: 5%;
+}
+
+section#projects div.tiles{
+  margin-top: 0.5%;
+}
+
+section#projects div.tiles a img.tile{
+  margin-right: 0.5%;
+  width: 20%;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 16%;
+}
+
+
+/* Nike Adapt */
+
+
+section#adapt div.impact{
+  margin-top: 26%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 22%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 21%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 30%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 24%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 24%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.project{
+  width: 50%;
+}
+
+section#elements div.impact{
+  margin-top: 30%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.project{
+  width: 50%;
+}
+
+section#zodiac div.impact{
+  margin-top: 28%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 22%;
+}
+
+
+/* Slack Channels */
+
+section#elements div.project_intro{
+  width: 50%;
+}
+
+section#slack div.impact{
+  margin-top: 18%;
+}
+
+
+/* Freelance values */
+
+section#freelance div.project_intro{
+  width: 60%;
+}
+
+section#freelance div.company{
+  width: 50%;
+}
+
+section#freelance div.project{
+  width: 50%;
+}
+
+section#freelance div.impact{
+  margin-top: 36%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 30%;
+}
+
+section#outro div.project_intro img{
+  width: 60%;
+}
+
+section#outro div.desc{
+  margin-top: 16%;
+}
+
+}
+
+
+/* Media Queries - 1200 and 1300 */
+
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.panel {
+  min-height: 110vh;
+}
+
+section div.words {
+  position: absolute;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 50%;
   margin-bottom: 4%;
 }
 
@@ -2879,7 +4046,7 @@ section div.impact{
 section div.results{
   margin-top: 1%;
   width: 40%;
-  font-size: 1em;
+  font-size: 0.75em;
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 2%;
@@ -2889,7 +4056,7 @@ section div.results{
 }
 
 section div.details p{
-  font-size: 1em;
+  font-size: 0.75em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -2901,8 +4068,8 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: 11%;
-  width: 120vh;
+  margin-left: 9%;
+  width: 85%;
   height: 100%;
 }
 
@@ -2919,7 +4086,7 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 0.75em;
   float: left;
   display: block;
   color: #ffffff;
@@ -2944,38 +4111,38 @@ section div.hero_img img {
 
 .left_sticky{
   position: fixed;
-  top: 55%;
+  top: 50%;
   left: 2%;
 }
 
 .right_sticky{
   position: fixed;
-  top: 5%;
+  top: 10%;
   right: 2%;
 }
 
 #navbar a#www img{
-  width: 80%;
+  width: 70%;
 }
 
 #navbar a#profession {
   margin-left: 8%;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 #navbar a#cv {
   margin-left: 8%;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 #navbar a#email {
   margin-left: 8%;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 #navbar a#linkedin {
   margin-left: 8%;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 
@@ -2995,17 +4162,17 @@ section#intro div.project_intro img{
 }
 
 section#intro div.company{
-  font-size: 2em;
+  font-size: 1.75em;
   width: 100%;
 }
 
 section#intro div.project{
-  font-size: 2em;
+  font-size: 1.75em;
   width: 100%;
 }
 
 section#intro div.desc{
-  font-size: 2em;
+  font-size: 1.75em;
   margin-top: 1%;
   width: 60%;
 }
@@ -3030,7 +4197,7 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 23%;
+  margin-top: 18%;
   width: 35%;
   font-size: 1.2em;
 }
@@ -3068,7 +4235,7 @@ section#projects div.tiles a img.tile{
 /* GSX */
 
 section#gsx div.impact{
-  margin-top: 20%;
+  margin-top: 16%;
 }
 
 
@@ -3076,42 +4243,42 @@ section#gsx div.impact{
 
 
 section#adapt div.impact{
-  margin-top: 30%;
+  margin-top: 26%;
 }
 
 
 /* Spotify */
 
 section#spotify div.impact{
-  margin-top: 26%;
+  margin-top: 22%;
 }
 
 
 /* Capital One Apex */
 
 section#apex div.impact{
-  margin-top: 26%;
+  margin-top: 21%;
 }
 
 
 /* Playstation Now */
 
 section#psnow div.impact{
-  margin-top: 36%;
+  margin-top: 30%;
 }
 
 
 /* Nike Sport For You */
 
 section#sport div.impact{
-  margin-top: 32%;
+  margin-top: 24%;
 }
 
 
 /* Google Identity */
 
 section#id div.impact{
-  margin-top: 31%;
+  margin-top: 24%;
 }
 
 
@@ -3122,7 +4289,7 @@ section#elements div.project{
 }
 
 section#elements div.impact{
-  margin-top: 36%;
+  margin-top: 30%;
 }
 
 
@@ -3133,28 +4300,32 @@ section#zodiac div.project{
 }
 
 section#zodiac div.impact{
-  margin-top: 34%;
+  margin-top: 28%;
 }
 
 
 /* Simon Annuities */
 
 section#simon div.impact{
-  margin-top: 30%;
+  margin-top: 22%;
 }
 
 
 /* Slack Channels */
 
+section#elements div.project_intro{
+  width: 50%;
+}
+
 section#slack div.impact{
-  margin-top: 26%;
+  margin-top: 18%;
 }
 
 
 /* Freelance values */
 
 section#freelance div.project_intro{
-  width: 80%;
+  width: 60%;
 }
 
 section#freelance div.company{
@@ -3166,7 +4337,7 @@ section#freelance div.project{
 }
 
 section#freelance div.impact{
-  margin-top: 38%;
+  margin-top: 36%;
 }
 
 
@@ -3189,7 +4360,7 @@ section#outro div.desc{
 
 /* Media Queries - 1300 and 1400 */
 
-@media screen and (min-width: 1300px) and (max-width: 1400px) {
+@media screen and (min-width: 1300px) and (max-width: 1399px) {
 
 /* global */
 body {
@@ -3283,8 +4454,8 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: 11%;
-  width: 134vh;
+  margin-left: 10%;
+  width: 85%;
   height: 100%;
 }
 
@@ -3448,7 +4619,7 @@ section#projects div.tiles a img.tile{
 /* GSX */
 
 section#gsx div.impact{
-  margin-top: 17%;
+  margin-top: 19%;
 }
 
 
@@ -3561,7 +4732,7 @@ section#outro div.desc{
 
 /* Media Queries - 1400 and 1500 */
 
-@media screen and (min-width: 1400px) and (max-width: 1500px) {
+@media screen and (min-width: 1400px) and (max-width: 1499px) {
 
 /* global */
 body {
@@ -3655,8 +4826,8 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: 11%;
-  width: 135vh;
+  margin-left: 10%;
+  width: 85%;
   height: 100%;
 }
 
@@ -3913,9 +5084,9 @@ section#outro div.desc{
 }
 
 
-/* Media Queries - 1500 and 2000 */
+/* Media Queries - 1500 and 1600 */
 
-@media screen and (min-width: 1500px) and (max-width: 1600px) {
+@media screen and (min-width: 1500px) and (max-width: 1599px) {
 
 /* global */
 body {
@@ -3945,7 +5116,7 @@ section .project_intro{
 }
 
 section div.company{
-  font-size: 3em;
+  font-size: 2em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -3954,7 +5125,7 @@ section div.company{
 }
 
 section div.project{
-  font-size: 3em;
+  font-size: 2em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -3963,7 +5134,7 @@ section div.project{
 
 section div.desc{
   margin-top: 10%;
-  font-size: 3em;
+  font-size: 2em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -3973,7 +5144,7 @@ section div.desc{
 section div.impact{
   margin-top: 20%;
   margin-bottom: 2%;
-  font-size: 3em;
+  font-size: 2em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -3983,7 +5154,7 @@ section div.impact{
 section div.results{
   margin-top: 1%;
   width: 30%;
-  font-size: 1.5em;
+  font-size: 1em;
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 2%;
@@ -3993,7 +5164,7 @@ section div.results{
 }
 
 section div.details p{
-  font-size: 1.5em;
+  font-size: 1em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -4006,7 +5177,7 @@ section div.details p{
 
 section div.hero_img img {
   margin-left: 10%;
-  width: 160vh;
+  width: 85%;
   height: 100%;
 }
 
@@ -4023,21 +5194,21 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1em;
   float: left;
   display: block;
   color: #ffffff;
   text-align: left;
   text-decoration: none;
   margin-left: 8%;
-  padding-top: 6%;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 
 .sticky {
   position: fixed;
   width: 20%;
-  height: 8%;
+  height: 7%;
   margin-top: 2%;
   margin-left: 5%;
   -webkit-backdrop-filter: blur(20px);
@@ -4056,6 +5227,10 @@ section div.hero_img img {
   position: fixed;
   top: 10%;
   right: 2%;
+}
+
+#navbar a#www img {
+  width: 90%;
 }
 
 #navbar a#profession {
@@ -4091,17 +5266,17 @@ section#intro .project_intro{
 }
 
 section#intro div.company{
-  font-size: 3em;
+  font-size: 2.5em;
   width: 100%;
 }
 
 section#intro div.project{
-  font-size: 3em;
+  font-size: 2.5em;
   width: 100%;
 }
 
 section#intro div.desc{
-  font-size: 3em;
+  font-size: 2.5em;
   margin-top: 1%;
   width: 60%;
 }
@@ -4122,9 +5297,9 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 32%;
+  margin-top: 28%;
   width: 30%;
-  font-size: 2em;
+  font-size: 1.25em;
 }
 
 
@@ -4156,7 +5331,7 @@ section#projects div.tiles a img.tile{
 /* GSX */
 
 section#gsx div.impact{
-  margin-top: 20%;
+  margin-top: 7%;
 }
 
 
@@ -4164,77 +5339,77 @@ section#gsx div.impact{
 
 
 section#adapt div.impact{
-  margin-top: 28%;
+  margin-top: 16%;
 }
 
 
 /* Spotify */
 
 section#spotify div.impact{
-  margin-top: 25%;
+  margin-top: 13%;
 }
 
 
 /* Capital One Apex */
 
 section#apex div.impact{
-  margin-top: 23%;
+  margin-top: 10%;
 }
 
 
 /* Playstation Now */
 
 section#psnow div.impact{
-  margin-top: 30%;
+  margin-top: 16%;
 }
 
 
 /* Nike Sport For You */
 
 section#sport div.impact{
-  margin-top: 28%;
+  margin-top: 15%;
 }
 
 
 /* Google Identity */
 
 section#id div.impact{
-  margin-top: 26%;
+  margin-top: 16%;
 }
 
 
 /* Capital One Elements */
 
 section#elements div.impact{
-  margin-top: 30%;
+  margin-top: 13%;
 }
 
 
 /* Zodiac Data Science */
 
 section#zodiac div.impact{
-  margin-top: 28%;
+  margin-top: 13%;
 }
 
 
 /* Simon Annuities */
 
 section#simon div.impact{
-  margin-top: 24%;
+  margin-top: 11%;
 }
 
 
 /* Slack Channels */
 
 section#slack div.impact{
-  margin-top: 21%;
+  margin-top: 8%;
 }
 
 
 /* Freelance values */
 
 section#freelance div.impact{
-  margin-top: 32%;
+  margin-top: 17%;
 }
 
 
@@ -4253,7 +5428,7 @@ section#outro div.desc{
 
 /* Media Queries - 1600 and 1700 */
 
-@media screen and (min-width: 1600px) and (max-width: 1700px) {
+@media screen and (min-width: 1600px) and (max-width: 1699px) {
 
 /* global */
 body {
@@ -4347,8 +5522,8 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: 9%;
-  width: 135vh;
+  margin-left: 10%;
+  width: 85%;
   height: 100%;
 }
 
@@ -4365,7 +5540,7 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.25em;
   float: left;
   display: block;
   color: #ffffff;
@@ -4379,7 +5554,7 @@ section div.hero_img img {
 .sticky {
   position: fixed;
   width: 20%;
-  height: 8%;
+  height: 7%;
   margin-top: 2%;
   margin-left: 5%;
   -webkit-backdrop-filter: blur(20px);
@@ -4595,7 +5770,7 @@ section#outro div.desc{
 
 /* Media Queries - 1700 and 1800 */
 
-@media screen and (min-width: 1700px) and (max-width: 1800px) {
+@media screen and (min-width: 1700px) and (max-width: 1799px) {
 
 /* global */
 body {
@@ -4690,7 +5865,7 @@ section div.details p{
 
 section div.hero_img img {
   margin-left: 10%;
-  width: 142vh;
+  width: 85%;
   height: 100%;
 }
 
@@ -4715,7 +5890,7 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.25em;
   float: left;
   display: block;
   color: #ffffff;
@@ -4729,7 +5904,7 @@ section div.hero_img img {
 .sticky {
   position: fixed;
   width: 20%;
-  height: 8%;
+  height: 7%;
   margin-top: 2%;
   margin-left: 5%;
   -webkit-backdrop-filter: blur(20px);
@@ -4945,7 +6120,7 @@ section#outro div.desc{
 
 /* Media Queries - 1800 and 1900 */
 
-@media screen and (min-width: 1800px) and (max-width: 1900px) {
+@media screen and (min-width: 1800px) and (max-width: 1899px) {
 
 /* global */
 body {
@@ -5039,8 +6214,8 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: 13%;
-  width: 140vh;
+  margin-left: 10%;
+  width: 85%;
   height: 100%;
 }
 
@@ -5071,7 +6246,7 @@ section div.hero_img img {
 .sticky {
   position: fixed;
   width: 18%;
-  height: 7.5%;
+  height: 7%;
   margin-top: 2%;
   margin-left: 5%;
   -webkit-backdrop-filter: blur(20px);
@@ -5287,7 +6462,7 @@ section#outro div.desc{
 
 /* Media Queries - 1900 and 2000 */
 
-@media screen and (min-width: 1900px) and (max-width: 2000px) {
+@media screen and (min-width: 1900px) and (max-width: 1999px) {
 
 /* global */
 body {
@@ -5381,8 +6556,8 @@ section div.details p{
 }
 
 section div.hero_img img {
-  margin-left: 9%;
-  width: 145vh;
+  margin-left: 10%;
+  width: 85%;
   height: 100%;
 }
 
@@ -5628,7 +6803,7 @@ section#outro div.desc{
 
 /* Media Queries - 2000 to 2300 */
 
-@media screen and (min-width: 2000px) and (max-width: 2500px) {
+@media screen and (min-width: 2000px) and (max-width: 2199px) {
 
 /* global */
 body {
@@ -5719,7 +6894,7 @@ section div.details p{
 
 section div.hero_img img {
   margin-left: 10%;
-  width: 145vh;
+  width: 85%;
   height: 100%;
 }
 
@@ -5750,7 +6925,7 @@ section div.hero_img img {
 .sticky {
   position: fixed;
   width: 18%;
-  height: 7%;
+  height: 6%;
   margin-top: 2%;
   margin-left: 5%;
   -webkit-backdrop-filter: blur(20px);
@@ -5897,6 +7072,1018 @@ section#apex div.impact{
 
 section#psnow div.impact{
   margin-top: 13%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 12%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 10%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.impact{
+  margin-top: 16%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.impact{
+  margin-top: 14%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 9%;
+}
+
+
+/* Slack Channels */
+
+section#slack div.impact{
+  margin-top: 8%;
+}
+
+
+/* Freelance values */
+
+section#freelance div.impact{
+  margin-top: 13%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 50%;
+}
+
+section#outro div.desc{
+  margin-top: 20%;
+}
+
+}
+
+
+/* Media Queries - 2000 to 2300 */
+
+@media screen and (min-width: 2200px) and (max-width: 2299px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+section div.words {
+  position: absolute;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 50%;
+  margin-bottom: 4%;
+}
+
+section div.company{
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 25%;
+}
+
+section div.project{
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 30%;
+}
+
+section div.desc{
+  margin-top: 8%;
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.impact{
+  margin-top: 20%;
+  margin-bottom: 2%;
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 30%;
+  font-size: 1.5em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: 10%;
+  width: 85%;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.25em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 18%;
+  height: 6%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
+}
+
+.left_sticky{
+  position: fixed;
+  top: 60%;
+  left: 2%;
+}
+
+.right_sticky{
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+
+#navbar a#profession {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#cv {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#email {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 50vh;
+}
+
+section#intro div.company{
+  font-size: 3em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 3em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 3em;
+  margin-top: 1%;
+  width: 60%;
+}
+
+
+/* values */
+
+section#values .panel {
+  min-height: 150vh;
+}
+
+section#values div.company{
+  width: 25%;
+}
+
+section#values div.project{
+  width: 25%;
+}
+
+section#values div.desc{
+  margin-top: 25%;
+  width: 30%;
+  font-size: 2em;
+}
+
+/* Projects */
+
+section#projects {
+  min-height: 155vh;
+}
+
+section#projects div.company{
+  width: 30%;
+}
+
+section#projects div.project{
+  width: 30%;
+  margin-bottom: 5%;
+}
+
+section#projects div.tiles{
+  margin-top: 0.5%;
+}
+
+section#projects div.tiles a img.tile{
+  margin-right: 0.5%;
+  width: 20%;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 8%;
+}
+
+
+/* Nike Adapt */
+
+section#adapt div.impact{
+  margin-top: 13%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 10%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 8%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 13%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 12%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 10%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.impact{
+  margin-top: 16%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.impact{
+  margin-top: 14%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 9%;
+}
+
+
+/* Slack Channels */
+
+section#slack div.impact{
+  margin-top: 8%;
+}
+
+
+/* Freelance values */
+
+section#freelance div.impact{
+  margin-top: 13%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 50%;
+}
+
+section#outro div.desc{
+  margin-top: 20%;
+}
+
+}
+
+
+/* Media Queries - 2000 to 2300 */
+
+@media screen and (min-width: 2300px) and (max-width: 2399px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+section div.words {
+  position: absolute;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 50%;
+  margin-bottom: 4%;
+}
+
+section div.company{
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 25%;
+}
+
+section div.project{
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 30%;
+}
+
+section div.desc{
+  margin-top: 8%;
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.impact{
+  margin-top: 20%;
+  margin-bottom: 2%;
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 30%;
+  font-size: 1.5em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: 10%;
+  width: 85%;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.25em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 18%;
+  height: 6%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
+}
+
+.left_sticky{
+  position: fixed;
+  top: 60%;
+  left: 2%;
+}
+
+.right_sticky{
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+
+#navbar a#profession {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#cv {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#email {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 50vh;
+}
+
+section#intro div.company{
+  font-size: 3em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 3em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 3em;
+  margin-top: 1%;
+  width: 60%;
+}
+
+
+/* values */
+
+section#values .panel {
+  min-height: 150vh;
+}
+
+section#values div.company{
+  width: 25%;
+}
+
+section#values div.project{
+  width: 25%;
+}
+
+section#values div.desc{
+  margin-top: 25%;
+  width: 30%;
+  font-size: 2em;
+}
+
+/* Projects */
+
+section#projects {
+  min-height: 155vh;
+}
+
+section#projects div.company{
+  width: 40%;
+}
+
+section#projects div.project{
+  width: 30%;
+  margin-bottom: 5%;
+}
+
+section#projects div.tiles{
+  margin-top: 0.5%;
+}
+
+section#projects div.tiles a img.tile{
+  margin-right: 0.5%;
+  width: 20%;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 16%;
+}
+
+
+/* Nike Adapt */
+
+section#adapt div.impact{
+  margin-top: 21%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 18%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 16%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 22%;
+}
+
+
+/* Nike Sport For You */
+
+section#sport div.impact{
+  margin-top: 21%;
+}
+
+
+/* Google Identity */
+
+section#id div.impact{
+  margin-top: 18%;
+}
+
+
+/* Capital One Elements */
+
+section#elements div.impact{
+  margin-top: 26%;
+}
+
+
+/* Zodiac Data Science */
+
+section#zodiac div.impact{
+  margin-top: 23%;
+}
+
+
+/* Simon Annuities */
+
+section#simon div.impact{
+  margin-top: 17%;
+}
+
+
+/* Slack Channels */
+
+section#slack div.impact{
+  margin-top: 13%;
+}
+
+
+/* Freelance values */
+
+section#freelance div.impact{
+  margin-top: 23%;
+}
+
+
+/* Outro */
+
+section#outro div.panel{
+  max-height: 50%;
+}
+
+section#outro div.desc{
+  margin-top: 20%;
+}
+
+}
+
+
+/* Media Queries - 2000 to 2300 */
+
+@media screen and (min-width: 2400px) and (max-width: 2499px) {
+
+/* global */
+body {
+  color: #ffffff;
+  background-color: #000000;
+  transition: background-color 1s ease;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.panel{
+  min-height: 120vh;
+}
+
+section div.words {
+  position: absolute;
+  margin-left: 5%;
+}
+
+section .project_intro{
+  width: 40%;
+  margin-bottom: 4%;
+}
+
+section div.company{
+  font-size: 4em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  width: 25%;
+}
+
+section div.project{
+  font-size: 4em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 30%;
+}
+
+section div.desc{
+  margin-top: 8%;
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.impact{
+  margin-top: 20%;
+  margin-bottom: 2%;
+  font-size: 4em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  width: 35%;
+}
+
+section div.results{
+  margin-top: 1%;
+  width: 30%;
+  font-size: 1.5em;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+section div.details p{
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-top: 4%;
+  margin-right: 5%;
+  margin-left: 0;
+}
+
+section div.hero_img img {
+  margin-left: 8%;
+  width: 142vh;
+  height: 100%;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 9999;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 8%;
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+.sticky {
+  position: fixed;
+  width: 18%;
+  height: 7%;
+  margin-top: 2%;
+  margin-left: 5%;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 100px;
+
+}
+
+.left_sticky{
+  position: fixed;
+  top: 60%;
+  left: 2%;
+}
+
+.right_sticky{
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+
+#navbar a#profession {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#cv {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#email {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+#navbar a#linkedin {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+
+
+/* Intro */
+
+section#intro .panel{
+  min-height: 80vh;
+}
+
+section#intro .project_intro{
+  margin-top: 50vh;
+}
+
+section#intro div.company{
+  font-size: 4em;
+  width: 100%;
+}
+
+section#intro div.project{
+  font-size: 4em;
+  width: 100%;
+}
+
+section#intro div.desc{
+  font-size: 4em;
+  margin-top: 1%;
+  width: 60%;
+}
+
+
+/* values */
+
+section#values .panel {
+  min-height: 150vh;
+}
+
+section#values div.company{
+  width: 25%;
+}
+
+section#values div.project{
+  width: 25%;
+}
+
+section#values div.desc{
+  margin-top: 24%;
+  width: 30%;
+  font-size: 2em;
+}
+
+/* Projects */
+
+section#projects {
+  min-height: 125vh;
+}
+
+section#projects div.company{
+  width: 50%;
+}
+
+section#projects div.project{
+  width: 40%;
+  margin-bottom: 5%;
+}
+
+section#projects div.tiles{
+  margin-top: 0.5%;
+}
+
+section#projects div.tiles a img.tile{
+  margin-right: 0.5%;
+  width: 24%;
+}
+
+
+/* GSX */
+
+section#gsx div.impact{
+  margin-top: 12%;
+}
+
+
+/* Nike Adapt */
+
+section#adapt div.impact{
+  margin-top: 23%;
+}
+
+
+/* Spotify */
+
+section#spotify div.impact{
+  margin-top: 20%;
+}
+
+
+/* Capital One Apex */
+
+section#apex div.impact{
+  margin-top: 18%;
+}
+
+
+/* Playstation Now */
+
+section#psnow div.impact{
+  margin-top: 23%;
 }
 
 
