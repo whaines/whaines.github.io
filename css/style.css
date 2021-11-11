@@ -25,6 +25,9 @@ a:hover{
 .color-intro {
   background-color: #ABC2CF;
 }
+.color-profile {
+  background-color: #B9AE9D;
+}
 .color-values {
   background-color: #000000;
 }
@@ -284,29 +287,45 @@ section#intro div.hero_img img {
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
-  min-height: 50vh;
-}
-
-section#values .project_intro img{
-  width: 130%;
-  margin-top: 40%;
+  min-height: 150vh;
 }
 
 section#values div.company{
-  width: 120%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 120%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 8%;
-  width: 120%;
-  font-size: 1.5em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -682,29 +701,45 @@ section#intro div.hero_img img {
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
-  min-height: 50vh;
-}
-
-section#values .project_intro img{
-  width: 130%;
-  margin-top: 40%;
+  min-height: 150vh;
 }
 
 section#values div.company{
-  width: 120%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 120%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 8%;
-  width: 120%;
-  font-size: 1.5em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -1077,29 +1112,45 @@ section#intro div.hero_img img {
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
-  min-height: 50vh;
-}
-
-section#values .project_intro img{
-  width: 130%;
-  margin-top: 40%;
+  min-height: 150vh;
 }
 
 section#values div.company{
-  width: 120%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 120%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 8%;
-  width: 120%;
-  font-size: 1.5em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -1466,28 +1517,45 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
   min-height: 150vh;
 }
 
-section#values .project_intro img{
-  width: 60%;
-}
-
 section#values div.company{
-  width: 60%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 80%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 8%;
-  width: 60%;
-  font-size: 1em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -1849,28 +1917,45 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
   min-height: 150vh;
 }
 
-section#values .project_intro img{
-  width: 60%;
-}
-
 section#values div.company{
-  width: 60%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 60%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 8%;
-  width: 60%;
-  font-size: 1em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -2237,28 +2322,45 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
   min-height: 150vh;
 }
 
-section#values .project_intro img{
-  width: 60%;
-}
-
 section#values div.company{
-  width: 60%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 60%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 8%;
-  width: 60%;
-  font-size: 1em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -2625,28 +2727,45 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
   min-height: 150vh;
 }
 
-section#values .project_intro img{
-  width: 60%;
-}
-
 section#values div.company{
-  width: 60%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 60%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 8%;
-  width: 60%;
-  font-size: 1em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -3011,14 +3130,31 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
   min-height: 150vh;
-}
-
-section#values .project_intro img{
-  width: 40%;
 }
 
 section#values div.company{
@@ -3030,9 +3166,9 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 18%;
+  margin-top: 35%;
   width: 35%;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 
@@ -3397,14 +3533,31 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
   min-height: 150vh;
-}
-
-section#values .project_intro img{
-  width: 40%;
 }
 
 section#values div.company{
@@ -3416,9 +3569,9 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 24%;
+  margin-top: 35%;
   width: 35%;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 
@@ -3812,14 +3965,31 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
   min-height: 150vh;
-}
-
-section#values .project_intro img{
-  width: 40%;
 }
 
 section#values div.company{
@@ -3831,9 +4001,9 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 24%;
+  margin-top: 35%;
   width: 35%;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 
@@ -4221,14 +4391,31 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
   min-height: 150vh;
-}
-
-section#values .project_intro img{
-  width: 40%;
 }
 
 section#values div.company{
@@ -4240,9 +4427,9 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 18%;
+  margin-top: 35%;
   width: 35%;
-  font-size: 1.2em;
+  font-size: 1.25em;
 }
 
 
@@ -4606,14 +4793,31 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
   min-height: 150vh;
-}
-
-section#values .project_intro img{
-  width: 25%;
 }
 
 section#values div.company{
@@ -4625,10 +4829,11 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 25%;
+  margin-top: 35%;
   width: 35%;
   font-size: 1.25em;
 }
+
 
 
 /* Projects */
@@ -4971,6 +5176,26 @@ section#intro div.desc{
   width: 60%;
 }
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 20%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
 
 /* values */
 
@@ -4989,7 +5214,7 @@ section#values div.project{
 section#values div.desc{
   margin-top: 25%;
   width: 35%;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 
@@ -5326,6 +5551,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 22%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -5333,16 +5579,16 @@ section#values .panel {
 }
 
 section#values div.company{
-  width: 25%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 25%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 28%;
-  width: 30%;
+  margin-top: 30%;
+  width: 35%;
   font-size: 1.25em;
 }
 
@@ -5668,6 +5914,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -5683,9 +5950,9 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 26%;
-  width: 30%;
-  font-size: 1.5em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -6018,6 +6285,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -6033,9 +6321,9 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 30%;
-  width: 30%;
-  font-size: 1.5em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -6360,7 +6648,28 @@ section#intro div.desc{
 }
 
 
-/* Values */
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
+/* values */
 
 section#values .panel {
   min-height: 150vh;
@@ -6375,9 +6684,9 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 30%;
-  width: 30%;
-  font-size: 1.5em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -6702,6 +7011,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -6717,10 +7047,11 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 30%;
-  width: 30%;
-  font-size: 1.5em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
+
 
 /* Projects */
 
@@ -6845,7 +7176,7 @@ section#outro div.desc{
 }
 
 
-/* Media Queries - 2000 to 2300 */
+/* Media Queries - 2000 to 2200 */
 
 @media screen and (min-width: 2000px) and (max-width: 2199px) {
 
@@ -7039,6 +7370,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -7046,18 +7398,19 @@ section#values .panel {
 }
 
 section#values div.company{
-  width: 25%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 25%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 25%;
-  width: 30%;
-  font-size: 2em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
+
 
 /* Projects */
 
@@ -7375,6 +7728,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -7382,18 +7756,19 @@ section#values .panel {
 }
 
 section#values div.company{
-  width: 25%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 25%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 25%;
-  width: 30%;
-  font-size: 2em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
+
 
 /* Projects */
 
@@ -7711,6 +8086,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -7718,18 +8114,19 @@ section#values .panel {
 }
 
 section#values div.company{
-  width: 25%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 25%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 25%;
-  width: 30%;
-  font-size: 2em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
+
 
 /* Projects */
 
@@ -8051,6 +8448,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -8058,18 +8476,19 @@ section#values .panel {
 }
 
 section#values div.company{
-  width: 25%;
+  width: 30%;
 }
 
 section#values div.project{
-  width: 25%;
+  width: 30%;
 }
 
 section#values div.desc{
-  margin-top: 24%;
-  width: 30%;
-  font-size: 2em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
+
 
 /* Projects */
 
@@ -8387,6 +8806,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -8402,9 +8842,9 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 32%;
-  width: 30%;
-  font-size: 2em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
 
 
@@ -8728,6 +9168,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -8743,10 +9204,11 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 32%;
-  width: 30%;
-  font-size: 2em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
+
 
 
 /* Projects */
@@ -9069,6 +9531,27 @@ section#intro div.desc{
 }
 
 
+/* profile */
+
+section#profile .panel {
+  min-height: 150vh;
+}
+
+section#profile div.company{
+  width: 30%;
+}
+
+section#profile div.project{
+  width: 30%;
+}
+
+section#profile div.desc{
+  margin-top: 24%;
+  width: 35%;
+  font-size: 1.25em;
+}
+
+
 /* values */
 
 section#values .panel {
@@ -9084,10 +9567,11 @@ section#values div.project{
 }
 
 section#values div.desc{
-  margin-top: 32%;
-  width: 30%;
-  font-size: 2em;
+  margin-top: 35%;
+  width: 35%;
+  font-size: 1.25em;
 }
+
 
 
 /* Projects */
