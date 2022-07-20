@@ -34,6 +34,9 @@ a:hover{
 .color-projects {
   background-color: #000000;
 }
+.color-duo {
+  background-color: #9069CD;
+}
 .color-gsx {
   background-color: #4653E3;
 }
@@ -9369,7 +9372,7 @@ section .project_intro{
 }
 
 section div.company{
-  font-size: 3.5em;
+  font-size: 4em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -9378,7 +9381,7 @@ section div.company{
 }
 
 section div.project{
-  font-size: 3.5em;
+  font-size: 4em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -9387,7 +9390,7 @@ section div.project{
 
 section div.desc{
   margin-top: 8%;
-  font-size: 3.5em;
+  font-size: 4em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -9397,7 +9400,7 @@ section div.desc{
 section div.impact{
   margin-top: 20%;
   margin-bottom: 2%;
-  font-size: 3.5em;
+  font-size: 4em;
   letter-spacing: -0.05em;
   line-height: 1.2;
   text-align: left;
@@ -9407,7 +9410,7 @@ section div.impact{
 section div.results{
   margin-top: 1%;
   width: 30%;
-  font-size: 1.75em;
+  font-size: 2em;
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 2%;
@@ -9447,7 +9450,7 @@ section div.hero_img img {
 #navbar a {
   font-family: "Inter", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.75em;
+  font-size: 2em;
   float: left;
   display: block;
   color: #ffffff;
